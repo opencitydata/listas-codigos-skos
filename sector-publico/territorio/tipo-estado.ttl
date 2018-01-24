@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/historico> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/vigente> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/provisional> ;
+    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-01-24"^^xsd:date ;
+    dc:title "Tesauro para tipos de estado"@es ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> ;
+    prov:hadPrimarySource <http://www.ign.es/ign/resources/acercaDe/tablon/ModeloDireccionesAGE.pdf> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/historico> a skos:Concept ;
+    skos:prefLabel "Histórico"@es ;
+    skos:notation "estado-historico" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/vigente> a skos:Concept ;
+    skos:prefLabel "Vigente"@es ;
+    skos:notation "estado-vigente" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado/provisional> a skos:Concept ;
+    skos:prefLabel "Provisional"@es ;
+    skos:notation "estado-provisional" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado> .
+
+
