@@ -1,0 +1,94 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad> a skos:ConceptScheme ;
+        dc:creator "Miguel Ángel García Delgado (OEG - Universidad Politécnica de Madrid)"@es ;
+		dc:title "Perfiles de personas con discapacidad"@es ;
+        dc:date "2018-02-28"^^xsd:date  ;
+        skos:prefLabel "Perfiles de personas con discapacidad"@es ;
+		dc:description "Perfiles de personas con discapacidad reconocidos en la 'GUÍA DE FORMACIÓN en materia de ACCESIBILIDAD UNIVERSAL para el PERSONAL de las EMPRESAS CONCESIONARIAS' desarrollada por el Consorcio Regional de Transportes de Madrid (CRTM)"@es ;
+        skos:definition "Perfiles de personas con discapacidad reconocidos en la 'GUÍA DE FORMACIÓN en materia de ACCESIBILIDAD UNIVERSAL para el PERSONAL de las EMPRESAS CONCESIONARIAS' desarrollada por el Consorcio Regional de Transportes de Madrid (CRTM)"@es ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/paralisis-cerebral> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-cognitiva-intelectual> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/edad-avanzada> ;		
+        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/otras-situaciones> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida> a skos:Concept ;
+	skos:definition "Las personas con limitaciones en las funciones motoras son aquellas personas en las que alguno de sus miembros o extremidades, ya sean superiores o inferiores, están afectados en su totalidad o sólo para realizar determinados movimientos o gestos; que estén o no amputados, que se desplacen autónomamente o que utilicen sillas de ruedas."@es ;
+    skos:prefLabel "Personas con discapacidad física o movilidad reducida"@es ;
+    skos:notation "discapacidad-fisica-movilidad-reducida" ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/ambulantes> ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/silla-ruedas> ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/ambulantes> a skos:Concept ;
+	skos:definition "Las personas con discapacidad física o movilidad reducida, referidas en este punto como 'ambulantes' son personas que pueden desplazarse ejecutando determinados movimientos con dificultad, sea con la ayuda o no de aparatos ortopédicos, bastones, andadores, prótesis, etc.; los cuales suelen ser sustitutos de las funciones que no pueden desempeñar."@es ;
+    skos:prefLabel "Ambulantes"@es ;
+    skos:notation "ambulantes" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/silla-ruedas> a skos:Concept ;
+	skos:definition "Las personas usuarias de silla de ruedas son aquellas que necesitan de una silla de ruedas, que puede ser manual o motorizada para llevar a cabo sus actividades, bien de forma autónoma o con ayuda de terceras personas.."@es ;
+    skos:prefLabel "Personas usuarias de silla de ruedas"@es ;
+    skos:notation "silla-ruedas" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida> .	
+	
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/paralisis-cerebral> a skos:Concept ;
+	skos:definition "Las personas con parálisis cerebral sufren un daño en la función motora que afecta de forma permanente al aparato locomotor y ello provoca alteraciones en el tono muscular, la postura y el movimiento. Además la parálisis cerebral, puede generar cambios en otras funciones superiores e interferir en el desarrollo del sistema nervioso central."@es ;
+    skos:prefLabel "Personas con parálisis cerebral"@es ;
+    skos:notation "paralisis-cerebral" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial> a skos:Concept ;
+	skos:definition "Las personas con discapacidad sensorial son todas aquellas personas que tienen dificultades de percepción, debido a una limitación de sus capacidades sensoriales, principalmente las visuales, auditivas o del habla."@es ;
+    skos:prefLabel "Personas con discapacidad sensorial"@es ;
+    skos:notation "discapacidad-sensorial" ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial/discapacidad-visual>;
+	skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial/discapacidad-auditiva>;
+	skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial/discapacidad-habla>;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/discapacidad-visual> a skos:Concept ;
+	skos:definition "Las personas con discapacidad visual pueden dividirse en dos grupos: aquellas con resto visual que puede variar en grados y aquellas con ceguera total."@es ;
+    skos:prefLabel "Discapacidad visual"@es ;
+    skos:notation "discapacidad-visual" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/discapacidad-auditiva> a skos:Concept ;
+	skos:definition "Las personas con discapacidad auditiva tengan sordera o hipoacusia (pérdida parcial de la capacidad auditiva), desarrollan mejor los otros sentidos, como la vista o la sensibilidad corporal. La mayor parte de las personas con esta discapacidad utilizan ayudas auditivas (audífonos, implantes cocleares, etc.), lo que hace aun más importante que exista una frecuencia y claridad en la información sonora que se emite."@es ;
+    skos:prefLabel "Discapacidad auditiva"@es ;
+    skos:notation "discapacidad-auditiva" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial> .
+	
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-fisica-movilidad-reducida/discapacidad-habla> a skos:Concept ;
+	skos:definition "Las personas con este tipo de discapacidad pueden tener dificultades en el momento de hablar, ya sea para expresar sus inquietudes, para mantener y seguir conversaciones, en general para comunicarse verbalmente con otras personas."@es ;
+    skos:prefLabel "Discapacidad del habla"@es ;
+    skos:notation "discapacidad-habla" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-sensorial> .
+	
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/discapacidad-cognitiva-intelectual> a skos:Concept ;
+	skos:definition "Las personas con discapacidad cognitiva o intelectual en ocasiones son personas que aprenden con lentitud. A este grupo de personas les resulta difícil realizar funciones ejecutivas (como tomar decisiones, hacer planes, etc.), puesto que sus capacidades para recibir, expresar o procesar información, son limitadas."@es ;
+    skos:prefLabel "Personas con discapacidad cognitiva o intelectual"@es ;
+    skos:notation "discapacidad-cognitiva-intelectual" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/edad-avanzada> a skos:Concept ;
+	skos:definition "Las personas de edad avanzada son todas aquellas personas que tienen 65 o más años; este es el umbral generalmente aceptado. Sin embargo, las Naciones Unidas consideran los 60 años como el umbral de la población mayor."@es ;
+    skos:prefLabel "Personas de edad avanzada"@es ;
+    skos:notation "edad-avanzada" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad/otras-situaciones> a skos:Concept ;
+	skos:definition "Grupo de usuarios con otro tipo de situaciones personales, en algunos casos con necesidades específicas, en otras en las que se transmiten de forma menos notoria o visible la problemática de movilidad, o de interacción con el entorno y otras personas, lo que en ocasiones hace que reciban menos apoyo del resto de los viajeros y de los trabajadores; o que no se tengan en cuenta en el momento en que se plantean mejoras de accesibilidad."@es ;
+    skos:prefLabel "Otras situaciones personales"@es ;
+    skos:notation "otras-situaciones" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/perfil-persona-discapacidad> .
+	

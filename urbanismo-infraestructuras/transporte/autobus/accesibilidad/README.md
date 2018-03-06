@@ -1,0 +1,3 @@
+En esta carpeta se guarda información sobre tesauros SKOS relacionados con el vocabulario de tranporte.
+
+Concretamente, se guarda información sobre el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/modelo, que permiten definir diferentes modelos de autobuses en función de las plazas reservadas para personas con discapacidad. También informa sobre el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/filas-asientos-reservados, que permiten definir los tipos de filas de asientos reservados para personas con movilidad reducida.
