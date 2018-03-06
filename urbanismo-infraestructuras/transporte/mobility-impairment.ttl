@@ -1,0 +1,100 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> a skos:ConceptScheme ;
+        dc:creator "Miguel Ángel García Delgado (OEG - Universidad Politécnica de Madrid)"@es ;
+        dc:title "Typology of mobility impaired (MI) people"@en ;
+		dc:title "Tipología de personas con movilidad reducida"@es ;
+        dc:date "2018-02-28"^^xsd:date  ;
+        skos:prefLabel "Typology of mobility impaired (MI) people"@en ;
+        dc:description "Typology of mobility impaired (MI) people extracted from deliverable 1.2.1 of ASK-IT Project"@en ;
+		dc:description "Tipología de personas con movilidad reducida extraida del deliverable 1.2.1 del pryecto ASK-IT"@es ;
+		skos:definition "Typology of mobility impaired (MI) people extracted from deliverable 1.2.1 of ASK-IT Project"@en ;
+        skos:definition "Tipología de personas con movilidad reducida extraida del deliverable 1.2.1 del pryecto ASK-IT"@es ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/lower-limb-impairment> ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/wheelchair-users> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/upper-limb-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/upper-body-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/physiological-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/psychological-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/cognitive-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/vision-impairment> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/hearing-impairment> ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/communication-producing-receiving-difficulties> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/lower-limb-impairment> a skos:Concept ;
+	skos:definition "Limitations in motion or strength or coordination or anthropometrics limitations of lower limbs"@en ;
+	skos:definition "Limitaciones en movimiento o fuerza o coordinación o limitaciones antropométricas de miembros inferiores"@es ;
+    skos:prefLabel "Lowerlimb impairment"@en ;
+    skos:notation "lower-limb-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/wheelchair-users> a skos:Concept ;
+	skos:definition "Limitations in motion or strength or coordination or anthropometrics limitations of lower limbs resulting in use of wheelchair"@en ;
+	skos:definition "Limitaciones en movimiento o fuerza o coordinación o limitaciones antropométricas de miembros inferiores que resultan en el uso de silla de ruedas"@es ;
+    skos:prefLabel "Wheelchair users"@en ;
+    skos:notation "wheelchair-users" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/upper-limb-impairment> a skos:Concept ;
+	skos:definition "Limitations in motion or strength or coordination or anthropometrics limitations of upper limbs and touch limitations"@en ;
+	skos:definition "Limitaciones en movimiento o fuerza o coordinación o limitaciones antropométricas de miembros superiores y limitaciones táctiles"@es ;
+    skos:prefLabel "Upper limb impairment"@en ;
+    skos:notation "upper-limb-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/upper-body-impairment> a skos:Concept ;
+	skos:definition "Limitations in motion or strength or coordination of upper body (head and trunk)"@en ;
+	skos:definition "Limitaciones en movimiento o fuerza o coordinación de la parte superior del cuerpo (cabeza y tronco)"@es ;
+    skos:prefLabel "Upper body impairment"@en ;
+    skos:notation "upper-body-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/physiological-impairment> a skos:Concept ;
+	skos:definition "Limitations in physiological or psycho physiological state"@en ;
+	skos:definition "Limitaciones en estado fisiológico o psico fisiológico"@es ;
+    skos:prefLabel "Physiological impairment"@en ;
+    skos:notation "physiological-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/psychological-impairment> a skos:Concept ;
+	skos:definition "Limitations in psychological or psychomotor state"@en ;
+	skos:definition "Limitaciones en estado psicológico o psicomotor"@es ;
+    skos:prefLabel "Psychological impairment"@en ;
+    skos:notation "psychological-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/cognitive-impairment> a skos:Concept ;
+	skos:definition "Cognitive limitations in operating and performing tasks"@en ;
+	skos:definition "Limitaciones cognitivas en las tareas operativas y de ejecución"@es ;
+    skos:prefLabel "Cognitive impairment"@en ;
+    skos:notation "cognitive-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/vision-impairment> a skos:Concept ;
+	skos:definition "Vision limitations or other visual limitations"@en ;
+	skos:definition "Limitaciones de visión u otras limitaciones visuales"@es ;
+    skos:prefLabel "Vision impairment"@en ;
+    skos:notation "vision-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/hearing-impairment> a skos:Concept ;
+	skos:definition "Hearing limitations or other audio limitations"@en ;
+	skos:definition "Limitaciones de audición u otras limitaciones de audio"@es ;
+    skos:prefLabel "Hearing impairment"@en ;
+    skos:notation "hearing-impairment" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+
+<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment/communication-producing-receiving-difficulties> a skos:Concept ;
+	skos:definition "Limitations in speech or writing or reading or with local language or other communication limitations"@en ;
+	skos:definition "Limitaciones en el habla, la escritura o la lectura, o con el idioma local u otras limitaciones de comunicación"@es ;
+    skos:prefLabel "Communication producing and receiving difficulties"@en ;
+    skos:notation "communication-producing-receiving-difficulties" ;
+    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/mobility-impairment> .
+	
