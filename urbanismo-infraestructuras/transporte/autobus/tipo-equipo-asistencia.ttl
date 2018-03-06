@@ -7,32 +7,32 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> a skos:ConceptScheme ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> a skos:ConceptScheme ;
         dc:creator "Miguel Ángel García Delgado (OEG - Universidad Politécnica de Madrid)"@es ;
 		dc:title "Tipo autobus según equipo de asistencia"@es ;
         dc:date "2018-02-28"^^xsd:date  ;
         skos:prefLabel "Tipo autobus según equipo de asistencia"@es ;
 		dc:description "El parque actual de autobuses urbanos e interurbanos en servicio cuenta con equipos de asistencia para PMR, PSR o PCB que varían en función del modelo, en general, se indica que los dispositivos de acceso pueden ser mediante rampa o plataforma elevadora, en sus diversas modalidades."@es ;
         skos:definition "El parque actual de autobuses urbanos e interurbanos en servicio cuenta con equipos de asistencia para PMR, PSR o PCB que varían en función del modelo, en general, se indica que los dispositivos de acceso pueden ser mediante rampa o plataforma elevadora, en sus diversas modalidades."@es ;
-        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/rampa-automatica-manual> ;
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/plataforma-casette> ;		
-        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/elevador-puerta> .
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/rampa-automatica-manual> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/plataforma-casette> ;		
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/elevador-puerta> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/rampa-automatica-manual> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/rampa-automatica-manual> a skos:Concept ;
 	skos:definition "Autobuses cuyas rampas pueden ser de accionamiento automático (obligatorias según normativa) o de accionamiento manual (pudiendo incorporar ambos tipos de rampas); a fin de garantizar el funcionamiento de este dispositivo, aún en el caso de que la rampa automática este fuera de servicio, se aconseja dotar adicionalmente de rampa manual a estos vehículos."@es ;
     skos:prefLabel "Autobús con rampa de accionamiento automático o manual"@es ;
     skos:notation "rampa-automatica-manual" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/plataforma-casette> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/plataforma-casette> a skos:Concept ;
 	skos:definition "Autobuses con plataformas elevadoras instaladas en la segunda puerta del autobús (de salida del conjunto de viajeros) y que consisten, bien en dispositivos escamoteables en los peldaños (tipo casete); o bien, en dispositivos abatibles en el interior de las escaleras."@es ;
     skos:prefLabel "Autobús con acceso mediante plataforma elevadora tipo cassette"@es ;
     skos:notation "plataforma-casette" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/elevador-puerta> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia/elevador-puerta> a skos:Concept ;
 	skos:definition "Grupo de usuarios con otro tipo de situaciones personales, en algunos casos con necesidades específicas, en otras en las que se transmiten de forma menos notoria o visible la problemática de movilidad, o de interacción con el entorno y otras personas, lo que en ocasiones hace que reciban menos apoyo del resto de los viajeros y de los trabajadores; o que no se tengan en cuenta en el momento en que se plantean mejoras de accesibilidad."@es ;
     skos:prefLabel "Autobús con acceso mediante elevador, por puerta de uso exclusivo para PSR o PMR"@es ;
     skos:notation "elevador-puerta" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia> .
 	
