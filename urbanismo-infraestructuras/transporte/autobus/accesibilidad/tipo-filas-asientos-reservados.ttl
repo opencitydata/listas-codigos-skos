@@ -7,32 +7,32 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> a skos:ConceptScheme ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> a skos:ConceptScheme ;
         dc:creator "Miguel Ángel García Delgado (OEG - Universidad Politécnica de Madrid)"@es ;
 		dc:title "Tipo de filas de asientos reservados para personas con movilidad reducida"@es ;
         dc:date "2018-02-28"^^xsd:date  ;
         skos:prefLabel "Tipo de filas de asientos reservados para personas con movilidad reducida"@es ;
 		dc:description "Los asientos reservados están formados por cuatro filas (F1, F2, F3 Y F4), donde cada fila estará constituida por 2 asientos; con excepción de los autobuses articulados que podrán tener una fila más y las furgonetas una fila menos."@es ;
         skos:definition "Los asientos reservados están formados por cuatro filas (F1, F2, F3 Y F4), donde cada fila estará constituida por 2 asientos; con excepción de los autobuses articulados que podrán tener una fila más y las furgonetas una fila menos."@es ;
-        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f1> ;
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f2-f3> ;				
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f4> .
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f1> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f2-f3> ;				
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f4> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f1> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f1> a skos:Concept ;
 	skos:definition "Fila F1 para personas con discapacidad visual con o sin perro de asistencia PDV/PA."@es ;
     skos:prefLabel "Fila F1"@es ;
     skos:notation "f1" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f2-f3> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f2-f3> a skos:Concept ;
 	skos:definition "Filas F2 - F3 para personas con movilidad reducida PMR en general"@es ;
     skos:prefLabel "Filas F2-F3"@es ;
     skos:notation "f2-f3" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f4> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados/f4> a skos:Concept ;
 	skos:definition "Fila F4 para personas con que custodian el carrito de niño, acompañan a la persona en silla de ruedas o niños mayores de 3 años."@es ;
     skos:prefLabel "Fila F4"@es ;
     skos:notation "f4" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados> .
 	

@@ -7,53 +7,53 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> a skos:ConceptScheme ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> a skos:ConceptScheme ;
         dc:creator "Miguel Ángel García Delgado (OEG - Universidad Politécnica de Madrid)"@es ;
 		dc:title "Modelo de autobus según la ubicación de las plazas reservadas"@es ;
         dc:date "2018-02-28"^^xsd:date  ;
         skos:prefLabel "Modelo de autobus según la ubicación de las plazas reservadas"@es ;
 		dc:description "Se pueden distinguir seis modelos de autobús en función de las plazas reservadas para personas con discapacidad dentro del mismo."@es ;
         skos:definition "Se pueden distinguir seis modelos de autobús en función de las plazas reservadas para personas con discapacidad dentro del mismo."@es ;
-        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-1> ;
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-2> ;		
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-3> ;
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-4> ;		
-		skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-5> ;
-        skos:hasTopConcept <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-6> .
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-1> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-2> ;		
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-3> ;
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-4> ;		
+		skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-5> ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-6> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-1> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-1> a skos:Concept ;
 	skos:definition "Autobús universal."@es ;
     skos:prefLabel "Modelo 1"@es ;
     skos:notation "modelo-1" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-2> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-2> a skos:Concept ;
 	skos:definition "Autobús universal con escalón en el pasillo o excepciones al modelo 1."@es ;
     skos:prefLabel "Modelo 2"@es ;
     skos:notation "modelo-2" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-3> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-3> a skos:Concept ;
 	skos:definition "Autobús con asientos enfrentados."@es ;
     skos:prefLabel "Modelo 3"@es ;
     skos:notation "modelo-3" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-4> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-4> a skos:Concept ;
 	skos:definition "Autobús con una tercera puerta especifica para la persona en sillas de ruedas; dos submodelos."@es ;
     skos:prefLabel "Modelo 4"@es ;
     skos:notation "modelo-4" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-5> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-5> a skos:Concept ;
 	skos:definition "Autobús articulado."@es ;
     skos:prefLabel "Modelo 5"@es ;
     skos:notation "modelo-5" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 	
-<http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-6> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo/modelo-6> a skos:Concept ;
 	skos:definition "Furgonetas o microbus."@es ;
     skos:prefLabel "Modelo 6"@es ;
     skos:notation "modelo-6" ;
-    skos:inScheme <http://vocab.linkeddata.es/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo> .
 	
