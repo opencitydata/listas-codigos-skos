@@ -1,0 +1,599 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Column5 using expression grel:if(cells[\"cnae09\"].value==\"01\",\"Division\",\"Seccion\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column5",
+    "expression": "grel:if(cells[\"cnae09\"].value==\"01\",\"Division\",\"Seccion\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Column5 using expression grel:if(cells[\"cnae09\"].length==1,\"Seccion\",if(cells[\"cnae09\"].length==2,\"Division\",if(cells[\"cnae09\"].length==3,\"Cod3\",\"Cod4\")))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column5",
+    "expression": "grel:if(cells[\"cnae09\"].length==1,\"Seccion\",if(cells[\"cnae09\"].length==2,\"Division\",if(cells[\"cnae09\"].length==3,\"Cod3\",\"Cod4\")))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column cnae09 using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "cnae09",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column cnae09 using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "cnae09",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Column5 using expression grel:if(length(cells[\"cnae09\"].value)==1,\"Seccion\",if(length(cells[\"cnae09\"].value)==2,\"Division\",if(length(cells[\"cnae09\"].value)==3,\"Cod3\",\"Cod4\")))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column5",
+    "expression": "grel:if(length(cells[\"cnae09\"].value)==1,\"Seccion\",if(length(cells[\"cnae09\"].value)==2,\"Division\",if(length(cells[\"cnae09\"].value)==3,\"Cod3\",\"Cod4\")))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Padre at index 7 based on column titulo using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Padre",
+    "columnInsertIndex": 7,
+    "baseColumnName": "titulo",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column titulo to position 7",
+    "columnName": "titulo",
+    "index": 7
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column Padre",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Padre"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Padre using expression null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Padre using expression grel:substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "grel:substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Padre using expression grel:if(length(cells[\"cnae09\"].value)==2,\"Seccion/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),if(length(cells[\"cnae09\"].value)==3,\"Division/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),if(length(cells[\"cnae09\"].value)==4,\"Cod3/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),null)))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "grel:if(length(cells[\"cnae09\"].value)==2,\"Seccion/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),if(length(cells[\"cnae09\"].value)==3,\"Division/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),if(length(cells[\"cnae09\"].value)==4,\"Cod3/\"+substring(cells[\"cnae09\"].value,0,length(cells[\"cnae09\"].value)-1),null)))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/0"
+        ],
+        "to": "Seccion/A"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/1",
+                "l": "Seccion/1"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/1"
+        ],
+        "to": "Seccion/C"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/2",
+                "l": "Seccion/2"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/2"
+        ],
+        "to": "Seccion/C"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/5",
+                "l": "Seccion/5"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/5"
+        ],
+        "to": "Seccion/H"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/6",
+                "l": "Seccion/6"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/6"
+        ],
+        "to": "Seccion/J"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/7",
+                "l": "Seccion/7"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/7"
+        ],
+        "to": "Seccion/M"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Padre",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Padre",
+          "selectBlank": false,
+          "columnName": "Padre",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seccion/8",
+                "l": "Seccion/8"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Padre",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seccion/8"
+        ],
+        "to": "Seccion/Q"
+      }
+    ]
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Column5 to position 0",
+    "columnName": "Column5",
+    "index": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column5 to TipoActividad",
+    "oldColumnName": "Column5",
+    "newColumnName": "TipoActividad"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI_CNAE at index 2 based on column cnae09 using expression grel:\"http://datos.localidata.com/recurso/economia/CNAE/2009/\"+cells[\"TipoActividad\"].value+\"/\"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "URI_CNAE",
+    "columnInsertIndex": 2,
+    "baseColumnName": "cnae09",
+    "expression": "grel:\"http://datos.localidata.com/recurso/economia/CNAE/2009/\"+cells[\"TipoActividad\"].value+\"/\"+value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column URI_CNAE using expression grel:value.replace(\"http://datos.localidata.com/recurso/economia/CNAE/2009\",\"http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI_CNAE",
+    "expression": "grel:value.replace(\"http://datos.localidata.com/recurso/economia/CNAE/2009\",\"http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "cnae",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/comercio/cnae#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "city",
+          "uri": "http://datos.localidata.com/def/City#"
+        },
+        {
+          "name": "dcterms",
+          "uri": "http://purl.org/dc/terms/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI_CNAE",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "titulo"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"http://vocab.linkeddata.es/datosabiertos/def/comercio/cnae#\"+value",
+                "isRowNumberCell": false,
+                "columnName": "TipoActividad",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#broader",
+              "curie": "skos:broader",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Padre",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "curie": "skos:narrower",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "URI_CNAE",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://purl.org/dc/terms/identifier",
+              "curie": "dcterms:identifier",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "cnae09"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "curie": "skos:ConceptScheme"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://purl.org/dc/terms/created",
+                    "curie": "dcterms:created",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "2014-05-20",
+                      "valueType": "http://www.w3.org/2001/XMLSchema#date"
+                    }
+                  },
+                  {
+                    "uri": "http://purl.org/dc/terms/creator",
+                    "curie": "dcterms:creator",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "Oscar Corcho (Ontology Engineering Group y Localidata)"
+                    }
+                  },
+                  {
+                    "uri": "http://purl.org/dc/terms/title",
+                    "curie": "dcterms:title",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "Lista de códigos CNAE 2009"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+                    "curie": "skos:hasTopConcept",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "if(value.contains(\"Seccion\"),value,null)",
+                      "isRowNumberCell": false,
+                      "columnName": "URI_CNAE",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
