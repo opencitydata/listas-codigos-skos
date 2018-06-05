@@ -1,0 +1,123 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Ninguno" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/01> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/01> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/01> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Normal" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/02> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/02> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/02> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "3ª Edad" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/03> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/03> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/03> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Joven" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/04> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/04> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/04> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Infantil" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/05> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/05> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/05> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Universidad de Alcalá" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/06> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/06> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/06> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Tarjeta Azul" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/07> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/07> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/07> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Pensionista Valdemoro" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/08> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/08> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/08> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Disc. 33 Valdemoro" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/11> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/11> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/11> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Pinto 3ª Edad" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0F> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0F> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0F> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Programa Activación y Empleo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/09> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/09> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/09> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Anónimo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0A> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0A> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0A> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "BUS-BUS" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0B> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0B> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0B> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Turístico normal" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0C> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0C> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0C> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Menor tutelado IMMF" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0D> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0D> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/0D> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> ;
+	skos:prefLabel "Turístico infantil" .
