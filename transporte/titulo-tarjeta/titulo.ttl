@@ -9,7 +9,8 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/1B59> a skos:Concept .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/1B59> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo/1B59> ;
 	dc:title "Tipos de títulos de transporte emitidos por el Consorcio Regional de Transportes de Madrid." ;
 	dc:date "2018-06-05"^^xsd:date ;
 	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .

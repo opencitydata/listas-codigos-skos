@@ -9,7 +9,8 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> a skos:Concept .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil/00> ;
 	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
 	dc:date "2018-06-05"^^xsd:date ;
 	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
