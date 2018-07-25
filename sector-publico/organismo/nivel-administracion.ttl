@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/1> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/2> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/3> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/4> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/5> ;
+    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-07-25"^^xsd:date ;
+    dc:title "Tesauro para niveles de administración de una entidad, utilizados por el vocabulario de organismos públicos españoles"@es ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/1> a skos:Concept ;
+    skos:prefLabel "Administración General del Estado"@es ;
+    skos:notation "1" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/2> a skos:Concept ;
+    skos:prefLabel "Administración autonómica"@es ;
+    skos:notation "2" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/3> a skos:Concept ;
+    skos:prefLabel "Administración local"@es ;
+    skos:notation "3" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/4> a skos:Concept ;
+    skos:prefLabel "Universidades"@es ;
+    skos:notation "4" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion/5> a skos:Concept ;
+    skos:prefLabel "Otras instituciones"@es ;
+    skos:notation "5" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organismo/nivel-administracion> .
+
