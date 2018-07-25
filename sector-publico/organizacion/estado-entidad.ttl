@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/V> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/E> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/A> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/T> ;
+    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-07-25"^^xsd:date ;
+    dc:title "Tesauro para estados de entidad, utilizados por el vocabulario de organizaciones públicas españoles"@es ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/V> a skos:Concept ;
+    skos:prefLabel "Vigente"@es ;
+    skos:notation "V" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/E> a skos:Concept ;
+    skos:prefLabel "Extinguido"@es ;
+    skos:notation "E" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/A> a skos:Concept ;
+    skos:prefLabel "Anulado"@es ;
+    skos:notation "A" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad/T> a skos:Concept ;
+    skos:prefLabel "Transitorio"@es ;
+    skos:notation "T" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad> .
+
