@@ -1,4 +1,4 @@
-En este repositorio se almacenan las listas de códigos SKOS usadas por el resto de vocabularios que se están desarrollando en el contexto de esta organización y que se están publicando en http://vocab.linkeddata.es/datosabiertos/. 
+En este repositorio se almacenan las listas de códigos SKOS (también denominados tesauros) usadas por el resto de vocabularios que se están desarrollando en el contexto de esta organización y que se están publicando en http://vocab.linkeddata.es/datosabiertos/. 
 
 Cada vez que se necesita crear una de estas listas, se hace referencia a ella desde el vocabulario correspondiente y se añade en este repositorio. En los casos en los que se ha utilizado alguna herramienta (por ejemplo, OpenRefine) o código software para la creación de la lista de códigos, también se incluye, para facilitar su mantenimiento. 
 
@@ -29,4 +29,6 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
 
+
+#Referencias
 [1] Guía de aplicación de la Norma Técnica de Interoperabilidad (2016) https://datos.gob.es/sites/default/files/20160726_guia_de_aplicacion_de_la_nti_reutilizacion_recursos_de_informacion_l.pdf
