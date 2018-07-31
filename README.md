@@ -27,8 +27,8 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment 
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/modelo
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/filas-asientos-reservados
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/modelo (no de-referenciable de momento, pendiente de reestructuración)
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/filas-asientos-reservados (no de-referenciable de momento, pendiente de reestructuración)
 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
