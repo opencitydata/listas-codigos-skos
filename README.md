@@ -2,8 +2,9 @@ En este repositorio se almacenan las listas de códigos SKOS (también denominad
 
 Cada vez que se necesita crear una de estas listas, se hace referencia a ella desde el vocabulario correspondiente y se añade en este repositorio. En los casos en los que se ha utilizado alguna herramienta (por ejemplo, OpenRefine) o código software para la creación de la lista de códigos, también se incluye, para facilitar su mantenimiento. 
 
-Todas las listas de códigos son a continuación publicadas utilizando principios de Linked Data para que las URIs sean derreferenciables (con el esquema de URI http://vocab.linkeddata.es/datosabiertos/kos/{sector}/{dominio}/{nombre-lista}), y también están disponibles para su consulta a través de un punto de acceso SPARQL.
+Todas las listas de códigos son a continuación publicadas utilizando principios de _Linked Data_ para que las URIs sean derreferenciables (con el esquema de URI http://vocab.linkeddata.es/datosabiertos/kos/{sector}/{dominio}/{nombre-lista}), y también están disponibles para su consulta a través de un punto de acceso SPARQL (http://vocab.linkeddata.es/sparql).
 
+# Listas de códigos publicadas
 De momento, están publicadas las siguientes listas de códigos (organizadas de acuerdo con el sector principal de la Norma Técnica de Interoperabilidad [1] en el que son más utilizadas):
 
 ## comercio
@@ -28,7 +29,29 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
+# Uso del punto de acceso SPARQL
+Como se ha apuntado anteriormente, las listas de códigos están actualmente disponibles en el punto SPARQL http://vocab.linkeddata.es/sparql, y todas ellas (así como todos los conceptos que contienen) están publicadas de acuerdo con los principios de _Linked Data_, de tal manera que sus URIs son derreferenciables. 
 
+En los próximos meses se procederá a realizar una sincronización automática de todas estas listas de códigos (hasta el momento su carga en el _triple store_ ha sido realizada de manera manual), y una unificación de todas estas listas en el mismo grafo (http://vocab.linkeddata.es/datosabiertos/kos). Por el momento, todas estas listas de códigos están distribuidas en diversos grafos.
+
+Estas son algunas de las consultas SPARQL que se pueden realizar (se modificarán ligeramente los enlaces cuando se haya procedido a realizar el proceso de actualización automática, y se ampliarán con las peticiones que se vayan realizando):
+
+## Obtener todas las listas de códigos publicadas, junto con el grafo donde han sido publicadas
+```sparql
+SELECT DISTINCT ?g ?s WHERE { 
+  GRAPH ?g { ?s a skos:ConceptScheme } 
+}
+```
+Enlace directo: http://vocab.linkeddata.es/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fg+%3Fs+WHERE+%7B+GRAPH+%3Fg+%7B+%3Fs+a+skos%3AConceptScheme+%7D+%7D&format=text%2Fhtml&timeout=0&debug=on
+
+## Obtener todos los conceptos de una lista de códigos
+```sparql
+SELECT DISTINCT ?s WHERE { 
+  ?s a skos:Concept . 
+  ?s skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion>  
+}
+```
+Enlace directo: http://vocab.linkeddata.es/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Fs+WHERE+%7B++%3Fs+a+skos%3AConcept+.+%3Fs+skos%3AinScheme+%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fkos%2Fsector-publico%2Forganizacion%2Fnivel-administracion%3E+%7D+&format=text%2Fhtml&timeout=0&debug=on
 
 # Referencias
 
