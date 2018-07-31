@@ -1,10 +1,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion> a skos:ConceptScheme, prov:Entity ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion/1> ;
