@@ -1,8 +1,5 @@
-### Tesauro
+Durante el desarrollo del vocabulario de equipamientos (https://github.com/opencitydata/sociedad-bienestar-equipamientos-municipales) se analizaron los diferentes tipos de equipamientos municipales que son publicados por distintos municipios y comunidades autónomas en sus portales de datos abiertos, para los cuales no se encontró ningún estándar ampliamente utilizado, por lo que cada municipio y comunidad autónoma suele utilizar su propia nomenclatura para referirse a estas clasificaciones.
 
-**Definición**: se define tesauro como una lista de palabras o términos controlados empleados para representar conceptos. En el ámbito científico se entiende el tesauro como una herramienta para la normalización de terminológica que permita una mejora en el canal de acceso a una información. 
-Los tesauros se componen de unidades de información y se clasifican por jerarquías con el objetivo de simplificar el esquema de datos. 
+Algo parecido ocurre con las empresas de distribución de dichos equipamientos (a nivel europeo), que presentan un gran número de catálogos en los que no hay normalización.
 
-**Contexto**: Durante el desarrollo de la ontología se presentó el desafía de la falta de clasificación formal de los diferentes tipos de equipamientos municipales. A nivel autonómico y local existen multitud de clasificaciones válidas para la ontología. Además, por parte de grandes empresas de distribución de dichos equipamientos (a nivel europeo) existe un gran número de catálogos válidos de igual forma. Por lo se decidió desarrollar un tesauro que sirva para la clasificación de los equipamientos de la ontología. 
-
-**Estructura**: El tesauro se compone de 10 clasificaciones (iniciales) de equipamientos, divididos a su vez en 2 o 3 subniveles de jerarquía.
+Por esta razón, se creó una fuente de datos (en Excel) que permitiera unificar distintos tipos de equipamientos, procedentes de diversas fuentes, y a continuación se ha desarrollado esta lista de códigos que se propone utilizar junto al vocabulario de equipamientos. Esta lista de códigos se compone de 10 clasificaciones de alto nivel, divididos a su vez en 2 o 3 subniveles de jerarquía.
