@@ -26,6 +26,7 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment 
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia
 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
