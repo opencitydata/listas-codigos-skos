@@ -29,6 +29,4 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
 
-Como se puede observar, 
-
 [1] Guía de aplicación de la Norma Técnica de Interoperabilidad (2016) https://datos.gob.es/sites/default/files/20160726_guia_de_aplicacion_de_la_nti_reutilizacion_recursos_de_informacion_l.pdf
