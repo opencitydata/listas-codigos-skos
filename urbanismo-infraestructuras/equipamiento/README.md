@@ -1,0 +1,5 @@
+Durante el desarrollo del vocabulario de equipamientos (https://github.com/opencitydata/sociedad-bienestar-equipamientos-municipales) se analizaron los diferentes tipos de equipamientos municipales que son publicados por distintos municipios y comunidades autónomas en sus portales de datos abiertos, para los cuales no se encontró ningún estándar ampliamente utilizado, por lo que cada municipio y comunidad autónoma suele utilizar su propia nomenclatura para referirse a estas clasificaciones.
+
+Algo parecido ocurre con las empresas de distribución de dichos equipamientos (a nivel europeo), que presentan un gran número de catálogos en los que no hay normalización.
+
+Por esta razón, se creó una fuente de datos (en Excel) que permitiera unificar distintos tipos de equipamientos, procedentes de diversas fuentes, y a continuación se ha desarrollado esta lista de códigos que se propone utilizar junto al vocabulario de equipamientos. Esta lista de códigos se compone de 10 clasificaciones de alto nivel, divididos a su vez en 2 o 3 subniveles de jerarquía.

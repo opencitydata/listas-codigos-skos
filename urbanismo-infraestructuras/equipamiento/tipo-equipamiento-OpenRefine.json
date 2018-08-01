@@ -1,0 +1,338 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 1",
+    "columnName": "Column 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 2 to level1",
+    "oldColumnName": "Column 2",
+    "newColumnName": "level1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 3 to level2",
+    "oldColumnName": "Column 3",
+    "newColumnName": "level2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Column 4 to level3",
+    "oldColumnName": "Column 4",
+    "newColumnName": "level3"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column level1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "level1"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column level2",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "level2"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column level1-URI at index 1 based on column level1 using expression grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "level1-URI",
+    "columnInsertIndex": 1,
+    "baseColumnName": "level1",
+    "expression": "grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column level3-URI at index 5 based on column level3 using expression grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "level3-URI",
+    "columnInsertIndex": 5,
+    "baseColumnName": "level3",
+    "expression": "grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column level1 using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "level1",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column level2 using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "level2",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column level3 using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "level3",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column level2-URI at index 3 based on column level2 using expression grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "level2-URI",
+    "columnInsertIndex": 3,
+    "baseColumnName": "level2",
+    "expression": "grel:value.toLowercase().replace(\" \",\"-\").replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\").replace(\"ü\",\"u\").replace(\"ñ\",\"n\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "level1-URI",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "level1"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                    "curie": "skos:ConceptScheme"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#comment",
+                    "curie": "rdfs:comment",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "Tesauro para tipos de equipamientos municipales",
+                      "lang": "es"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#notation",
+              "curie": "skos:notation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "level1-URI"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "level2-URI",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+                    "curie": "skos:Concept"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                    "curie": "skos:prefLabel",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "lang": "es",
+                      "columnName": "level2"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#notation",
+                    "curie": "skos:notation",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "level2-URI"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+                    "curie": "skos:inScheme",
+                    "target": {
+                      "nodeType": "resource",
+                      "value": "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#broader",
+                    "curie": "skos:broader",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "level1-URI",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+                    "curie": "skos:narrower",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "level3-URI",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+                          "curie": "skos:Concept"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+                          "curie": "skos:prefLabel",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "lang": "es",
+                            "columnName": "level3"
+                          }
+                        },
+                        {
+                          "uri": "http://www.w3.org/2004/02/skos/core#notation",
+                          "curie": "skos:notation",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "level3-URI"
+                          }
+                        },
+                        {
+                          "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+                          "curie": "skos:inScheme",
+                          "target": {
+                            "nodeType": "resource",
+                            "value": "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento",
+                            "rdfTypes": [],
+                            "links": []
+                          }
+                        },
+                        {
+                          "uri": "http://www.w3.org/2004/02/skos/core#broader",
+                          "curie": "skos:broader",
+                          "target": {
+                            "nodeType": "cell-as-resource",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "level2-URI",
+                            "rdfTypes": [],
+                            "links": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1629 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-educativo> a skos:Concept ;
+	skos:prefLabel "Equipamiento Educativo"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> a skos:ConceptScheme ;
+	rdfs:comment "Tesauro para tipos de equipamientos municipales"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-educativo> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-educativo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> a skos:Concept ;
+	skos:prefLabel "Centros Educativos"@es ;
+	skos:notation "centros-educativos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-educativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/colegio> a skos:Concept ;
+	skos:prefLabel "Colegio"@es ;
+	skos:notation "colegio" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/colegio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-educativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuela-infantil> a skos:Concept ;
+	skos:prefLabel "Escuela Infantil"@es ;
+	skos:notation "escuela-infantil" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuela-infantil> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instituto> a skos:Concept ;
+	skos:prefLabel "Instituto"@es ;
+	skos:notation "instituto" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instituto> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/educacion-permanente-para-adultos> a skos:Concept ;
+	skos:prefLabel "Educación Permanente para Adultos"@es ;
+	skos:notation "educacion-permanente-para-adultos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/educacion-permanente-para-adultos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/aula-de-estudio> a skos:Concept ;
+	skos:prefLabel "Aula de Estudio"@es ;
+	skos:notation "aula-de-estudio" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/aula-de-estudio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/universidad> a skos:Concept ;
+	skos:prefLabel "Universidad"@es ;
+	skos:notation "universidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/universidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuela-de-musica> a skos:Concept ;
+	skos:prefLabel "Escuela de música"@es ;
+	skos:notation "escuela-de-musica" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuela-de-musica> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gabinete-de-asistencia-psicologica-y-pedagogica> a skos:Concept ;
+	skos:prefLabel "Gabinete de Asistencia Psicológica y Pedagógica"@es ;
+	skos:notation "gabinete-de-asistencia-psicologica-y-pedagogica" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-educativos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gabinete-de-asistencia-psicologica-y-pedagogica> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-medioambiental> a skos:Concept ;
+	skos:prefLabel "Equipamiento Medioambiental"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-medioambiental" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> a skos:Concept ;
+	skos:prefLabel "Plantas"@es ;
+	skos:notation "plantas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-medioambiental> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-compostaje> a skos:Concept ;
+	skos:prefLabel "Planta de Compostaje"@es ;
+	skos:notation "planta-de-compostaje" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-compostaje> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-medioambiental> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-purificacion-del-agua> a skos:Concept ;
+	skos:prefLabel "Planta de Purificación del Agua"@es ;
+	skos:notation "planta-de-purificacion-del-agua" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-purificacion-del-agua> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/punto-limpio> a skos:Concept ;
+	skos:prefLabel "Punto Limpio"@es ;
+	skos:notation "punto-limpio" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/punto-limpio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-reciclaje> a skos:Concept ;
+	skos:prefLabel "Planta de Reciclaje"@es ;
+	skos:notation "planta-de-reciclaje" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-reciclaje> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-recogida-de-residuos> a skos:Concept ;
+	skos:prefLabel "Planta de Recogida de Residuos"@es ;
+	skos:notation "planta-de-recogida-de-residuos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-recogida-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-desalacion> a skos:Concept ;
+	skos:prefLabel "Planta de desalación"@es ;
+	skos:notation "planta-de-desalacion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-desalacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-tratamiento-de-aguas-residuales> a skos:Concept ;
+	skos:prefLabel "Planta de tratamiento de aguas residuales"@es ;
+	skos:notation "planta-de-tratamiento-de-aguas-residuales" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-tratamiento-de-aguas-residuales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-descalcificacion> a skos:Concept ;
+	skos:prefLabel "Planta de descalcificación"@es ;
+	skos:notation "planta-de-descalcificacion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-descalcificacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-potabilizacion-del-agua> a skos:Concept ;
+	skos:prefLabel "Planta de Potabilización del agua"@es ;
+	skos:notation "planta-de-potabilizacion-del-agua" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-potabilizacion-del-agua> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-filtracion-del-agua> a skos:Concept ;
+	skos:prefLabel "Planta de filtración del agua"@es ;
+	skos:notation "planta-de-filtracion-del-agua" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/plantas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/planta-de-filtracion-del-agua> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> a skos:Concept ;
+	skos:prefLabel "Equipamiento Urbano"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-urbano" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> a skos:Concept ;
+	skos:prefLabel "Mobiliario"@es ;
+	skos:notation "mobiliario" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos> a skos:Concept ;
+	skos:prefLabel "Bancos"@es ;
+	skos:notation "bancos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos-modulares> a skos:Concept ;
+	skos:prefLabel "Bancos Modulares"@es ;
+	skos:notation "bancos-modulares" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos-modulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-viales-y-aparcamientos> a skos:Concept ;
+	skos:prefLabel "Elementos para viales y aparcamientos"@es ;
+	skos:notation "elementos-para-viales-y-aparcamientos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-viales-y-aparcamientos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pilonas-y-bolardos> a skos:Concept ;
+	skos:prefLabel "Pilonas y bolardos"@es ;
+	skos:notation "pilonas-y-bolardos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pilonas-y-bolardos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/vallas-y-barreras> a skos:Concept ;
+	skos:prefLabel "Vallas y barreras"@es ;
+	skos:notation "vallas-y-barreras" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/vallas-y-barreras> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/senalizaciones> a skos:Concept ;
+	skos:prefLabel "Señalizaciones"@es ;
+	skos:notation "senalizaciones" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/senalizaciones> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/farolas-y-balizas> a skos:Concept ;
+	skos:prefLabel "Farolas y balizas"@es ;
+	skos:notation "farolas-y-balizas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/farolas-y-balizas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cajas-y-armarios> a skos:Concept ;
+	skos:prefLabel "Cajas y armarios"@es ;
+	skos:notation "cajas-y-armarios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cajas-y-armarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fuentes> a skos:Concept ;
+	skos:prefLabel "Fuentes"@es ;
+	skos:notation "fuentes" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fuentes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gradas-y-tribunas> a skos:Concept ;
+	skos:prefLabel "Gradas y tribunas"@es ;
+	skos:notation "gradas-y-tribunas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gradas-y-tribunas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/jardineras> a skos:Concept ;
+	skos:prefLabel "Jardineras"@es ;
+	skos:notation "jardineras" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/jardineras> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/marquesinas-y-quioscos> a skos:Concept ;
+	skos:prefLabel "Marquesinas y quioscos"@es ;
+	skos:notation "marquesinas-y-quioscos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/marquesinas-y-quioscos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/papeleras> a skos:Concept ;
+	skos:prefLabel "Papeleras"@es ;
+	skos:notation "papeleras" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/papeleras> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/ceniceros-de-exterior> a skos:Concept ;
+	skos:prefLabel "Ceniceros de exterior"@es ;
+	skos:notation "ceniceros-de-exterior" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/ceniceros-de-exterior> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/aparcabicicletas> a skos:Concept ;
+	skos:prefLabel "Aparcabicicletas"@es ;
+	skos:notation "aparcabicicletas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/aparcabicicletas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/extendedores-de-bolsas-higienicas> a skos:Concept ;
+	skos:prefLabel "Extendedores de bolsas higiénicas"@es ;
+	skos:notation "extendedores-de-bolsas-higienicas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/extendedores-de-bolsas-higienicas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sanitarios-y-aseos> a skos:Concept ;
+	skos:prefLabel "Sanitarios y aseos"@es ;
+	skos:notation "sanitarios-y-aseos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sanitarios-y-aseos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-para-playas> a skos:Concept ;
+	skos:prefLabel "Equipamientos para playas"@es ;
+	skos:notation "equipamientos-para-playas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/mobiliario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-para-playas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> a skos:Concept ;
+	skos:prefLabel "Elementos para parques Infantiles y Circuitos Biosaludables"@es ;
+	skos:notation "elementos-para-parques-infantiles-y-circuitos-biosaludables" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/columpios> a skos:Concept ;
+	skos:prefLabel "Columpios"@es ;
+	skos:notation "columpios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/columpios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/toboganes> a skos:Concept ;
+	skos:prefLabel "Toboganes"@es ;
+	skos:notation "toboganes" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/toboganes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parques-infantiles> a skos:Concept ;
+	skos:prefLabel "Parques Infantiles"@es ;
+	skos:notation "parques-infantiles" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parques-infantiles> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parques-de-agua> a skos:Concept ;
+	skos:prefLabel "Parques de Agua"@es ;
+	skos:notation "parques-de-agua" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parques-de-agua> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fitness-de-exterior-y-circuitos-biosaludables> a skos:Concept ;
+	skos:prefLabel "Fitness de exterior y circuitos biosaludables"@es ;
+	skos:notation "fitness-de-exterior-y-circuitos-biosaludables" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fitness-de-exterior-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/juegos-de-exterior-para-mayores> a skos:Concept ;
+	skos:prefLabel "Juegos de exterior para mayores"@es ;
+	skos:notation "juegos-de-exterior-para-mayores" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/elementos-para-parques-infantiles-y-circuitos-biosaludables> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/juegos-de-exterior-para-mayores> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> a skos:Concept ;
+	skos:prefLabel "Drenaje y depuración"@es ;
+	skos:notation "drenaje-y-depuracion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/arquetas-y-tapas-de-registro> a skos:Concept ;
+	skos:prefLabel "Arquetas y tapas de registro"@es ;
+	skos:notation "arquetas-y-tapas-de-registro" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/arquetas-y-tapas-de-registro> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sumideros-y-desagues> a skos:Concept ;
+	skos:prefLabel "Sumideros y desagües"@es ;
+	skos:notation "sumideros-y-desagues" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sumideros-y-desagues> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canales-y-rejillas-de-drenaje> a skos:Concept ;
+	skos:prefLabel "Canales y rejillas de drenaje"@es ;
+	skos:notation "canales-y-rejillas-de-drenaje" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canales-y-rejillas-de-drenaje> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fosas-septicas> a skos:Concept ;
+	skos:prefLabel "Fosas sépticas"@es ;
+	skos:notation "fosas-septicas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/drenaje-y-depuracion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fosas-septicas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> a skos:Concept ;
+	skos:prefLabel "Gestión de residuos"@es ;
+	skos:notation "gestion-de-residuos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-de-basura> a skos:Concept ;
+	skos:prefLabel "Contenedores de basura"@es ;
+	skos:notation "contenedores-de-basura" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-de-basura> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-urbano> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cubos-de-basura> a skos:Concept ;
+	skos:prefLabel "Cubos de basura"@es ;
+	skos:notation "cubos-de-basura" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cubos-de-basura> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-soterrados> a skos:Concept ;
+	skos:prefLabel "Contenedores Soterrados"@es ;
+	skos:notation "contenedores-soterrados" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-soterrados> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-de-recogida-selectiva> a skos:Concept ;
+	skos:prefLabel "Contenedores de recogida Selectiva"@es ;
+	skos:notation "contenedores-de-recogida-selectiva" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/contenedores-de-recogida-selectiva> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/vehiculos-satelite> a skos:Concept ;
+	skos:prefLabel "Vehículos satélite"@es ;
+	skos:notation "vehiculos-satelite" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/gestion-de-residuos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/vehiculos-satelite> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> a skos:Concept ;
+	skos:prefLabel "Equipamiento Cultural"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-cultural" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> a skos:Concept ;
+	skos:prefLabel "Centros de Patrimonio"@es ;
+	skos:notation "centros-de-patrimonio" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/museos> a skos:Concept ;
+	skos:prefLabel "Museos"@es ;
+	skos:notation "museos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/museos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/archivos> a skos:Concept ;
+	skos:prefLabel "Archivos"@es ;
+	skos:notation "archivos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/archivos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bibliotecas> a skos:Concept ;
+	skos:prefLabel "Bibliotecas"@es ;
+	skos:notation "bibliotecas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bibliotecas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fundaciones-culturales> a skos:Concept ;
+	skos:prefLabel "Fundaciones Culturales"@es ;
+	skos:notation "fundaciones-culturales" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/fundaciones-culturales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/colecciones> a skos:Concept ;
+	skos:prefLabel "Colecciones"@es ;
+	skos:notation "colecciones" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/colecciones> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-interpretacion-del-patrimonio-historico-y-natural> a skos:Concept ;
+	skos:prefLabel "Centros de Interpretación del Patrimonio Histórico y Natural"@es ;
+	skos:notation "centros-de-interpretacion-del-patrimonio-historico-y-natural" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-interpretacion-del-patrimonio-historico-y-natural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-documentacion-e-investigacion> a skos:Concept ;
+	skos:prefLabel "Centros de Documentación e Investigación"@es ;
+	skos:notation "centros-de-documentacion-e-investigacion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-patrimonio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-documentacion-e-investigacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> a skos:Concept ;
+	skos:prefLabel "Centros de Artes escénicas, audiovisuales y plásticas"@es ;
+	skos:notation "centros-de-artes-escenicas,-audiovisuales-y-plasticas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/teatros> a skos:Concept ;
+	skos:prefLabel "Teatros"@es ;
+	skos:notation "teatros" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/teatros> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cines-y-multicines> a skos:Concept ;
+	skos:prefLabel "Cines y Multicines"@es ;
+	skos:notation "cines-y-multicines" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cines-y-multicines> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/auditorios-y-recintos-escenicos> a skos:Concept ;
+	skos:prefLabel "Auditorios y Recintos escénicos"@es ;
+	skos:notation "auditorios-y-recintos-escenicos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/auditorios-y-recintos-escenicos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salones-de-actos> a skos:Concept ;
+	skos:prefLabel "Salones de Actos"@es ;
+	skos:notation "salones-de-actos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salones-de-actos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/galerias-de-arte> a skos:Concept ;
+	skos:prefLabel "Galerías de Arte"@es ;
+	skos:notation "galerias-de-arte" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/galerias-de-arte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-exposiciones> a skos:Concept ;
+	skos:prefLabel "Salas de exposiciones"@es ;
+	skos:notation "salas-de-exposiciones" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-exposiciones> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-usos-multiples> a skos:Concept ;
+	skos:prefLabel "Salas de Usos Múltiples"@es ;
+	skos:notation "salas-de-usos-multiples" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-artes-escenicas,-audiovisuales-y-plasticas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-usos-multiples> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> a skos:Concept ;
+	skos:prefLabel "Centros de Desarrollo Comunitario"@es ;
+	skos:notation "centros-de-desarrollo-comunitario" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casas-de-cultura> a skos:Concept ;
+	skos:prefLabel "Casas de Cultura"@es ;
+	skos:notation "casas-de-cultura" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casas-de-cultura> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-civicos> a skos:Concept ;
+	skos:prefLabel "Centros Cívicos"@es ;
+	skos:notation "centros-civicos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-civicos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-culturales-polivalentes> a skos:Concept ;
+	skos:prefLabel "Centros Culturales Polivalentes"@es ;
+	skos:notation "centros-culturales-polivalentes" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-desarrollo-comunitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-culturales-polivalentes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> a skos:Concept ;
+	skos:prefLabel "Centros de Formación y Producción Cultural"@es ;
+	skos:notation "centros-de-formacion-y-produccion-cultural" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuelas-artisticas> a skos:Concept ;
+	skos:prefLabel "Escuelas artísticas"@es ;
+	skos:notation "escuelas-artisticas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/escuelas-artisticas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-arte> a skos:Concept ;
+	skos:prefLabel "Centros de Arte"@es ;
+	skos:notation "centros-de-arte" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-formacion-y-produccion-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-arte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> a skos:Concept ;
+	skos:prefLabel "Espacios Aptos para uso cultural"@es ;
+	skos:notation "espacios-aptos-para-uso-cultural" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/otros-espacios-culturales> a skos:Concept ;
+	skos:prefLabel "Otros espacios culturales"@es ;
+	skos:notation "otros-espacios-culturales" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/otros-espacios-culturales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-alternativos> a skos:Concept ;
+	skos:prefLabel "Espacios Alternativos"@es ;
+	skos:notation "espacios-alternativos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-alternativos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/recintos-culturales-en-espacios-urbanos-abiertos> a skos:Concept ;
+	skos:prefLabel "Recintos Culturales en espacios urbanos abiertos"@es ;
+	skos:notation "recintos-culturales-en-espacios-urbanos-abiertos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-aptos-para-uso-cultural> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/recintos-culturales-en-espacios-urbanos-abiertos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> a skos:Concept ;
+	skos:prefLabel "Equipamiento Deportivo"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-deportivo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> a skos:Concept ;
+	skos:prefLabel "Espacios deportivos convencionales"@es ;
+	skos:notation "espacios-deportivos-convencionales" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-polideportivos> a skos:Concept ;
+	skos:prefLabel "Campos Polideportivos"@es ;
+	skos:notation "campos-polideportivos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-polideportivos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-futbol> a skos:Concept ;
+	skos:prefLabel "Campo de Fútbol"@es ;
+	skos:notation "campo-de-futbol" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-futbol> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-futbol-7> a skos:Concept ;
+	skos:prefLabel "Campo de Fútbol 7"@es ;
+	skos:notation "campo-de-futbol-7" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-futbol-7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-rugby> a skos:Concept ;
+	skos:prefLabel "Campo de Rugby"@es ;
+	skos:notation "campo-de-rugby" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-rugby> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-hockey-hierba> a skos:Concept ;
+	skos:prefLabel "Campo de Hockey hierba"@es ;
+	skos:notation "campo-de-hockey-hierba" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-hockey-hierba> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-beisbol> a skos:Concept ;
+	skos:prefLabel "Campo de Béisbol"@es ;
+	skos:notation "campo-de-beisbol" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-beisbol> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zonas-de-lanzamiento-de-atletismo> a skos:Concept ;
+	skos:prefLabel "Zonas de lanzamiento de atletismo"@es ;
+	skos:notation "zonas-de-lanzamiento-de-atletismo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zonas-de-lanzamiento-de-atletismo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-de-atletismo-(200m,-300m-o-400m)> a skos:Concept ;
+	skos:prefLabel "Pistas de atletismo (200m, 300m o 400m)"@es ;
+	skos:notation "pistas-de-atletismo-(200m,-300m-o-400m)" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-de-atletismo-(200m,-300m-o-400m)> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rectas-de-saltos-atleticos> a skos:Concept ;
+	skos:prefLabel "Rectas de Saltos atléticos"@es ;
+	skos:notation "rectas-de-saltos-atleticos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rectas-de-saltos-atleticos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/velodromos> a skos:Concept ;
+	skos:prefLabel "Velódromos"@es ;
+	skos:notation "velodromos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/velodromos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/patinodromos> a skos:Concept ;
+	skos:prefLabel "Patinódromos"@es ;
+	skos:notation "patinodromos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/patinodromos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-polideportivas> a skos:Concept ;
+	skos:prefLabel "Pistas Polideportivas"@es ;
+	skos:notation "pistas-polideportivas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-polideportivas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-baloncesto> a skos:Concept ;
+	skos:prefLabel "Pista de Baloncesto"@es ;
+	skos:notation "pista-de-baloncesto" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-baloncesto> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-voleibol> a skos:Concept ;
+	skos:prefLabel "Pista de Voleibol"@es ;
+	skos:notation "pista-de-voleibol" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-voleibol> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-voley-playa> a skos:Concept ;
+	skos:prefLabel "Pista de Voley Playa"@es ;
+	skos:notation "pista-de-voley-playa" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-voley-playa> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-tenis> a skos:Concept ;
+	skos:prefLabel "Pista de Tenis"@es ;
+	skos:notation "pista-de-tenis" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-tenis> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-fronton> a skos:Concept ;
+	skos:prefLabel "Pista de Frontón"@es ;
+	skos:notation "pista-de-fronton" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-fronton> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-squash> a skos:Concept ;
+	skos:prefLabel "Pista de Squash"@es ;
+	skos:notation "pista-de-squash" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-squash> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-padel> a skos:Concept ;
+	skos:prefLabel "Pista de Padel"@es ;
+	skos:notation "pista-de-padel" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-padel> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-badminton> a skos:Concept ;
+	skos:prefLabel "Pista de Bádminton"@es ;
+	skos:notation "pista-de-badminton" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-badminton> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-patinaje-sobre-ruedas> a skos:Concept ;
+	skos:prefLabel "Pista de Patinaje sobre ruedas"@es ;
+	skos:notation "pista-de-patinaje-sobre-ruedas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-patinaje-sobre-ruedas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-patinaje-sobre-hielo> a skos:Concept ;
+	skos:prefLabel "Pista de Patinaje sobre hielo"@es ;
+	skos:notation "pista-de-patinaje-sobre-hielo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-patinaje-sobre-hielo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-hockey-sobre-hielo> a skos:Concept ;
+	skos:prefLabel "Pista de Hockey sobre hielo"@es ;
+	skos:notation "pista-de-hockey-sobre-hielo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pista-de-hockey-sobre-hielo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-artes-marciales> a skos:Concept ;
+	skos:prefLabel "Sala de Artes Marciales"@es ;
+	skos:notation "sala-de-artes-marciales" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-artes-marciales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-esgrima> a skos:Concept ;
+	skos:prefLabel "Sala de Esgrima"@es ;
+	skos:notation "sala-de-esgrima" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-esgrima> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-gimnasia> a skos:Concept ;
+	skos:prefLabel "Sala de Gimnasia"@es ;
+	skos:notation "sala-de-gimnasia" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-gimnasia> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-halterofilia> a skos:Concept ;
+	skos:prefLabel "Sala de Halterofilia"@es ;
+	skos:notation "sala-de-halterofilia" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-halterofilia> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-natacion-(25m,-33m,-50m)> a skos:Concept ;
+	skos:prefLabel "Piscinas de natación (25m, 33m, 50m)"@es ;
+	skos:notation "piscinas-de-natacion-(25m,-33m,-50m)" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-natacion-(25m,-33m,-50m)> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-saltos> a skos:Concept ;
+	skos:prefLabel "Piscinas de saltos"@es ;
+	skos:notation "piscinas-de-saltos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-saltos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-waterpolo> a skos:Concept ;
+	skos:prefLabel "Piscinas de waterpolo"@es ;
+	skos:notation "piscinas-de-waterpolo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-convencionales> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/piscinas-de-waterpolo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> a skos:Concept ;
+	skos:prefLabel "Espacios deportivos singulares"@es ;
+	skos:notation "espacios-deportivos-singulares" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-de-golf-o-minigolf-(9-hoyos,-18-hoyos)> a skos:Concept ;
+	skos:prefLabel "Campos de golf o minigolf (9 hoyos, 18 hoyos)"@es ;
+	skos:notation "campos-de-golf-o-minigolf-(9-hoyos,-18-hoyos)" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-de-golf-o-minigolf-(9-hoyos,-18-hoyos)> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-con-arco> a skos:Concept ;
+	skos:prefLabel "Campo de tiro con arco"@es ;
+	skos:notation "campo-de-tiro-con-arco" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-con-arco> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-de-precision> a skos:Concept ;
+	skos:prefLabel "Campo de tiro de precisión"@es ;
+	skos:notation "campo-de-tiro-de-precision" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-de-precision> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-al-plato> a skos:Concept ;
+	skos:prefLabel "Campo de tiro al plato"@es ;
+	skos:notation "campo-de-tiro-al-plato" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campo-de-tiro-al-plato> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-para-remo> a skos:Concept ;
+	skos:prefLabel "Canal de regatas para remo"@es ;
+	skos:notation "canal-de-regatas-para-remo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-para-remo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-de-piraguismo-en-aguas-tranquilas> a skos:Concept ;
+	skos:prefLabel "Canal de regatas de piragüismo en aguas tranquilas"@es ;
+	skos:notation "canal-de-regatas-de-piraguismo-en-aguas-tranquilas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-de-piraguismo-en-aguas-tranquilas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-de-piraguismo-en-eslalon> a skos:Concept ;
+	skos:prefLabel "Canal de regatas de piragüismo en eslalon"@es ;
+	skos:notation "canal-de-regatas-de-piraguismo-en-eslalon" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/canal-de-regatas-de-piraguismo-en-eslalon> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-cerrado-de-bicicleta> a skos:Concept ;
+	skos:prefLabel "Circuito cerrado de bicicleta"@es ;
+	skos:notation "circuito-cerrado-de-bicicleta" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-cerrado-de-bicicleta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/carril-bici> a skos:Concept ;
+	skos:prefLabel "Carril bici"@es ;
+	skos:notation "carril-bici" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/carril-bici> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cicuitos-de-carrera-a-pie> a skos:Concept ;
+	skos:prefLabel "Cicuitos de carrera a pie"@es ;
+	skos:notation "cicuitos-de-carrera-a-pie" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cicuitos-de-carrera-a-pie> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-velocidad-(para-motor)> a skos:Concept ;
+	skos:prefLabel "Circuito de velocidad (para motor)"@es ;
+	skos:notation "circuito-de-velocidad-(para-motor)" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-velocidad-(para-motor)> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-motocross> a skos:Concept ;
+	skos:prefLabel "Circuito de motocross"@es ;
+	skos:notation "circuito-de-motocross" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-motocross> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-kart> a skos:Concept ;
+	skos:prefLabel "Circuito de Kart"@es ;
+	skos:notation "circuito-de-kart" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circuito-de-kart> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-de-hipica-para-doma> a skos:Concept ;
+	skos:prefLabel "Espacios de hípica para doma"@es ;
+	skos:notation "espacios-de-hipica-para-doma" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-de-hipica-para-doma> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-de-hipica-para-saltos> a skos:Concept ;
+	skos:prefLabel "Espacios de hípica para saltos"@es ;
+	skos:notation "espacios-de-hipica-para-saltos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-de-hipica-para-saltos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hipodromos> a skos:Concept ;
+	skos:prefLabel "Hipódromos"@es ;
+	skos:notation "hipodromos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hipodromos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-de-polo> a skos:Concept ;
+	skos:prefLabel "Campos de polo"@es ;
+	skos:notation "campos-de-polo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/campos-de-polo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-de-fondo> a skos:Concept ;
+	skos:prefLabel "Estación de esquí de fondo"@es ;
+	skos:notation "estacion-de-esqui-de-fondo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-de-fondo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpini> a skos:Concept ;
+	skos:prefLabel "Estación de esquí alpini"@es ;
+	skos:notation "estacion-de-esqui-alpini" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpini> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-snowboard> a skos:Concept ;
+	skos:prefLabel "Estación de snowboard"@es ;
+	skos:notation "estacion-de-snowboard" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-snowboard> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rocodromos> a skos:Concept ;
+	skos:prefLabel "Rocódromos"@es ;
+	skos:notation "rocodromos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rocodromos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bolera> a skos:Concept ;
+	skos:prefLabel "Bolera"@es ;
+	skos:notation "bolera" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bolera> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-billares> a skos:Concept ;
+	skos:prefLabel "Sala de billares"@es ;
+	skos:notation "sala-de-billares" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-billares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-de-petanca> a skos:Concept ;
+	skos:prefLabel "Pistas de petanca"@es ;
+	skos:notation "pistas-de-petanca" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/pistas-de-petanca> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> a skos:Concept ;
+	skos:prefLabel "Áreas de activiades deportivas"@es ;
+	skos:notation "areas-de-activiades-deportivas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/embalses,-lagos-o-bahias-para-actividades-como-remo-o-piraguismo> a skos:Concept ;
+	skos:prefLabel "Embalses, lagos o bahías para actividades como remo o piragüismo"@es ;
+	skos:notation "embalses,-lagos-o-bahias-para-actividades-como-remo-o-piraguismo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/embalses,-lagos-o-bahias-para-actividades-como-remo-o-piraguismo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-deportivo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rutas-ecuestres> a skos:Concept ;
+	skos:prefLabel "Rutas ecuestres"@es ;
+	skos:notation "rutas-ecuestres" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/rutas-ecuestres> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zona-de-senderos-marcados> a skos:Concept ;
+	skos:prefLabel "Zona de senderos marcados"@es ;
+	skos:notation "zona-de-senderos-marcados" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/areas-de-activiades-deportivas> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zona-de-senderos-marcados> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-sanitario> a skos:Concept ;
+	skos:prefLabel "Equipamiento Sanitario"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamiento-sanitario" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> a skos:Concept ;
+	skos:prefLabel "Centros de Atención y Prevención"@es ;
+	skos:notation "centros-de-atencion-y-prevencion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-sanitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-general> a skos:Concept ;
+	skos:prefLabel "Hospital General"@es ;
+	skos:notation "hospital-general" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-general> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamiento-sanitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-quirurgico> a skos:Concept ;
+	skos:prefLabel "Hospital Quirúrgico"@es ;
+	skos:notation "hospital-quirurgico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-quirurgico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-maternal> a skos:Concept ;
+	skos:prefLabel "Hospital Maternal"@es ;
+	skos:notation "hospital-maternal" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-maternal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-infantil> a skos:Concept ;
+	skos:prefLabel "Hospital Infantil"@es ;
+	skos:notation "hospital-infantil" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-infantil> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-materno-infantil> a skos:Concept ;
+	skos:prefLabel "Hospital Materno-Infantil"@es ;
+	skos:notation "hospital-materno-infantil" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-materno-infantil> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-psiquiatrico> a skos:Concept ;
+	skos:prefLabel "Hospital Psiquiátrico"@es ;
+	skos:notation "hospital-psiquiatrico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-psiquiatrico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-oncologico> a skos:Concept ;
+	skos:prefLabel "Hospital Oncológico"@es ;
+	skos:notation "hospital-oncologico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-oncologico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-oftalmico> a skos:Concept ;
+	skos:prefLabel "Hospital Oftálmico"@es ;
+	skos:notation "hospital-oftalmico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-oftalmico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-traumatologico-o-rehabilitacion> a skos:Concept ;
+	skos:prefLabel "Hospital Traumatológico o Rehabilitación"@es ;
+	skos:notation "hospital-traumatologico-o-rehabilitacion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-traumatologico-o-rehabilitacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-de-geriatria-y/o-larga-estancia> a skos:Concept ;
+	skos:prefLabel "Hospital de Geriatría y/o Larga Estancia"@es ;
+	skos:notation "hospital-de-geriatria-y/o-larga-estancia" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-de-geriatria-y/o-larga-estancia> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-dermatologico> a skos:Concept ;
+	skos:prefLabel "Hospital dermatológico"@es ;
+	skos:notation "hospital-dermatologico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hospital-dermatologico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-vacunacion> a skos:Concept ;
+	skos:prefLabel "Centros de Vacunación"@es ;
+	skos:notation "centros-de-vacunacion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-vacunacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-atencion-primaria> a skos:Concept ;
+	skos:prefLabel "Centro de Atención Primaria"@es ;
+	skos:notation "centro-de-atencion-primaria" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-atencion-primaria> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-atencion-urgente-extrahospitalaria> a skos:Concept ;
+	skos:prefLabel "Centro de Atención Urgente Extrahospitalaria"@es ;
+	skos:notation "centro-de-atencion-urgente-extrahospitalaria" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-atencion-urgente-extrahospitalaria> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/proveedores-de-asistencia-sanitario-sin-intermediario> a skos:Concept ;
+	skos:prefLabel "Proveedores de asistencia Sanitario sin intermediario"@es ;
+	skos:notation "proveedores-de-asistencia-sanitario-sin-intermediario" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/proveedores-de-asistencia-sanitario-sin-intermediario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/consultas-medicas> a skos:Concept ;
+	skos:prefLabel "Consultas médicas"@es ;
+	skos:notation "consultas-medicas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/consultas-medicas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-salud> a skos:Concept ;
+	skos:prefLabel "Centros de Salud"@es ;
+	skos:notation "centros-de-salud" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-salud> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-polivalentes> a skos:Concept ;
+	skos:prefLabel "Centros polivalentes"@es ;
+	skos:notation "centros-polivalentes" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-polivalentes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-especializados> a skos:Concept ;
+	skos:prefLabel "Centros especializados"@es ;
+	skos:notation "centros-especializados" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-especializados> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/clinicas-dentale> a skos:Concept ;
+	skos:prefLabel "Clínicas dentale"@es ;
+	skos:notation "clinicas-dentale" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/clinicas-dentale> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-reproduccion-asistida> a skos:Concept ;
+	skos:prefLabel "Centros de Reproducción asistida"@es ;
+	skos:notation "centros-de-reproduccion-asistida" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-reproduccion-asistida> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-interrupcion-voluntaria-del-embarazo> a skos:Concept ;
+	skos:prefLabel "Centros de interrupción voluntaria del embarazo"@es ;
+	skos:notation "centros-de-interrupcion-voluntaria-del-embarazo" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-interrupcion-voluntaria-del-embarazo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-dialisis> a skos:Concept ;
+	skos:prefLabel "Centros de diálisis"@es ;
+	skos:notation "centros-de-dialisis" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-dialisis> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-diagnostico> a skos:Concept ;
+	skos:prefLabel "Centros de Diagnóstico"@es ;
+	skos:notation "centros-de-diagnostico" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-diagnostico> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-moviles-de-asistencia-sanitaria> a skos:Concept ;
+	skos:prefLabel "Centros móviles de asistencia sanitaria"@es ;
+	skos:notation "centros-moviles-de-asistencia-sanitaria" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-moviles-de-asistencia-sanitaria> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-transfusion> a skos:Concept ;
+	skos:prefLabel "Centros de transfusión"@es ;
+	skos:notation "centros-de-transfusion" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-transfusion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos-de-tejidos> a skos:Concept ;
+	skos:prefLabel "Bancos de tejidos"@es ;
+	skos:notation "bancos-de-tejidos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/bancos-de-tejidos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-salud-mental> a skos:Concept ;
+	skos:prefLabel "Centros de Salud Mental"@es ;
+	skos:notation "centros-de-salud-mental" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-atencion-y-prevencion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centros-de-salud-mental> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> a skos:Concept ;
+	skos:prefLabel "Instalaciones de uso administrativo"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "instalaciones-de-uso-administrativo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-consorcial> a skos:Concept ;
+	skos:prefLabel "Casa Consorcial"@es ;
+	skos:notation "casa-consorcial" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-consorcial> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-seminarios> a skos:Concept ;
+	skos:prefLabel "Sala de Seminarios"@es ;
+	skos:notation "sala-de-seminarios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-seminarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-juntas> a skos:Concept ;
+	skos:prefLabel "Salas de Juntas"@es ;
+	skos:notation "salas-de-juntas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-juntas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-oficinas> a skos:Concept ;
+	skos:prefLabel "Salas de Oficinas"@es ;
+	skos:notation "salas-de-oficinas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/salas-de-oficinas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-talleres> a skos:Concept ;
+	skos:prefLabel "Sala de Talleres"@es ;
+	skos:notation "sala-de-talleres" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/sala-de-talleres> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/almacenes> a skos:Concept ;
+	skos:prefLabel "Almacenes"@es ;
+	skos:notation "almacenes" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-uso-administrativo> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/almacenes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> a skos:Concept ;
+	skos:prefLabel "Instalaciones de usos funerarios"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "instalaciones-de-usos-funerarios" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cementerios> a skos:Concept ;
+	skos:prefLabel "Cementerios"@es ;
+	skos:notation "cementerios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/cementerios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hornos-crematorios> a skos:Concept ;
+	skos:prefLabel "Hornos Crematorios"@es ;
+	skos:notation "hornos-crematorios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/hornos-crematorios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/capillas> a skos:Concept ;
+	skos:prefLabel "Capillas"@es ;
+	skos:notation "capillas" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/capillas> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/velatorios> a skos:Concept ;
+	skos:prefLabel "Velatorios"@es ;
+	skos:notation "velatorios" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/instalaciones-de-usos-funerarios> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/velatorios> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> a skos:Concept ;
+	skos:prefLabel "Equipamientos de Asistencia Social"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "equipamientos-de-asistencia-social" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-hogar-para-ancianos> a skos:Concept ;
+	skos:prefLabel "Casa Hogar para Ancianos"@es ;
+	skos:notation "casa-hogar-para-ancianos" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-hogar-para-ancianos> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-horgar-para-menores> a skos:Concept ;
+	skos:prefLabel "Casa Horgar para Menores"@es ;
+	skos:notation "casa-horgar-para-menores" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-horgar-para-menores> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-social> a skos:Concept ;
+	skos:prefLabel "Casa Social"@es ;
+	skos:notation "casa-social" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/casa-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/orfanato> a skos:Concept ;
+	skos:prefLabel "Orfanato"@es ;
+	skos:notation "orfanato" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/orfanato> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-desarrollo-comunitario> a skos:Concept ;
+	skos:prefLabel "Centro de Desarrollo Comunitario"@es ;
+	skos:notation "centro-de-desarrollo-comunitario" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-desarrollo-comunitario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-integracion-juvenil> a skos:Concept ;
+	skos:prefLabel "Centro de Integración Juvenil"@es ;
+	skos:notation "centro-de-integracion-juvenil" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-integracion-juvenil> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/guarderia> a skos:Concept ;
+	skos:prefLabel "Guardería"@es ;
+	skos:notation "guarderia" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/guarderia> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-bienestar-y-desarrollo-infantil> a skos:Concept ;
+	skos:prefLabel "Centro de Bienestar y Desarrollo Infantil"@es ;
+	skos:notation "centro-de-bienestar-y-desarrollo-infantil" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/equipamientos-de-asistencia-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/centro-de-bienestar-y-desarrollo-infantil> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> a skos:Concept ;
+	skos:prefLabel "Circulación y Transporte"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:notation "circulacion-y-transporte" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parada-de-bus> a skos:Concept ;
+	skos:prefLabel "Parada de bus"@es ;
+	skos:notation "parada-de-bus" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/parada-de-bus> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zona-taxi> a skos:Concept ;
+	skos:prefLabel "Zona taxi"@es ;
+	skos:notation "zona-taxi" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/zona-taxi> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/carril-bus/taxi> a skos:Concept ;
+	skos:prefLabel "Carril bus/taxi"@es ;
+	skos:notation "carril-bus/taxi" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/carril-bus/taxi> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-metro> a skos:Concept ;
+	skos:prefLabel "Estación de metro"@es ;
+	skos:notation "estacion-de-metro" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-metro> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-cercanias> a skos:Concept ;
+	skos:prefLabel "Estación de cercanías"@es ;
+	skos:notation "estacion-de-cercanias" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-cercanias> .
