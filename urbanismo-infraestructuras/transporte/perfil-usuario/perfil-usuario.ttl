@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/00> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/00> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/00> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Ninguno" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/01> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/01> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/01> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Normal" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/02> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/02> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/02> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "3ª Edad" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/03> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/03> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/03> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Joven" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/04> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/04> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/04> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Infantil" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/05> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/05> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/05> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Universidad de Alcalá" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/06> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/06> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/06> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Tarjeta Azul" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/07> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/07> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/07> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Pensionista Valdemoro" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/08> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/08> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/08> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Disc. 33 Valdemoro" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/11> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/11> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/11> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Pinto 3ª Edad" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0F> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0F> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0F> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Programa Activación y Empleo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/09> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/09> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/09> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Anónimo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0A> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0A> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0A> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "BUS-BUS" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0B> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0B> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0B> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Turístico normal" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0C> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0C> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0C> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Menor tutelado IMMF" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0D> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0D> ;
+	dc:title "Tipos de perfiles de usuarios del sistema de transportes de la Comunidad de Madrid" ;
+	dc:date "2018-06-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario/0D> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario> ;
+	skos:prefLabel "Turístico infantil" .
