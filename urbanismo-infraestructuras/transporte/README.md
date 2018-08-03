@@ -1,5 +1,5 @@
-En esta carpeta se guarda informaci�n sobre tesauros SKOS relacionados con el vocabulario de tranporte.
+En esta carpeta se guarda información sobre tesauros SKOS relacionados con el vocabulario de tranporte.
 
-Concretamente, se guarda informaci�n sobre el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment que permite definir diferentes tipos de personas con movilidad reducida y el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad que permite definir perfiles de personas con discapacidad.
+Concretamente, se guarda información sobre el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment que permite definir diferentes tipos de personas con movilidad reducida y el SKOS Concept Scheme http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad que permite definir perfiles de personas con discapacidad.
 
 Adicionalmente, merece la pena mencionar que se emplean varios SKOS Concept Scheme que han sido generados para el Consorcio de Transportes de Madrid. Estos SKOS permiten definir los tipos de perfiles de usuario del sistema de transporte, los tipos de títulos de la tarjeta de tranposte, los operadores y los tipos de validaciones que se realizan en las tarjetas. Estos SKOS están disponibles en el repositorio https://github.com/oeg-upm/ssn-resource-center/listas-codigos-skos.
