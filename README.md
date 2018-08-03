@@ -19,9 +19,6 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 ## urbanismo-infraestructuras
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/tipo-via
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-usuario
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/tipo-validacion
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/titulo
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia
