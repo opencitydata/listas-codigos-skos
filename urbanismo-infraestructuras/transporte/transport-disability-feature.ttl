@@ -1,0 +1,251 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> dc:creator "Edna Ruckhaus (OEG - Universidad Polit�cnica de Madrid)" ;
+	dc:title "Transport Accessibility Feature" ;
+	dc:description "Accessibility features in different elements in public transportation systems for people with disabilities" ;
+	dc:date "2018-09-18"^^xsd:date .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ParkingDisabled> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> a skos:ConceptScheme .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ParkingDisabled> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ParkingDisabled> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PersonalAssistance> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PersonalAssistance> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BathroomPhysicalDisabled> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BathroomPhysicalDisabled> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BathroomVisualDisabled> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BathroomVisualDisabled> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TicketingRemoteControl> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TicketingRemoteControl> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileSound> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileSound> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileWheelchair> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileWheelchair> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileLight> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/TurnstileLight> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementTicketing> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementTicketing> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/CounterWheelchair> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StationFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/CounterWheelchair> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/AlternativeRamp> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/AlternativeRamp> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBoard> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBoard> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairStrips> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairStrips> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ProlongationHandrail> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/StairFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ProlongationHandrail> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ElevatorFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBoard> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ElevatorFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BrailleButtons> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ElevatorFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BrailleButtons> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/RaisedButtons> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ElevatorFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/RaisedButtons> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/InformationHours> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/InformationHours> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/AutomaticDoor> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/AutomaticDoor> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/DoorForWheelchair> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/DoorForWheelchair> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SteepStreet> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SteepStreet> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/CobbledSidewalk> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/CobbledSidewalk> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/NarrowSidewalk> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ExteriorAccessFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/NarrowSidewalk> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Seats> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Seats> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/IsquialSupports> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/IsquialSupports> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBorder> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBorder> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementFirstCar> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementFirstCar> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpaceWheelChair> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PlatformFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpaceWheelChair> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BusStopFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Seats> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BusStopFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BusStopFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/IsquialSupports> , <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpecialPavementBorder> , <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SpaceWheelChair> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Braille> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Braille> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/EmbossedLetters> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/EmbossedLetters> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SoundButton> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SoundButton> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/EasyToRead> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/EasyToRead> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PictorialInfo> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BillboardFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/PictorialInfo> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BigLetters> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/RegularSignFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BigLetters> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/RegularSignFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ContrastWBackground> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/RegularSignFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ContrastWBackground> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/LuminousSignFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/BigLetters> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/LuminousSignFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/LuminousSignFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/ContrastWBackground> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/IntenseLightSignal> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/LuminousSignFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/IntenseLightSignal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Clear> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SoundNoticeFeature> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Clear> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SoundNoticeFeature> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Frequent> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/SoundNoticeFeature> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-feature/Frequent> .

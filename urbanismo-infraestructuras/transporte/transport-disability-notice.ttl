@@ -1,0 +1,79 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/LuminousContent> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/MinutesBeforeTrainLeaves> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/MinutesBeforeTrainLeaves> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/LuminousContent> ;
+	dc:creator "Edna Ruckhaus (OEG - Universidad Politecnica Madird)" ;
+	dc:title "Transport Disability Notice" ;
+	dc:description "Content of different types of notices in public transportation" ;
+	dc:date "21/09/2018"^^xsd:date .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/LuminousContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RouteStops> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RouteStops> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SoundContent> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RemainingMinutesToNext> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RemainingMinutesToNext> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SoundContent> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignContent> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/DirectionToPlatform> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/DirectionToPlatform> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignContent> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignIsTheLastStop> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignIsTheLastStop> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RouteStops> , <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RouteDirection> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/RouteDirection> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/SignContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/ExitLocation> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/ExitLocation> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/BillboardContent> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" ;
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/MapRoutes> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/MapRoutes> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/BillboardContent> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/BillboardContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/InormationTickets> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/InormationTickets> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/BillboardContent> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/Timetable> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice/Timetable> a skos:Concept ;
+	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accessibility-notice" .
