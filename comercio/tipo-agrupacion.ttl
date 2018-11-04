@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/aeropuerto> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/centro-comercial> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/estacion-metro> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/estacion-tren> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/galeria-alimentacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/intercambiador-transportes> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/mercado-municipal> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/no-comercial> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/pasaje-comercial> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/recinto-ferial> ;
+    dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-11-02"^^xsd:date ;
+    skos:prefLabel "Tipos de agrupaciones comerciales"@es ;
+    dc:title "Tesauro que recoge los tipos de agrupaciones comerciales."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/aeropuerto> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion> ;
+  skos:notation "aeropuerto" ;
+	skos:prefLabel "Aeropuerto"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/centro-comercial> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion> ;
+  skos:notation "centro-comercial" ;
+	skos:prefLabel "Centro comercial"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/estacion-metro> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "estacion-metro" ;
+  skos:prefLabel "Estación de metro"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/estacion-tren> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "estacion-tren" ;
+  skos:prefLabel "Estación de tren"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/galeria-alimentacion> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "galeria-alimentacion" ;
+  skos:prefLabel "Galería de alimentación"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/intercambiador-transportes> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "intercambiador-transportes" ;
+  skos:prefLabel "Intercambiador de transportes"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/mercado-municipal> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "mercado-municipal" ;
+  skos:prefLabel "Mercado municipal"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/no-comercial> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "no-comercial" ;
+  skos:prefLabel "No comercial"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/pasaje-comercial> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "pasaje-comercial" ;
+  skos:prefLabel "Pasaje comercial"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion/recinto-ferial> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso> ;
+  skos:notation "recinto-ferial" ;
+  skos:prefLabel "Recinto ferial"@es .
