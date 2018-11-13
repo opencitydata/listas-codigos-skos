@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/subvencion-y-entrega-dineraria-sin-contraprestacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/prestamos> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/subvencion-y-prestamo> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/garantia> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/ventaja-fiscal> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/aportacion-de-financiacion-riesgo> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/otros-instrumentos-de-ayuda> ;
+    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-11-13"^^xsd:date ;
+    dc:title "Tesauro para tipos de instrumentos de ayuda, basado en la clasificación utilizada en la base de datos nacional de subvenciones"@es ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> ;
+    prov:hadPrimarySource <http://www.infosubvenciones.es/bdnstrans/GE/es/concesiones> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/subvencion-y-entrega-dineraria-sin-contraprestacion> a skos:Concept ;
+    skos:prefLabel "SUBVENCIÓN Y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN"@es ;
+    skos:notation "subvencion-y-entrega-dineraria-sin-contraprestacion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/prestamos> a skos:Concept ;
+    skos:prefLabel "PRÉSTAMOS"@es ;
+    skos:notation "prestamos" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/subvencion-y-prestamo> a skos:Concept ;
+    skos:prefLabel "SUBVENCIÓN Y PRÉSTAMO"@es ;
+    skos:notation "subvencion-y-prestamo" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/garantia> a skos:Concept ;
+    skos:prefLabel "GARANTÍA"@es ;
+    skos:notation "garantia" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/ventaja-fiscal> a skos:Concept ;
+    skos:prefLabel "VENTAJA FISCAL"@es ;
+    skos:notation "ventaja-fiscal" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/aportacion-de-financiacion-riesgo> a skos:Concept ;
+    skos:prefLabel "APORTACIÓN DE FINANCIACIÓN RIESGO"@es ;
+    skos:notation "aportacion-de-financiacion-riesgo" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento/otros-instrumentos-de-ayuda> a skos:Concept ;
+    skos:prefLabel "OTROS INSTRUMENTOS DE AYUDA"@es ;
+    skos:notation "otros-instrumentos-de-ayuda" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento> .
