@@ -9,24 +9,42 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 
 ## comercio
 * http://vocab.linkeddata.es/datosabiertos/kos/comercio/cnae
+* http://vocab.linkeddata.es/datosabiertos/kos/comercio/periodo-funcionamiento
+* http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso
+* http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion
+* http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-estado-tramite-licencia
+* http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion
+
+## medio-ambiente
+*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion
+*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico
 
 ## sector-publico
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/estado-entidad
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/nivel-administracion
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad
+*	http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/servicio
+*	http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/servicio/tipo-agente
+*	http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/servicio/tipo-servicio
+*	http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado
 
+## transporte
+*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
+*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion
+*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo
+*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico
+
 ## urbanismo-infraestructuras
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/tipo-via
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/alumbrado-publico/tipo-lampara
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/tipo-via
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/modelo
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/accesibilidad/filas-asientos-reservados
+* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/mobility-impairment
 * http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/perfil-discapacidad
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/autobus/tipo-equipo-asistencia
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/modelo (no de-referenciable de momento, pendiente de reestructuración)
-* http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/transporte/accesibilidad/filas-asientos-reservados (no de-referenciable de momento, pendiente de reestructuración)
-
-## medio-ambiente
-* http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico
 
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
