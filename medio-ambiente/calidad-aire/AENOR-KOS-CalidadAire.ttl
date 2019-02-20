@@ -1,0 +1,53 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/suburbana> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> a skos:ConceptScheme , prov:Entity ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/suburbana> ;
+	dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+	dc:date "2014-09-25"^^xsd:date ;
+	dc:title "Clasificación de estaciones de medición de calidad del aire"@es ;
+	prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/suburbana> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> ;
+	skos:prefLabel "Suburbana" ;
+	skos:notation "suburbana" ;
+	skos:altLabel "Suburbana" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/urbana> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/urbana> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/urbana> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> ;
+	skos:prefLabel "Urbana" ;
+	skos:notation "urbana" ;
+	skos:altLabel "Urbana" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/estacion-de-fondo> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> ;
+	skos:prefLabel "estación de fondo" ;
+	skos:notation "estacion-de-fondo" ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/Urbana> ;
+	skos:altLabel "Urbana, estación de fondo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/estacion-de-trafico> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> ;
+	skos:prefLabel "estación de tráfico" ;
+	skos:notation "estacion-de-trafico" ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/Urbana> ;
+	skos:altLabel "Urbana, estación de tráfico" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/comercial-y-residencial> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion> ;
+	skos:prefLabel "comercial y residencial" ;
+	skos:notation "comercial-y-residencial" ;
+	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion/Urbana> ;
+	skos:altLabel "Urbana, comercial y residencial" .
