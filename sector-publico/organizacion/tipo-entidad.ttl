@@ -8,33 +8,85 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> a skos:ConceptScheme, prov:Entity ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AE> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AG> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AI> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AM> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AP> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AT> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AY> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/BE> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CA> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CI> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CM> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CN> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CO> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CP> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CS> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/DP> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EE> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EG> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EM> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EP> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MA> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MN> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OA> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/UN> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FN> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FR> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FS> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FU> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CO> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/ON> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MC> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MN> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MU> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OA> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OC> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OD> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OV> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/SM> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/UN> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/ZZ> ;
     dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
-    dc:date "2018-07-25"^^xsd:date ;
+    dc:date "2019-03-30"^^xsd:date ;
     dc:title "Tesauro para tipos de entidad, utilizados por el vocabulario de organismos públicos españoles"@es ;
-    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> ;
+    prov:hadPrimarySource <https://administracionelectronica.gob.es/ctt/dir3/descargas>.
+
+
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AE> a skos:Concept ;
-    skos:prefLabel "Agencia estatal"@es ;
+    skos:prefLabel "Agencia Estatal"@es ;
     skos:notation "AE" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AG> a skos:Concept ;
+    skos:prefLabel "Otras Agrupaciones"@es ;
+    skos:notation "AG" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AI> a skos:Concept ;
+    skos:prefLabel "Autoridad administrativa independiente"@es ;
+    skos:notation "AI" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AM> a skos:Concept ;
+    skos:prefLabel "Area Metropolitana"@es ;
+    skos:notation "AM" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AP> a skos:Concept ;
+    skos:prefLabel "Autoridades Portuarias y Puertos del Estado"@es ;
+    skos:notation "AP" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AT> a skos:Concept ;
+    skos:prefLabel "Agencia Estatal de Administración Tributaria"@es ;
+    skos:notation "AT" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/AY> a skos:Concept ;
     skos:prefLabel "Ayuntamiento"@es ;
     skos:notation "AY" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/BE> a skos:Concept ;
+    skos:prefLabel "Banco de España"@es ;
+    skos:notation "BE" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CA> a skos:Concept ;
@@ -43,8 +95,18 @@
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CI> a skos:Concept ;
-    skos:prefLabel "Cabildo o Consell insular"@es ;
+    skos:prefLabel "Cabildo o Consell Insular"@es ;
     skos:notation "CI" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CM> a skos:Concept ;
+    skos:prefLabel "Cámara"@es ;
+    skos:notation "CM" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CN> a skos:Concept ;
+    skos:prefLabel "Centro Nacional de Inteligencia"@es ;
+    skos:notation "CN" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CO> a skos:Concept ;
@@ -52,10 +114,31 @@
     skos:notation "CO" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CP> a skos:Concept ;
+    skos:prefLabel "Colegio Profesional"@es ;
+    skos:notation "CP" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CS> a skos:Concept ;
+    skos:prefLabel "Consorcios"@es ;
+    skos:notation "CS" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/DP> a skos:Concept ;
     skos:prefLabel "Diputación provincial o foral"@es ;
     skos:notation "DP" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EE> a skos:Concept ;
+    skos:prefLabel "Entidad Pública Empresarial"@es ;
+    skos:notation "EE" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EG> a skos:Concept ;
+    skos:prefLabel "Entidades Gestoras y SSCC de la SS"@es ;
+    skos:notation "EG" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/EM> a skos:Concept ;
     skos:prefLabel "Entidad local menor"@es ;
@@ -67,9 +150,29 @@
     skos:notation "EP" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MA> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FN> a skos:Concept ;
+    skos:prefLabel "Fundación"@es ;
+    skos:notation "FN" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FR> a skos:Concept ;
+    skos:prefLabel "Fondo de Reestructuración Ordenada Bancaria"@es ;
+    skos:notation "FR" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FS> a skos:Concept ;
+    skos:prefLabel "Fondos sin Personalidad Jurídica"@es ;
+    skos:notation "FS" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FU> a skos:Concept ;
+    skos:prefLabel "Fundación Estatal"@es ;
+    skos:notation "FU" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MC> a skos:Concept ;
     skos:prefLabel "Mancomunidad"@es ;
-    skos:notation "MA" ;
+    skos:notation "MC" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MN> a skos:Concept ;
@@ -77,9 +180,34 @@
     skos:notation "MN" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/MU> a skos:Concept ;
+    skos:prefLabel "Mutuas de Accidentes de Trabajo y Enfermedades Prof. de la SS"@es ;
+    skos:notation "MU" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OA> a skos:Concept ;
-    skos:prefLabel "Organismo autónomo"@es ;
+    skos:prefLabel "Organismo Autónomo"@es ;
     skos:notation "OA" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OC> a skos:Concept ;
+    skos:prefLabel "Organismo Autónomo Comercial"@es ;
+    skos:notation "OC" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OD> a skos:Concept ;
+    skos:prefLabel "Organismos con Dotación Diferenciada PGE"@es ;
+    skos:notation "OD" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/OV> a skos:Concept ;
+    skos:prefLabel "Organismo Autónomo Administrativo"@es ;
+    skos:notation "OV" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/SM> a skos:Concept ;
+    skos:prefLabel "Sociedades Mercantiles y Asimiladas"@es ;
+    skos:notation "SM" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/UN> a skos:Concept ;
@@ -87,17 +215,7 @@
     skos:notation "UN" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/FU> a skos:Concept ;
-    skos:prefLabel "Fundación o centro tecnológico"@es ;
-    skos:notation "FU" ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/CO> a skos:Concept ;
-    skos:prefLabel "Empresa"@es ;
-    skos:notation "CO" ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/ON> a skos:Concept ;
-    skos:prefLabel "ONG"@es ;
-    skos:notation "ON" ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad/ZZ> a skos:Concept ;
+    skos:prefLabel "Sin Clasificar"@es ;
+    skos:notation "ZZ" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/tipo-entidad> .
