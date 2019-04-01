@@ -1,0 +1,98 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/priorizada-mesa> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/priorizada-ciudadania> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/pendiente-reformulacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/aceptada-comision> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-apoyos-priorizacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/retirada-creador> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/retirada-debate> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/rechazada-oficina-participacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/rechazada-comision> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/seleccionada> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-ejecucion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/terminada> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-votacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-ratificacion> ;
+    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+    dc:date "2019-01-04"^^xsd:date ;
+    dc:title "Tesauro para estados de una propuesta realizada en el contexto de un proceso de participación"@es ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/priorizada-mesa> a skos:Concept ;
+    skos:prefLabel "Priorizada por la mesa"@es ;
+    skos:notation "priorizada-mesa" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/priorizada-ciudadania> a skos:Concept ;
+    skos:prefLabel "Priorizada por la ciudadanía"@es ;
+    skos:notation "priorizada-ciudadania" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/pendiente-reformulacion> a skos:Concept ;
+    skos:prefLabel "Pendiente de reformulación"@es ;
+    skos:notation "priorizada-ciudadania" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/aceptada-comision> a skos:Concept ;
+    skos:prefLabel "Aceptada por la comisión"@es ;
+    skos:notation "aceptada-comision" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-apoyos-priorizacion> a skos:Concept ;
+    skos:prefLabel "En apoyos y priorización"@es ;
+    skos:notation "en-apoyos-priorizacion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/retirada-creador> a skos:Concept ;
+    skos:prefLabel "Retirada por el creador"@es ;
+    skos:notation "retirada-creador" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/retirada-debate> a skos:Concept ;
+    skos:prefLabel "Retirada del debate"@es ;
+    skos:notation "retirada-debate" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/rechazada-oficina-participacion> a skos:Concept ;
+    skos:prefLabel "Rechazada por Oficina de Participación"@es ;
+    skos:notation "rechazada-oficina-participacion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/rechazada-comision> a skos:Concept ;
+    skos:prefLabel "Rechazada por la comisión"@es ;
+    skos:notation "rechazada-comision" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/seleccionada> a skos:Concept ;
+    skos:prefLabel "Seleccionada para ejecución"@es ;
+    skos:notation "seleccionada" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-ejecucion> a skos:Concept ;
+    skos:prefLabel "En ejecución"@es ;
+    skos:notation "en-ejecucion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/terminada> a skos:Concept ;
+    skos:prefLabel "Terminada"@es ;
+    skos:notation "terminada" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-votacion> a skos:Concept ;
+    skos:prefLabel "En votación"@es ;
+    skos:notation "en-votacion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta/en-ratificacion> a skos:Concept ;
+    skos:prefLabel "En ratificación"@es ;
+    skos:notation "en-ratificacion" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta> .
+
