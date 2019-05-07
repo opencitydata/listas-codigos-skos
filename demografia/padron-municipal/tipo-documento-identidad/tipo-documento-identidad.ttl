@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/1> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de documentos de identidad que puede presentar un habitante. "@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+	dc:date "2019-04-29"^^xsd:date ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/1> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/1> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> ;
+	skos:notation "DNI" ;
+	skos:prefLabel "DNI"@es ;
+	skos:definition "Documento público, personal e intransferible, que acredita la identidad y los datos personales de su titular, así como la nacionalidad española del mismo."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/2> skos:notation "pasaporte-DNIUE" ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de documentos de identidad que puede presentar un habitante."@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+	dc:date "2019-04-29"^^xsd:date .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/2> skos:prefLabel "Pasaporte, DNI UE"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/2> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/2> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> ;
+	skos:definition "Documento que acredita la identidad y la nacionalidad de una persona y que es necesario para viajar a determinados países. / Documento de identidad de ciudadano de la Unión Europea o asimilado, expedido por las autoridades de su país."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/3> skos:notation "tarjeta-residencia" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/3> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/3> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de documentos de identidad que puede presentar un habitante. "@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+	dc:date "2019-04-29"^^xsd:date .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/3> skos:prefLabel "Tarjeta de Residencia"@es ;
+	skos:definition "Documento de identificación para personas extranjeras que demuestra su situación de residente legal en España."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> dc:date "2019-04-29"^^xsd:date ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/0> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/0> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de documentos de identidad que puede presentar un habitante. "@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad/0> skos:notation "sin-documento" ;
+	skos:prefLabel "Sin documento acreditativo"@es ;
+	skos:definition "Sin documento acreditativo."@es .
