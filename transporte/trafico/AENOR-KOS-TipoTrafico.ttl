@@ -1,0 +1,54 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/bajo> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> a skos:ConceptScheme , prov:Entity ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/bajo> ;
+	dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
+	dc:date "2014-09-25"^^xsd:date ;
+	dc:title "Clasificación de niveles de tráfico"@es ;
+	prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/bajo> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> ;
+	skos:prefLabel "Bajo" ;
+	skos:notation "bajo" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/moderado> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/moderado> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/moderado> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> ;
+	skos:prefLabel "Moderado" ;
+	skos:notation "moderado" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/intenso> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/intenso> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/intenso> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> ;
+	skos:prefLabel "Intenso" ;
+	skos:notation "intenso" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/muy-ligero> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/muy-ligero> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/muy-ligero> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> ;
+	skos:prefLabel "Muy Ligero" ;
+	skos:notation "muy-ligero" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/medio> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/medio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico/medio> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico> ;
+	skos:prefLabel "Medio" ;
+	skos:notation "medio" .

@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/activo> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/cerrado> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/clausurado> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/en-obras> ;
+    dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+    dc:date "2018-11-02"^^xsd:date ;
+    skos:prefLabel "Tipos de situación de los locales comerciales"@es ;
+    dc:title "Tesauro que recoge los tipos de situación en los que se puede encontrar un local comercial."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/activo> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion> ;
+  skos:notation "activo" ;
+	skos:prefLabel "activo"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/cerrado> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion> ;
+  skos:notation "cerrado" ;
+	skos:prefLabel "cerrado"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/clausurado> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion> ;
+  skos:notation "clausurado" ;
+  skos:prefLabel "clausurado"@es .
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion/en-obras> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion> ;
+  skos:notation "en-obras" ;
+  skos:prefLabel "en obras"@es .

@@ -3,11 +3,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico> a skos:ConceptScheme;
-http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico>
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico/aglomeracion> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico/gran-aeropuerto> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico/gran-eje-ferroviario> ;

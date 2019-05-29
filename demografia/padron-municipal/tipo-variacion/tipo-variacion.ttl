@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de variaciones residenciales de los habitantes "@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	skos:prefLabel "Tipos de variación residencial"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> ;
+	skos:prefLabel "Alta"@es ;
+	skos:notation "alta" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/AOM> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/AOM> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/AOM> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> ;
+	skos:notation "OM" ;
+	skos:prefLabel "Alta por omisión"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ACR> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ACR> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ACR> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> ;
+	skos:notation "CR" ;
+	skos:prefLabel "Alta por cambio de residencia"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ANA> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ANA> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/ANA> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/A> ;
+	skos:notation "NA" ;
+	skos:prefLabel "Alta por nacimiento"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de variaciones residenciales de los habitantes "@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	skos:prefLabel "Tipos de variación residencial"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> ;
+	skos:prefLabel "Baja"@es ;
+	skos:notation "baja" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDE> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDE> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDE> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	skos:notation "DE" ;
+	skos:prefLabel "Baja por defunción"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BII> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BII> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BII> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	skos:notation "II" ;
+	skos:prefLabel "Baja por inclusión indebida"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDU> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDU> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BDU> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	skos:notation "DU" ;
+	skos:prefLabel "Baja por duplicado"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BCR> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BCR> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BCR> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	skos:notation "CR" ;
+	skos:prefLabel "Baja por cambio de residencia"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BBC> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BBC> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/BBC> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/B> ;
+	skos:notation "BC" ;
+	skos:prefLabel "Baja por caducidad"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> dc:title "Tesauro que recoge los tipos de variaciones residenciales de los habitantes "@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	skos:prefLabel "Tipos de variación residencial"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> ;
+	skos:prefLabel "Modificación"@es ;
+	skos:notation "modificacion" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MPE> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MPE> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MPE> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	skos:notation "PE" ;
+	skos:prefLabel "Modificación de datos personales"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRD> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRD> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRD> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	skos:notation "RD" ;
+	skos:prefLabel "Rectificación de datos por modificadores territoriales sin intervención del habitante"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCD> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCD> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCD> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	skos:notation "CD" ;
+	skos:prefLabel "Modificación cambio de domicilio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRN> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRN> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MRN> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	skos:notation "RN" ;
+	skos:prefLabel "Modificación por renovación de la inscripción padronal"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCO> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCO> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/MCO> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion/M> ;
+	skos:notation "CO" ;
+	skos:prefLabel "Modificación por confirmación de residencia"@es .

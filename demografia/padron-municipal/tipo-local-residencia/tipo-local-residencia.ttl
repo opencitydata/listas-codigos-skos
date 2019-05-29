@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia> a skos:ConceptScheme ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia/1> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia/2> ;
+    dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)" ;
+    dc:date "2019-04-29"^^xsd:date ;
+    dc:title "Tesauro que recoge los tipos de locales de residencia"@es ;
+    prov:hadPrimarySource <https://idapadron.ine.es/repositorio/DisReg/disregok.PDF> .
+
+<skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia/1> a skos:Concept ;
+    skos:prefLabel "Vivienda o alojamiento"@es ;
+    skos:notation "vivienda-alojamiento" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia> ;
+    skos:definition "Vivienda  destinada  a  ser  habitada  por  una  o  varias  personas,  general  pero  no necesariamente unidas por parentesco, y que no constituyen un colectivo. También se consideran viviendas  familiares  los  alojamientos que son aquellas viviendas que presentan la particularidad de ser móviles, semipermanentes o improvisadas, o bien que no han sido concebidas en un principio con fines residenciales pero, sin embargo, constituyen la residencia de una o varias personas."@es .
+
+<skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia/2> a skos:Concept ;
+    skos:prefLabel "Establecimiento colectivo"@es ;
+    skos:notation "establecimiento-colectivo" ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia> ;
+    skos:definition "Vivienda destinada a ser habitada por un colectivo, es decir, por un grupo depersonas sometidas a una autoridad o régimen común no basados en lazos familiares ni de convivencia."@es .

@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/00> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/00> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/00> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "No aplicable por ser menor de 16 años"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/10> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/10> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/10> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "No sabe leer ni escribir"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/11> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/10> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/11> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/11> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/10> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "No sabe leer ni escribir"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Inferior a grado escolar"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/21> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/21> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Sin estudios"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/22> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/20> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/22> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/22> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Enseñanza primaria incompleta"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> dc:date "2019-04-29"^^xsd:date ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Grado escolar o equivalente"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/31> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/31> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/31> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Bachiller elemental, graduado escolar, EGB completa, primaria completa, ESO, formación profesional básica"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/32> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/32> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/32> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/30> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Formación profesional primer grado/grado medio, oficialía industrial"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:date "2019-04-29"^^xsd:date ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Bachiller, formación profesional de segundo grado o títulos equivalentes o superiores"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/41> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/41> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/41> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Formación profesional segundo grado/grado superior, maestría industrial"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/42> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/42> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/42> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Bachiller superior/LOGSE, BUP."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/43> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/43> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/43> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Otras titulaciones medias"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/44> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/44> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/44> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Diplomado en escuelas universitarias"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/45> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/45> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/45> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Arquitecto o Ingeniero técnico"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/46> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/46> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Grado/Licenciado universitario, arquitecto o ingeniero superior"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/47> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/47> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/47> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Estudios superiores no universitarios"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/48> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/48> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/48> skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/40> ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> ;
+	skos:prefLabel "Doctorado, postgrado, especialización licenciado, máster universitario"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> dc:date "2019-04-29"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/99> a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> a skos:ConceptScheme ;
+	dc:title "Tesauro que recoge los tipos de niveles de estudio que puede tener un habitante."@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/99> ;
+	skos:prefLabel "Tipos de niveles de estudio"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio/99> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio> .
