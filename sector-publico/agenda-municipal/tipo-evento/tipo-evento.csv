@@ -1,0 +1,35 @@
+label tipo de evento ;label Subtipo primer nivel;label Subtipo segundo nivel
+Reunión Órganos Colegiados;Junta de Gobierno;
+;Pleno;
+;Comisión Plenaria;Comisión Plenaria Ordinaria Permanente 
+;;Comisión Plenaria Ordinaria no Permanente
+;;Comisión Plenaria Especial
+;Consejo de Ciudad;
+;Junta de Distrito;
+;Junta de Portavoces;
+;Consejo Sectorial;
+;Consejo de Administración Empresas Municipales;
+;Otro Consejo;
+;Reunión Grupo Político;
+Otras Reuniones;Reunión con Empresa;
+;Reunión con Personas;
+;Reunión con Asociaciones;
+;Reunión con Organización Sindical;
+;Reunión con otras Administraciones;
+;Reunión Interna;
+;Reunión con Lobby;
+Reunión con Medios de Comunicación;Entrevista;
+;Rueda de Prensa;
+Acto;Inauguración;
+;Clausura;
+;Dia de;
+;Acto Conmemorativo;
+;Firma;
+;Homenaje;
+;Presentación;
+;Gala;
+;Comida;
+;Visita;
+;Matrimonio Civil;
+;Jornada o Congreso;
+;Premio o Reconocimiento;
