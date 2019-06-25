@@ -35,82 +35,82 @@
     skos:notation "A" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/B> a skos:Concept;
     skos:prefLabel "Sociedades de responsabilidad limitada"@es ;
     skos:notation "B" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/C> a skos:Concept;
     skos:prefLabel "Sociedades colectivas"@es ;
     skos:notation "C" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/D> a skos:Concept;
     skos:prefLabel "Sociedades comanditarias"@es ;
     skos:notation "D" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/E> a skos:Concept;
     skos:prefLabel "Comunidades de bienes, herencias yacentes y demás entidades carentes de personalidad jurídica no incluidas expresamente en otras claves"@es ;
     skos:notation "E" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/F> a skos:Concept;
     skos:prefLabel "Sociedades cooperativas"@es ;
     skos:notation "F" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/G> a skos:Concept;
     skos:prefLabel "Asociaciones"@es ;
     skos:notation "G" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/H> a skos:Concept;
     skos:prefLabel "Comunidades de propietarios en régimen de propiedad horizontal"@es ;
     skos:notation "H" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/J> a skos:Concept;
     skos:prefLabel "Sociedades civiles"@es ;
     skos:notation "J" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/P> a skos:Concept;
     skos:prefLabel "Corporaciones Locales"@es ;
     skos:notation "P" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/Q> a skos:Concept;
     skos:prefLabel "Organismos públicos"@es ;
     skos:notation "Q" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/R> a skos:Concept;
     skos:prefLabel "Congregaciones e instituciones religiosas"@es ;
     skos:notation "R" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/S> a skos:Concept;
     skos:prefLabel "Órganos de la Administración del Estado y de las Comunidades Autónomas"@es ;
     skos:notation "S" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/U> a skos:Concept;
     skos:prefLabel "Uniones Temporales de Empresas"@es ;
     skos:notation "U" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/V> a skos:Concept;
     skos:prefLabel "Otros tipos no definidos en el resto de claves"@es ;
     skos:notation "V" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/N> a skos:Concept;
     skos:prefLabel "Entidades extranjeras"@es ;
     skos:notation "N" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/A> a skos:Concept;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica/W> a skos:Concept;
     skos:prefLabel "Establecimientos permanentes de entidades no residentes en territorio español"@es ;
     skos:notation "W" ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica> .
