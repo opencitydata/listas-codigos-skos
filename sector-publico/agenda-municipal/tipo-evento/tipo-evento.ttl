@@ -7,87 +7,70 @@
 
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> a skos:ConceptScheme ;
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> .
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel "Reunión Órganos Colegiados"@es ;
+	skos:prefLabel "Sesión Órganos Colegiados"@es ;
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-gobierno> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-gobierno> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Junta de Gobierno"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/pleno> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/pleno> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/pleno> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Pleno"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria--permanente-> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
-	skos:prefLabel "Comisión Plenaria"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-ordinaria-permanente-> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-ordinaria-permanente-> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria--permanente-> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/Comisi%C3%B3n+Plenaria+Ordinaria+Permanente+> .
+	skos:prefLabel "Comisión Plenaria  Permanente "@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-ordinaria-no-permanente> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-no-permanente> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-ordinaria-no-permanente> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-no-permanente> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/Comisi%C3%B3n+Plenaria+Ordinaria+no+Permanente> .
+	skos:prefLabel "Comisión Plenaria No Permanente"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-especial> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-especial> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/Comisi%C3%B3n+Plenaria+Especial> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-ciudad> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-ciudad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-ciudad> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Consejo de Ciudad"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-distrito> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-distrito> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-distrito> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Junta de Distrito"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-portavoces> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-portavoces> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/junta-de-portavoces> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Junta de Portavoces"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-sectorial> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-sectorial> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-sectorial> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Consejo Sectorial"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-administracion-empresas-municipales> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-administracion-empresas-municipales> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-administracion-empresas-municipales> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Consejo de Administración Empresas Municipales"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otro-consejo> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otro-consejo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otro-consejo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Otro Consejo"@es .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-grupo-politico> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-grupo-politico> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
-	skos:prefLabel "Reunión Grupo Político"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> .
 
@@ -97,54 +80,60 @@
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-empresa> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-empresa> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Reunión con Empresa"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-personas> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-ciudadania> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-personas> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
-	skos:prefLabel "Reunión con Personas"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-ciudadania> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
+	skos:prefLabel "Reunión con Ciudadanía"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-asociaciones> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-asociaciones> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Reunión con Asociaciones"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-organizacion-sindical> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-organizacion-sindical> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Reunión con Organización Sindical"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-otras-administraciones> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-otras-administraciones> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Reunión con otras Administraciones"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-interna> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-interna> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Reunión Interna"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-medios-de-comunicacion> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/otras-reuniones> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-de-grupo-politico> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-medios-de-comunicacion> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-de-grupo-politico> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel "Reunión con Medios de Comunicación"@es ;
+	skos:prefLabel "Reunión de Grupo Político"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/evento-con-medio-de-comunicacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/evento-con-medio-de-comunicacion> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
+	skos:prefLabel "Evento con Medio de Comunicación"@es ;
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/entrevista> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/entrevista> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Entrevista"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/reunion-con-medios-de-comunicacion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/rueda-de-prensa> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/evento-con-medio-de-comunicacion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/rueda-de-prensa> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/rueda-de-prensa> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Rueda de Prensa"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> .
@@ -155,77 +144,77 @@
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/inauguracion> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/inauguracion> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Inauguración"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/clausura> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/clausura> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Clausura"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/dia-de> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/dia-de> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Dia de"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto-conmemorativo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto-conmemorativo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Acto Conmemorativo"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/firma> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/firma> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Firma"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/homenaje> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/homenaje> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Homenaje"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/presentacion> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/presentacion> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Presentación"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/gala> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/gala> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Gala"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comida> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comida> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Comida"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/visita> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/visita> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Visita"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/matrimonio-civil> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/matrimonio-civil> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Matrimonio Civil"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/jornada-o-congreso> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/jornada-o-congreso> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Jornada o Congreso"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/acto> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/premio-o-reconocimiento> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/premio-o-reconocimiento> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Premio o Reconocimiento"@es .

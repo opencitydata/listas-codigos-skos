@@ -1,0 +1,4211 @@
+﻿[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(\\\\\\\"á\\\\\\\",\\\\\\\"a\\\\\\\").replace(\\\\\\\"é\\\\\\\",\\\\\\\"e\\\\\\\").replace(\\\\\\\"í\\\\\\\",\\\\\\\"i\\\\\\\").replace(\\\\\\\"ó\\\\\\\",\\\\\\\"o\\\\\\\").replace(\\\\\\\"ú\\\\\\\",\\\\\\\"u\\\\\\\").replace(\\\\\\\"ñ\\\\\\\",\\\\\\\"u\\\\\\\").replace(\\\\\\\"ü\\\\\\\",\\\\\\\"u\\\\\\\".urlify()",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        },
+        {
+          "name": "esagm",
+          "uri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/agenda-municipal/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "row.starred",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Starred Rows",
+          "omitBlank": false,
+          "columnName": "",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label tipo evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo primer nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo primer nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Subtipo de evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Subtipo de evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Concept Scheme",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label tipo evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label tipo evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Subtipo de evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Subtipo de evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "label Subtipo primer nivel"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "label Subtipo segundo nivel",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Concept Scheme",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "label Subtipo segundo nivel",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI Tipo de Evento at index 1 based on column Tipo de Evento using expression null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "URI Tipo de Evento",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Tipo de Evento",
+    "expression": "null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column URI Tipo de Evento",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI Tipo de Evento",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento"
+        ],
+        "to": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento"
+      }
+    ]
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column URI Tipo de Evento",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "URI Tipo de Evento"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "Tipo de Evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Subtipo de evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Subtipo de evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "Subtipo de evento"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "skos",
+          "uri": "http://www.w3.org/2004/02/skos/core#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "curie": "skos:ConceptScheme"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+              "curie": "skos:hasTopConcept",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Tipo de Evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "Tipo de Evento"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#narrower",
+              "curie": "skos:narrower",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+                "isRowNumberCell": false,
+                "columnName": "Subtipo de evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": false,
+          "columnName": "Subtipo de evento",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#Concept",
+              "curie": "skos:Concept"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#inScheme",
+              "curie": "skos:inScheme",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI Tipo de Evento",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2004/02/skos/core#prefLabel",
+              "curie": "skos:prefLabel",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "lang": "es",
+                "columnName": "Subtipo de evento"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value.toLowercase().replace(' ','-').replace(\"á\",\"a\").replace(\"é\",\"e\").replace(\"í\",\"i\").replace(\"ó\",\"o\").replace(\"ú\",\"u\")",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]
