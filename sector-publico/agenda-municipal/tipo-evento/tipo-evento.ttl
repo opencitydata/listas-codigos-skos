@@ -1,11 +1,9 @@
-@prefix : <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@base <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> .
 
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> a skos:ConceptScheme ;
@@ -26,17 +24,17 @@
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
 	skos:prefLabel "Pleno"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria--permanente-> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-permanente> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria--permanente-> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-permanente> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel "Comisión Plenaria  Permanente "@es .
+	skos:prefLabel "Comisión Permanente"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-no-permanente> .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-no-permanente> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-plenaria-no-permanente> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/comision-no-permanente> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento> ;
-	skos:prefLabel "Comisión Plenaria No Permanente"@es .
+	skos:prefLabel "Comisión No Permanente"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/sesion-organos-colegiados> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento/consejo-de-ciudad> .
 
