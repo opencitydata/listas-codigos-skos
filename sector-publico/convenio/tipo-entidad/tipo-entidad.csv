@@ -1,0 +1,60 @@
+Tipo;Subtipo;URI tipo-entidad
+Administraci—n estatal;Ministerio;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n estatal;Agencia estatal;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n estatal;Organismo aut—nomo;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n estatal;Sociedad estatal;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n estatal;Entidad Pœblica Empresarial;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n estatal;Otros organismos pœblicos del Estado;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Consejer’a;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Organismo aut—nomo e Instituto auton—mico;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Sociedad;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Consorcio ;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Entidad Pœblica Empresarial ;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenios/tipo-entidad
+Administraci—n auton—mica;Sociedad auton—mica;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n auton—mica;Otros organismos pœblicos de titularidad auton—mica;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Ayuntamiento;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Entidad local menor;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Mancomunidad;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Comarca;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Veguer’a;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Diputaci—n provincial,;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Cabildo;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Consell;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;çrea metropolitana;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Organismo aut—nomo administrativo;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Sociedad municipal;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Entidad Pœblica Empresarial Local;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Administraci—n local;Otros organismos de titularidad local;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educatvo universitario;Universidad;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educatvo universitario;Instituto universitario;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educatvo universitario;Otra entidad universitaria.;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Otras entidades de Derecho Pœblico;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educativo no universitario;Centro pœblico;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educativo no universitario;Centro privado concertado;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educativo no universitario;Centro privado;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Centro educativo no universitario;Otros centros educativos;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Asociaci—n privada sin ‡nimo de lucro;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Organizaci—n no gubernamental;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad deportiva;Federaci—n deportiva;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad deportiva;Club deportivo;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad deportiva;Sociedad an—nima deportiva;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad deportiva;Agrupaci—n de clubes;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad deportiva;Otras entidades deportivas;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad financiera;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad cultural o filantr—pica;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Entidad religiosa;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Sociedad mercantil;Sociedad an—nima;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Sociedad mercantil;Sociedad limitada;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Sociedad mercantil;Cooperativa;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Sociedad mercantil;Otras entidades mercantiles;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Fundaci—n;Fundaci—n de derecho pœblico;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Fundaci—n;Fundaci—n de derecho privado;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Fundaci—n;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Colegio, asociaci—n profesional o C‡mara de Comercio;Colegio profesional;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Colegio, asociaci—n profesional o C‡mara de Comercio;Consejo general de Colegios profesionales;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Colegio, asociaci—n profesional o C‡mara de Comercio;Asociaci—n profesional;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Colegio, asociaci—n profesional o C‡mara de Comercio;C‡mara de Comercio;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Colegio, asociaci—n profesional o C‡mara de Comercio;Consejo de C‡maras de Comercio;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Otras organizaciones de car‡cter privado;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Personas f’sicas;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+Otros;;http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
