@@ -1,84 +1,20 @@
 
 
-@prefix : <hhttp://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@base <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> rdf:type owl:Ontology ;
-                                                                                            owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> .
-
-#################################################################
-#    Annotation properties
-#################################################################
-
-###  http://purl.org/dc/elements/1.1/creator
-dc:creator rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/date
-dc:date rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/title
-dc:title rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#hasTopConcept
-skos:hasTopConcept rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#inScheme
-skos:inScheme rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#prefLabel
-skos:prefLabel rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2008/05/skos#definition
-<http://www.w3.org/2008/05/skos#definition> rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
-
-
-#################################################################
-#    Classes
-#################################################################
-
-###  http://www.w3.org/2004/02/skos/core#Concept
-skos:Concept rdf:type owl:Class .
-
-
-###  http://www.w3.org/2004/02/skos/core#ConceptScheme
-skos:ConceptScheme rdf:type owl:Class .
-
-
-#################################################################
-#    Individuals
-#################################################################
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio>
+a skos:ConceptScheme ;                                                                                            dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                          dc:date "2019-10-29"^^xsd:date ;                                                                                           dc:title "Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, procedimientos, régimen jurídico y los recursos aportados por ambas partes"@es ;                                                                                           skos:prefLabel "Modalidad de convenio"@es .
+
+
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> 
-                                                                                           dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
-                                                                                           dc:date "2019-10-29"^^xsd:date ;
-                                                                                           dc:title "Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, procedimientos, régimen jurídico y los recursos aportados por ambas partes"@es ;
-                                                                                           skos:prefLabel "Modalidad de convenio"@es .
-
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> a skos:ConceptScheme ;
 	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/adenda> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/adenda> a skos:Concept ;
