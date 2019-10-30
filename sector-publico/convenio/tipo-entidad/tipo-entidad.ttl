@@ -10,9 +10,12 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> 
-a skos:ConceptScheme ;                                                                                           dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                          dc:date "2019-10-29"^^xsd:date ;                                                                                          dc:title "Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio"@es ;
-                                                                                           skos:prefLabel "Tipo de entidad"@es .
-
+a skos:ConceptScheme ;
+dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
+dc:date "2019-10-29"^^xsd:date ;
+dc:title "Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio"@es ;
+skos:prefLabel "Tipo de entidad"@es .
+                                                                                           
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> 
 	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> .

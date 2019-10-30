@@ -8,7 +8,10 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> 
-a skos:ConceptScheme ;                                                                                          dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                           dc:date "2019-10-29"^^xsd:date ;                                                                                           dc:title "Tesauro que recoge las categorías de área de gasto y política de gasto de la clasificación por Programa de Gasto establecidas en la ORDEN EHA/3565/2008, de 3 de diciembre"@es ;                                                                                          skos:prefLabel "Programa de gasto"@es .
+a skos:ConceptScheme ;
+dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
+dc:date "2019-10-29"^^xsd:date ; 
+dc:title "Tesauro que recoge las categorías de área de gasto y política de gasto de la clasificación por Programa de Gasto establecidas en la ORDEN EHA/3565/2008, de 3 de diciembre"@es ;                                                                                          skos:prefLabel "Programa de gasto"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> 	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deuda-publica> .
 

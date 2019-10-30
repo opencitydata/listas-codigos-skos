@@ -10,7 +10,10 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio>
-a skos:ConceptScheme ;                                                                                           dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                           dc:date "2019-10-29"^^xsd:date ;                                                                                          dc:title "Tesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2."@es ;                                                                                           skos:prefLabel "Tipo de convenio"@es .
+a skos:ConceptScheme ;
+dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
+dc:date "2019-10-29"^^xsd:date ;
+dc:title "Tesauro que recoge el tipo de convenio según las entidades que las suscriben de acuerdo a la Ley 40/2015, de 1 de octubre, de Regimen Juridico del Sector Publico, Art. 47, apartado 2."@es ;                                                                                           skos:prefLabel "Tipo de convenio"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio> 	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio/interadministrativo> .
 
