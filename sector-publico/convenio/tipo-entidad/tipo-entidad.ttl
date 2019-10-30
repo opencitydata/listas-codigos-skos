@@ -10,15 +10,11 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> 
-a skos:ConceptScheme ;
-dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
-dc:date "2019-10-29"^^xsd:date ;
-dc:title "Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio"@es ;
-skos:prefLabel "Tipo de entidad"@es .
-                                                                                           
+a skos:ConceptScheme ;                                                                                           dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                          dc:date "2019-10-29"^^xsd:date ;                                                                                          dc:title "Tesauro que recoge la clasificación de las entidades (organizaciones) que pueden subscribir un convenio"@es ;
+                                                                                           skos:prefLabel "Tipo de entidad"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> 
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> 	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
@@ -26,37 +22,37 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/ministerio> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/ministerio> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Ministerio" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/agencia-estatal> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/agencia-estatal> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Agencia estatal" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Organismo autónomo" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-estatal> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-estatal> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad estatal" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Entidad Pública Empresarial" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-estatal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-publicos-del-estado> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-publicos-del-estado> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otros organismos públicos del Estado" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> .
@@ -67,43 +63,43 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejeria> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejeria> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Consejería" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo-e-instituto-autonomico> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo-e-instituto-autonomico> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Organismo autónomo e Instituto autonómico" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consorcio-> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consorcio-> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Consorcio " .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial-> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial-> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Entidad Pública Empresarial " .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-autonomica> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-autonomica> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad autonómica" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-autonomica> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-publicos-de-titularidad-autonomica> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-publicos-de-titularidad-autonomica> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otros organismos públicos de titularidad autonómica" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> .
@@ -114,79 +110,79 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/ayuntamiento> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/ayuntamiento> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Ayuntamiento" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-local-menor> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-local-menor> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Entidad local menor" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/mancomunidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/mancomunidad> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Mancomunidad" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/comarca> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/comarca> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Comarca" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/vegueria> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/vegueria> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Veguería" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/diputacion-provincial,> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/diputacion-provincial,> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Diputación provincial," .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/cabildo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/cabildo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Cabildo" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consell> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consell> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Consell" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/area-metropolitana> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/area-metropolitana> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Área metropolitana" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo-administrativo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/organismo-autonomo-administrativo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Organismo autónomo administrativo" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-municipal> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-municipal> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad municipal" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial-local> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-publica-empresarial-local> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Entidad Pública Empresarial Local" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/administracion-local> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-de-titularidad-local> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-organismos-de-titularidad-local> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otros organismos de titularidad local" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-universitario> .
@@ -197,19 +193,19 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/universidad> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/universidad> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Universidad" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-universitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/instituto-universitario> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/instituto-universitario> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Instituto universitario" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-universitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otra-entidad-universitaria.> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otra-entidad-universitaria.> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otra entidad universitaria." .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-entidades-de-derecho-publico> .
@@ -226,25 +222,25 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-publico> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-publico> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Centro público" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-no-universitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-privado-concertado> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-privado-concertado> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Centro privado concertado" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-no-universitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-privado> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-privado> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Centro privado" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/centro-educativo-no-universitario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-centros-educativos> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otros-centros-educativos> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otros centros educativos" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/asociacion-privada-sin-animo-de-lucro> .
@@ -267,31 +263,31 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/federacion-deportiva> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/federacion-deportiva> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Federación deportiva" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-deportiva> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/club-deportivo> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/club-deportivo> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Club deportivo" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-deportiva> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-anonima-deportiva> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-anonima-deportiva> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad anónima deportiva" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-deportiva> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/agrupacion-de-clubes> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/agrupacion-de-clubes> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Agrupación de clubes" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-deportiva> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-entidades-deportivas> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-entidades-deportivas> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otras entidades deportivas" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/entidad-financiera> .
@@ -320,25 +316,25 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-anonima> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-anonima> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad anónima" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-mercantil> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-limitada> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-limitada> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Sociedad limitada" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-mercantil> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/cooperativa> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/cooperativa> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Cooperativa" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/sociedad-mercantil> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-entidades-mercantiles> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-entidades-mercantiles> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Otras entidades mercantiles" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion> .
@@ -349,13 +345,13 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion-de-derecho-publico> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion-de-derecho-publico> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Fundación de derecho público" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion-de-derecho-privado> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/fundacion-de-derecho-privado> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Fundación de derecho privado" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio,-asociacion-profesional-o-camara-de-comercio> .
@@ -366,31 +362,31 @@ skos:prefLabel "Tipo de entidad"@es .
 	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio-profesional> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio-profesional> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Colegio profesional" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio,-asociacion-profesional-o-camara-de-comercio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejo-general-de-colegios-profesionales> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejo-general-de-colegios-profesionales> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Consejo general de Colegios profesionales" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio,-asociacion-profesional-o-camara-de-comercio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/asociacion-profesional> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/asociacion-profesional> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Asociación profesional" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio,-asociacion-profesional-o-camara-de-comercio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/camara-de-comercio> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/camara-de-comercio> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Cámara de Comercio" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/colegio,-asociacion-profesional-o-camara-de-comercio> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejo-de-camaras-de-comercio> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/consejo-de-camaras-de-comercio> a skos:Concept ;
-	skos:inScheme "http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad" ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> ;
 	skos:prefLabel "Consejo de Cámaras de Comercio" .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad/otras-organizaciones-de-caracter-privado> .
