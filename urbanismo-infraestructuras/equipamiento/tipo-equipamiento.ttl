@@ -1107,13 +1107,13 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-de-fondo> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpini> a skos:Concept ;
-	skos:prefLabel "Estación de esquí alpini"@es ;
-	skos:notation "estacion-de-esqui-alpini" ;
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpino> a skos:Concept ;
+	skos:prefLabel "Estación de esquí alpino"@es ;
+	skos:notation "estacion-de-esqui-alpino" ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
 	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpini> .
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/espacios-deportivos-singulares> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-esqui-alpino> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-snowboard> a skos:Concept ;
 	skos:prefLabel "Estación de snowboard"@es ;
@@ -1627,3 +1627,13 @@
 	skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-cercanias> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas> a skos:Concept ;
+skos:prefLabel "Estación de bicicletas"@es ;
+skos:notation "estacion-de-bicicletas" ;
+skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento> ;
+skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/circulacion-y-transporte> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/estacion-de-bicicletas> .
+
+
