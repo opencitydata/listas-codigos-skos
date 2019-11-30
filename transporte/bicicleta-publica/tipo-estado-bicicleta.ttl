@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/ocupada> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/disponible> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/en-reparacion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/excluida> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/en-reserva> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/abandonada> ;
+    dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
+    dc:date "2019-11-22"^^xsd:date ;
+    skos:prefLabel "Tipo de estado de una bicicleta pública"@es ;
+    dc:title "Tesauro que recoge los tipos de estado de una bicicleta pública"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/ocupada> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "ocupada" ;
+	skos:prefLabel "ocupada" ;
+  skos:prefLabel "La bicicleta está siendo usada por un usuario"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/disponible> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "disponible" ;
+  skos:prefLabel "disponible" ;
+  skos:prefLabel "La bicicleta no está siendo usada por ningún usuario"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/en-reparacion> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "en-reparacion" ;
+  skos:prefLabel "en-reparacion" ;
+  skos:prefLabel "La bicicleta no está disponble, está siendo reparada"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/excluida> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "excluida" ;
+  skos:prefLabel "excluida" ;
+  skos:prefLabel "La bicicleta ha dejado de ser parte del sistema"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/en-reserva> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "en-reserva" ;
+  skos:prefLabel "en-reserva" ;
+  skos:prefLabel "La bicicleta está está preparada para entrar en el sistema pero aún no forma parte de él"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta/abandonada> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta> ;
+  skos:notation "abandonada" ;
+  skos:prefLabel "abandonada" ;
+  skos:prefLabel "La bicicleta bien ha sido sustraida o abandonada por un usuario y no está localizada"@es .

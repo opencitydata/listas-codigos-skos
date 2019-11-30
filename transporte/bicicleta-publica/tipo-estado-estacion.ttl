@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/opertiva> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/no-operativa> ;
+    dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
+    dc:date "2019-11-22"^^xsd:date ;
+    skos:prefLabel "Tipo de estado de una estación de bicicleta pública"@es ;
+    dc:title "Tesauro que recoge los tipos de estado de una estación de bicicleta pública"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/opertiva> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion> ;
+  skos:notation "opertiva" ;
+	skos:prefLabel "opertiva" ;
+  skos:prefLabel "La estación está en funcionamiento"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion/no-operativa> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion> ;
+  skos:notation "no-operativa" ;
+  skos:prefLabel "no-operativa" ;
+  skos:prefLabel "La estación no está en funcionamiento"@es .
