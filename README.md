@@ -15,6 +15,13 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-estado-tramite-licencia
 * http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion
 
+## demografia
+* http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad
+* http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-documento-identidad
+* http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-local-residencia
+* http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio
+* http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion
+
 ## medio-ambiente
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico
