@@ -1,0 +1,1565 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y0> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y0> a skos:Concept ;
+	skos:prefLabel "0 year"@en , "0 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y1> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y1> a skos:Concept ;
+	skos:prefLabel "1 year"@en , "1 año"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y2> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y2> a skos:Concept ;
+	skos:prefLabel "2 years"@en , "2 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> skos:prefLabel "Lista de códigos de edad por años"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y3> ;
+	a skos:ConceptScheme ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y3> a skos:Concept ;
+	skos:prefLabel "3 years"@en , "3 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y4> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y4> a skos:Concept ;
+	skos:prefLabel "4 years"@en , "4 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y5> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y5> a skos:Concept ;
+	skos:prefLabel "5 years"@en , "5 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y6> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y6> a skos:Concept ;
+	skos:prefLabel "6 years"@en , "6 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y7> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y7> a skos:Concept ;
+	skos:prefLabel "7 years"@en , "7 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y8> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y8> a skos:Concept ;
+	skos:prefLabel "8 years"@en , "8 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y9> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y9> a skos:Concept ;
+	skos:prefLabel "9 years"@en , "9 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y10> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y10> a skos:Concept ;
+	skos:prefLabel "10 years"@en , "10 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y11> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y11> a skos:Concept ;
+	skos:prefLabel "11 years"@en , "11 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y12> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y12> a skos:Concept ;
+	skos:prefLabel "12 years"@en , "12 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y13> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y13> a skos:Concept ;
+	skos:prefLabel "13 years"@en , "13 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y14> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y14> a skos:Concept ;
+	skos:prefLabel "14 years"@en , "14 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y15> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y15> a skos:Concept ;
+	skos:prefLabel "15 years"@en , "15 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y16> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y16> a skos:Concept ;
+	skos:prefLabel "16 years"@en , "16 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y17> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y17> a skos:Concept ;
+	skos:prefLabel "17 years"@en , "17 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y18> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y18> a skos:Concept ;
+	skos:prefLabel "18 years"@en , "18 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y19> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y19> skos:prefLabel "19 years"@en ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> ;
+	a skos:Concept ;
+	skos:prefLabel "19 años"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y20> a skos:Concept ;
+	skos:prefLabel "20 years"@en , "20 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y21> ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y21> a skos:Concept ;
+	skos:prefLabel "21 years"@en , "21 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y22> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y22> skos:prefLabel "22 años"@es , "22 years"@en ;
+	a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y23> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y23> a skos:Concept ;
+	skos:prefLabel "23 years"@en , "23 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y24> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y24> a skos:Concept ;
+	skos:prefLabel "24 years"@en , "24 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y25> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y25> a skos:Concept ;
+	skos:prefLabel "25 years"@en , "25 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y26> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y26> a skos:Concept ;
+	skos:prefLabel "26 years"@en , "26 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y27> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y27> a skos:Concept ;
+	skos:prefLabel "27 years"@en , "27 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y28> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y28> a skos:Concept ;
+	skos:prefLabel "28 years"@en , "28 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y29> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y29> a skos:Concept ;
+	skos:prefLabel "29 years"@en , "29 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y30> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y30> a skos:Concept ;
+	skos:prefLabel "30 years"@en , "30 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y31> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y31> a skos:Concept ;
+	skos:prefLabel "31 years"@en , "31 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y32> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y32> a skos:Concept ;
+	skos:prefLabel "32 years"@en , "32 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y33> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y33> a skos:Concept ;
+	skos:prefLabel "33 years"@en , "33 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y34> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y34> a skos:Concept ;
+	skos:prefLabel "34 years"@en , "34 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y35> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y35> a skos:Concept ;
+	skos:prefLabel "35 years"@en , "35 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y36> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y36> a skos:Concept ;
+	skos:prefLabel "36 years"@en , "36 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y37> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y37> a skos:Concept ;
+	skos:prefLabel "37 years"@en , "37 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y38> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y38> a skos:Concept ;
+	skos:prefLabel "38 years"@en , "38 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y39> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y39> a skos:Concept ;
+	skos:prefLabel "39 years"@en , "39 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y40> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y40> a skos:Concept ;
+	skos:prefLabel "40 years"@en , "40 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y41> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y41> a skos:Concept ;
+	skos:prefLabel "41 years"@en , "41 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y42> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y42> a skos:Concept ;
+	skos:prefLabel "42 years"@en , "42 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y43> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y43> a skos:Concept ;
+	skos:prefLabel "43 years"@en , "43 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y44> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y44> a skos:Concept ;
+	skos:prefLabel "44 years"@en , "44 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y45> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y45> a skos:Concept ;
+	skos:prefLabel "45 years"@en , "45 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y46> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y46> a skos:Concept ;
+	skos:prefLabel "46 years"@en , "46 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y47> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y47> a skos:Concept ;
+	skos:prefLabel "47 years"@en , "47 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y48> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y48> a skos:Concept ;
+	skos:prefLabel "48 years"@en , "48 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y49> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y49> a skos:Concept ;
+	skos:prefLabel "49 years"@en , "49 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y50> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y50> a skos:Concept ;
+	skos:prefLabel "50 years"@en , "50 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y51> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y51> a skos:Concept ;
+	skos:prefLabel "51 years"@en , "51 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y52> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y52> a skos:Concept ;
+	skos:prefLabel "52 years"@en , "52 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y53> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y53> a skos:Concept ;
+	skos:prefLabel "53 years"@en , "53 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y54> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y54> a skos:Concept ;
+	skos:prefLabel "54 years"@en , "54 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y55> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y55> a skos:Concept ;
+	skos:prefLabel "55 years"@en , "55 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y56> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y56> a skos:Concept ;
+	skos:prefLabel "56 years"@en , "56 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y57> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y57> a skos:Concept ;
+	skos:prefLabel "57 years"@en , "57 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y58> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y58> a skos:Concept ;
+	skos:prefLabel "58 years"@en , "58 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y59> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y59> a skos:Concept ;
+	skos:prefLabel "59 years"@en , "59 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y60> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y60> a skos:Concept ;
+	skos:prefLabel "60 years"@en , "60 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y61> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y61> a skos:Concept ;
+	skos:prefLabel "61 years"@en , "61 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y62> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y62> a skos:Concept ;
+	skos:prefLabel "62 years"@en , "62 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y63> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y63> a skos:Concept ;
+	skos:prefLabel "63 years"@en , "63 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y64> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y64> a skos:Concept ;
+	skos:prefLabel "64 years"@en , "64 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y65> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y65> a skos:Concept ;
+	skos:prefLabel "65 years"@en , "65 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y66> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y66> a skos:Concept ;
+	skos:prefLabel "66 years"@en , "66 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y67> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y67> a skos:Concept ;
+	skos:prefLabel "67 years"@en , "67 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y68> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y68> a skos:Concept ;
+	skos:prefLabel "68 years"@en , "68 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y69> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y69> a skos:Concept ;
+	skos:prefLabel "69 years"@en , "69 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y70> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y70> a skos:Concept ;
+	skos:prefLabel "70 years"@en , "70 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y71> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y71> a skos:Concept ;
+	skos:prefLabel "71 years"@en , "71 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y72> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y72> a skos:Concept ;
+	skos:prefLabel "72 years"@en , "72 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y73> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y73> a skos:Concept ;
+	skos:prefLabel "73 years"@en , "73 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y74> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y74> a skos:Concept ;
+	skos:prefLabel "74 years"@en , "74 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y75> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y75> a skos:Concept ;
+	skos:prefLabel "75 years"@en , "75 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y76> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y76> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> ;
+	skos:prefLabel "76 years"@en ;
+	a skos:Concept ;
+	skos:prefLabel "76 años"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y77> ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	a skos:ConceptScheme ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y77> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> ;
+	skos:prefLabel "77 años"@es , "77 years"@en ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y78> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y78> skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> ;
+	skos:prefLabel "78 años"@es , "78 years"@en ;
+	a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y79> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y79> a skos:Concept ;
+	skos:prefLabel "79 years"@en , "79 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y80> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y80> a skos:Concept ;
+	skos:prefLabel "80 years"@en , "80 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y81> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y81> a skos:Concept ;
+	skos:prefLabel "81 years"@en , "81 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y82> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y82> a skos:Concept ;
+	skos:prefLabel "82 years"@en , "82 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y83> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y83> a skos:Concept ;
+	skos:prefLabel "83 years"@en , "83 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y84> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y84> a skos:Concept ;
+	skos:prefLabel "84 years"@en , "84 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y85> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y85> a skos:Concept ;
+	skos:prefLabel "85 years"@en , "85 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y86> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y86> a skos:Concept ;
+	skos:prefLabel "86 years"@en , "86 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y87> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y87> a skos:Concept ;
+	skos:prefLabel "87 years"@en , "87 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y88> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y88> a skos:Concept ;
+	skos:prefLabel "88 years"@en , "88 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y89> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y89> a skos:Concept ;
+	skos:prefLabel "89 years"@en , "89 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y90> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y90> a skos:Concept ;
+	skos:prefLabel "90 years"@en , "90 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y91> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y91> a skos:Concept ;
+	skos:prefLabel "91 years"@en , "91 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y92> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y92> a skos:Concept ;
+	skos:prefLabel "92 years"@en , "92 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y93> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y93> a skos:Concept ;
+	skos:prefLabel "93 years"@en , "93 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y94> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y94> a skos:Concept ;
+	skos:prefLabel "94 years"@en , "94 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y95> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y95> a skos:Concept ;
+	skos:prefLabel "95 years"@en , "95 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y96> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y96> a skos:Concept ;
+	skos:prefLabel "96 years"@en , "96 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y97> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y97> a skos:Concept ;
+	skos:prefLabel "97 years"@en , "97 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y98> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y98> a skos:Concept ;
+	skos:prefLabel "98 years"@en , "98 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y99> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y99> a skos:Concept ;
+	skos:prefLabel "99 years"@en , "99 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y100> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y100> a skos:Concept ;
+	skos:prefLabel "100 years"@en , "100 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y101> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y101> a skos:Concept ;
+	skos:prefLabel "101 years"@en , "101 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y102> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y102> a skos:Concept ;
+	skos:prefLabel "102 years"@en , "102 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y103> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y103> a skos:Concept ;
+	skos:prefLabel "103 years"@en , "103 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y104> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y104> a skos:Concept ;
+	skos:prefLabel "104 years"@en , "104 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y105> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y105> a skos:Concept ;
+	skos:prefLabel "105 years"@en , "105 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y106> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y106> a skos:Concept ;
+	skos:prefLabel "106 years"@en , "106 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y107> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y107> a skos:Concept ;
+	skos:prefLabel "107 years"@en , "107 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y108> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y108> a skos:Concept ;
+	skos:prefLabel "108 years"@en , "108 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y109> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y109> a skos:Concept ;
+	skos:prefLabel "109 years"@en , "109 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y110> ;
+	dc:creator "Paola Espinoza Arias (Universidad Politécnica de Madrid)"@es ;
+	xsd:date "2019-12-05"^^xsd:date ;
+	skos:prefLabel "Lista de códigos de edad por años"@es ;
+	dc:title "Lista de códigos de edad por años individuales según lo definido por SDMX"@es ;
+	skos:prefLabel "Code list of age by individual years"@en ;
+	dc:title "Code list of age by individual years according to the SDMX."@en ;
+	prov:hadPrimarySource <https://sdmx.org/wp-content/uploads/CL_AGE_1.0_1-1-2014.doc> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad/Y110> a skos:Concept ;
+	skos:prefLabel "110 years"@en , "110 años"@es ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/edad> .
