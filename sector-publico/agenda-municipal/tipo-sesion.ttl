@@ -1,106 +1,56 @@
-@prefix : <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@base <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> rdf:type owl:Ontology ;
-                                                                                            owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> ;
-                                                                                            skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria-urgente> ,
-                                                                                                               <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/ordinaria> ;
-                                                                                            dc:date "2019-04-08"@es ;
-                                                                                            skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria> ;
-                                                                                            dc:title "Tesauro que recoge los tipos de sesión de un evento como Ordinaria, Extraordinaria y Extraordinaria Urgente."@es ;
-                                                                                            skos:prefLabel "Tipo de sesión"@es ;
-                                                                                            dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" .
-
-#################################################################
-#    Annotation properties
-#################################################################
-
-###  http://purl.org/dc/elements/1.1/creator
-dc:creator rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/date
-dc:date rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/dc/elements/1.1/title
-dc:title rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#hasTopConcept
-skos:hasTopConcept rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#inScheme
-skos:inScheme rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2004/02/skos/core#prefLabel
-skos:prefLabel rdf:type owl:AnnotationProperty .
-
-
-###  http://www.w3.org/2008/05/skos#definition
-<http://www.w3.org/2008/05/skos#definition> rdf:type owl:AnnotationProperty .
-
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
-
-
-#################################################################
-#    Classes
-#################################################################
-
-###  http://www.w3.org/2004/02/skos/core#Concept
-skos:Concept rdf:type owl:Class .
-
-
-###  http://www.w3.org/2004/02/skos/core#ConceptScheme
-skos:ConceptScheme rdf:type owl:Class .
-
-
-#################################################################
-#    Individuals
-#################################################################
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> rdf:type owl:NamedIndividual ,
-                                                                                                    skos:ConceptScheme .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion>
+a skos:ConceptScheme ;
+dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
+dc:date "2019-04-08"^^xsd:date ;
+dc:title "Tesauro que recoge los tipos de sesión de un evento como Ordinaria, Extraordinaria y Extraordinaria Urgente."@es ; 
+skos:prefLabel "Tipo de sesión"@es .
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> 
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria> .  
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> 
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria-urgente> .  
+
+  <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> 
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/ordinaria> .  
+
+
+
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria> rdf:type owl:NamedIndividual ,
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria> rdf:type 
                                                                                                                    skos:Concept ;
                                                                                                           skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> ;
                                                                                                           skos:prefLabel "extraordinaria"@es ;
-                                                                                                          <http://www.w3.org/2008/05/skos#definition> "Sesión que se realiza a solicitud del interesado de acuerdo a la disposición legal del gobienro municipal."@es .
+                                                                                                          dc:definitiondc:definition "Sesión que se realiza a solicitud del interesado de acuerdo a la disposición legal del gobienro municipal."@es .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria-urgente
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria-urgente> rdf:type owl:NamedIndividual ,
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/extraordinaria-urgente> rdf:type 
                                                                                                                            skos:Concept ;
                                                                                                                   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> ;
                                                                                                                   skos:prefLabel "extraordinaria urgente"@es ;
-                                                                                                                  <http://www.w3.org/2008/05/skos#definition> "Sesión que se realiza a solicitud del interesado cuando la urgencia del asunto o asuntos a tratar no permita convocar la sesión extraordinaria con la antelación mínima establecida por la disposición legal."@es .
+                                                                                                                 dc:definition "Sesión que se realiza a solicitud del interesado cuando la urgencia del asunto o asuntos a tratar no permita convocar la sesión extraordinaria con la antelación mínima establecida por la disposición legal."@es .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/ordinaria
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/ordinaria> rdf:type owl:NamedIndividual ,
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion/ordinaria> rdf:type 
                                                                                                               skos:Concept ;
                                                                                                      skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion> ;
                                                                                                      skos:prefLabel "ordinaria"@es ;
-                                                                                                     <http://www.w3.org/2008/05/skos#definition> "Sesiones que se realizan periódicamente."@es .
+                                                                                                     dc:definition "Sesiones que se realizan periódicamente."@es .
 
 
-###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
+
