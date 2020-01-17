@@ -1,183 +1,178 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-###  http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> 
-a skos:ConceptScheme ;                                                                                          dc:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;                                                                                           dc:date "2019-10-29"^^xsd:date ;                                                                                           dc:title "Tesauro que recoge las categorías de área de gasto y política de gasto de la clasificación por Programa de Gasto establecidas en la ORDEN EHA/3565/2008, de 3 de diciembre"@es ;                                                                                          skos:prefLabel "Programa de gasto"@es .
 
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> a skos:ConceptScheme ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/deuda-publica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> 
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deuda-publica> .
-
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deuda-publica> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/deuda-publica> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Deuda pública"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deuda-publica> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/deuda-publica> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-publicos-basicos> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-publicos-basicos> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-publicos-basicos> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-publicos-basicos> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Servicios públicos básicos"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/seguridad-y-movilidad-ciudadana> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/seguridad-y-movilidad-ciudadana> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/seguridad-y-movilidad-ciudadana> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/seguridad-y-movilidad-ciudadana> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Seguridad y movilidad ciudadana"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/vivienda-y-urbanismo> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/vivienda-y-urbanismo> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/vivienda-y-urbanismo> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/vivienda-y-urbanismo> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Vivienda y urbanismo"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/bienestar-comunitario> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/bienestar-comunitario> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/bienestar-comunitario> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/bienestar-comunitario> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Bienestar comunitario"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/medio-ambiente> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-publicos-basicos> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/medio-ambiente> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/medio-ambiente> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/medio-ambiente> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Medio ambiente"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-proteccion-y-promocion-social> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-proteccion-y-promocion-social> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-proteccion-y-promocion-social> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-proteccion-y-promocion-social> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Actuación de protección y promoción social"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/pensiones> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/pensiones> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/pensiones> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/pensiones> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Pensiones"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/otras-prestaciones-economicas-a-favor-de-empleados> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/otras-prestaciones-economicas-a-favor-de-empleados> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/otras-prestaciones-economicas-a-favor-de-empleados> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/otras-prestaciones-economicas-a-favor-de-empleados> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Otras prestaciones económicas a favor de empleados"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-sociales-y-promocion-social> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-sociales-y-promocion-social> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-sociales-y-promocion-social> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-sociales-y-promocion-social> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Servicios sociales y promoción social"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/fomento-del-empleo> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-proteccion-y-promocion-social> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/fomento-del-empleo> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/fomento-del-empleo> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/fomento-del-empleo> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Fomento del empleo"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/produccion-de-bienes-publicos-de-caracter-preferente> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/produccion-de-bienes-publicos-de-caracter-preferente> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/produccion-de-bienes-publicos-de-caracter-preferente> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/produccion-de-bienes-publicos-de-caracter-preferente> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Producción de bienes públicos de carácter preferente"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/sanidad> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/sanidad> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/sanidad> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/sanidad> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Sanidad"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/educacion> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/educacion> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/educacion> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/educacion> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Educación"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/cultura> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/cultura> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/cultura> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/cultura> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Cultura"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deporte> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/produccion-de-bienes-publicos-de-caracter-preferente> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/deporte> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/deporte> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/deporte> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Deporte"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Actuación de carácter económico"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/agricultura,-ganaderia-y-pesca.> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/agricultura-ganaderia-y-pesca.> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/agricultura,-ganaderia-y-pesca.> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/agricultura-ganaderia-y-pesca.> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Agricultura, ganadería y pesca."@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/industria-y-energia> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/industria-y-energia> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/industria-y-energia> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/industria-y-energia> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Industria y energía"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/comercio,-turismo-y-pequeñas-y-medianas-empresas> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/comercio-turismo-y-pequeñas-y-medianas-empresas> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/comercio,-turismo-y-pequeñas-y-medianas-empresas> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/comercio-turismo-y-pequeñas-y-medianas-empresas> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Comercio, turismo y pequeñas y medianas empresas"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/transporte-publico> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/transporte-publico> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/transporte-publico> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/transporte-publico> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Transporte público"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/infraestructura> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/infraestructura> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/infraestructura> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/infraestructura> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Infraestructura"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/investigacion,-desarrollo-e-innovacion> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/investigacion-desarrollo-e-innovacion> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/investigacion,-desarrollo-e-innovacion> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/investigacion-desarrollo-e-innovacion> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Investigación, desarrollo e innovación"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/otras-actuaciones-de-caracter-economico> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuacion-de-caracter-economico> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/otras-actuaciones-de-caracter-economico> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/otras-actuaciones-de-caracter-economico> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/otras-actuaciones-de-caracter-economico> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Otras actuaciones de carácter económico"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuaciones-de-caracter-general> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuaciones-de-caracter-general> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuaciones-de-caracter-general> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuaciones-de-caracter-general> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Actuaciones de carácter general"@es ;
-	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/organos-de-gobierno> .
+	skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/organos-de-gobierno> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/organos-de-gobierno> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/organos-de-gobierno> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Órganos de gobierno"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-de-caracter-general> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-de-caracter-general> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/servicios-de-caracter-general> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/servicios-de-caracter-general> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Servicios de carácter general"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/administracion-financiera-y-tributaria> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/administracion-financiera-y-tributaria> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/administracion-financiera-y-tributaria> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/administracion-financiera-y-tributaria> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Administración financiera y tributaria"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/transferencias-a-otras-administraciones-publicas> .
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/actuaciones-de-caracter-general> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/transferencias-a-otras-administraciones-publicas> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/transferencias-a-otras-administraciones-publicas> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/transferencias-a-otras-administraciones-publicas> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
 	skos:prefLabel "Transferencias a otras administraciones públicas"@es .
