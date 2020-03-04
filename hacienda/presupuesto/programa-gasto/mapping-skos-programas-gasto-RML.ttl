@@ -26,7 +26,7 @@ map:map_terms4_0 rml:logicalSource map:source_2;
     rr:subjectMap map:s_2;
     rr:predicateObjectMap map:pom_4, map:pom_5, map:pom_6, map:pom_7.
 map:om_0 a rr:ObjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{area-de-gasto1}";
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{area-de-gasto1}";
     rr:termType rr:IRI.
 map:om_1 a rr:ObjectMap;
     rr:constant "http://www.w3.org/2004/02/skos/core#Concept";
@@ -36,10 +36,10 @@ map:om_10 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:language "es".
 map:om_11 a rr:ObjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{grupo-de-programas}";
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{grupo-de-programas}";
     rr:termType rr:IRI.
 map:om_2 a rr:ObjectMap;
-    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto";
+    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto";
     rr:termType rr:Literal.
 map:om_3 a rr:ObjectMap;
     rml:reference "denominacion";
@@ -49,20 +49,20 @@ map:om_4 a rr:ObjectMap;
     rr:constant "http://www.w3.org/2004/02/skos/core#Concept";
     rr:termType rr:IRI.
 map:om_5 a rr:ObjectMap;
-    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto";
+    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto";
     rr:termType rr:IRI.
 map:om_6 a rr:ObjectMap;
     rml:reference "denominacion";
     rr:termType rr:Literal;
     rr:language "es".
 map:om_7 a rr:ObjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{area-de-gasto}";
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{area-de-gasto}";
     rr:termType rr:IRI.
 map:om_8 a rr:ObjectMap;
     rr:constant "http://www.w3.org/2004/02/skos/core#Concept";
     rr:termType rr:IRI.
 map:om_9 a rr:ObjectMap;
-    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto";
+    rr:constant "http:vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto";
     rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant <http://www.w3.org/2004/02/skos/core#hasTopConcept>.
@@ -125,13 +125,13 @@ map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
 map:s_0 a rr:SubjectMap;
-    rr:constant "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto".
+    rr:constant "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto".
 map:s_1 a rr:SubjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{area-de-gasto1}".
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{area-de-gasto1}".
 map:s_2 a rr:SubjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{politica-de-gasto1}".
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{politica-de-gasto1}".
 map:s_3 a rr:SubjectMap;
-    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programas-gasto/{programa}".
+    rr:template "http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/{programa}".
 map:source_0 a rml:LogicalSource;
     rml:source "clasificacion-programas-gastov1.csv";
     rml:referenceFormulation ql:CSV.
