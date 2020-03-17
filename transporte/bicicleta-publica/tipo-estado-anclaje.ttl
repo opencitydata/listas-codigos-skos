@@ -90,7 +90,7 @@ skos:ConceptScheme a owl:Class .
 	dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
 	dc:date "2019-11-22"^^xsd:date ;
 	dc:title "Tesauro que recoge los tipos de un anclaje de una estación de bicicleta pública"@es ;
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> ;
+	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado> ;
 	skos:prefLabel "Tipo de estado de un anclaje de una estación de bicicleta pública"@es .
 #
 # http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo
