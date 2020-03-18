@@ -17,13 +17,7 @@ dc:date "2019-10-29"^^xsd:date ;
 dc:title "Tesauro que recoge la modalidad de un convenio, la cual determina el objeto, procedimientos, régimen jurídico y los recursos aportados por ambas partes"@es ;                                                                                           skos:prefLabel "Modalidad de convenio"@es .
 
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> 
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/adenda> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/adenda> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> ;
-	skos:prefLabel "Adenda"@es ;
-	skos:definition "Documento de extensión, ampliación o modificación de un convenio ya existente, que preveía esa posibilidad en el mismo."@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/cesion> .
 
@@ -53,12 +47,7 @@ dc:title "Tesauro que recoge la modalidad de un convenio, la cual determina el o
 	skos:prefLabel "Marco"@es ;
 	skos:definition "Convenio con un tercero, normalmente de carácter general y amplio, que sirve de referencia para el desarrollo posterior de convenios específicos en diversas materias."@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/modificacion> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/modificacion> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> ;
-	skos:prefLabel "Modificación"@es ;
-	skos:definition "Documento de modificación de un Convenio ya existente."@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/otros> .
 
@@ -74,12 +63,7 @@ dc:title "Tesauro que recoge la modalidad de un convenio, la cual determina el o
 	skos:prefLabel "Patrocinio"@es ;
 	skos:definition "Convenio cuyo objeto principal es el patrocinio de una entidad, actividad, instalación o servicio."@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/prorroga> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/prorroga> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> ;
-	skos:prefLabel "Prórroga"@es ;
-	skos:definition "Documento que prorroga un Convenio ya existente previamente, incluya o no éste esa posibilidad."@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio> skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio/protocolo> .
 
