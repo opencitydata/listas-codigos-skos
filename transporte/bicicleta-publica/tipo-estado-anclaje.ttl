@@ -1,124 +1,40 @@
-@prefix : <#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-_:genid1736185394 a owl:Ontology .
-#
-#
-# #################################################################
-# #
-# #    Annotation properties
-# #
-# #################################################################
-#
-#
-# http://purl.org/dc/elements/1.1/creator
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> ;
+    dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
+    dc:date "2019-11-22"^^xsd:date ;
+    skos:prefLabel "Tipo de estado de un anclaje de una estación de bicicleta pública"@es ;
+    dc:title "Tesauro que recoge los tipos de estado de un anclaje de una estación de bicicleta pública"@es .
 
-dc:creator a owl:AnnotationProperty .
-#
-# http://purl.org/dc/elements/1.1/date
-
-dc:date a owl:AnnotationProperty .
-#
-# http://purl.org/dc/elements/1.1/title
-
-dc:title a owl:AnnotationProperty .
-#
-# http://www.w3.org/2004/02/skos/core#hasTopConcept
-
-skos:hasTopConcept a owl:AnnotationProperty .
-#
-# http://www.w3.org/2004/02/skos/core#inScheme
-
-skos:inScheme a owl:AnnotationProperty .
-#
-# http://www.w3.org/2004/02/skos/core#notation
-
-skos:notation a owl:AnnotationProperty .
-#
-# http://www.w3.org/2004/02/skos/core#prefLabel
-
-skos:prefLabel a owl:AnnotationProperty .
-#
-#
-#
-# #################################################################
-# #
-# #    Datatypes
-# #
-# #################################################################
-#
-#
-# http://www.w3.org/2001/XMLSchema#date
-
-xsd:date a rdfs:Datatype .
-#
-#
-#
-# #################################################################
-# #
-# #    Classes
-# #
-# #################################################################
-#
-#
-# http://www.w3.org/2004/02/skos/core#Concept
-
-skos:Concept a owl:Class .
-#
-# http://www.w3.org/2004/02/skos/core#ConceptScheme
-
-skos:ConceptScheme a owl:Class .
-#
-#
-#
-# #################################################################
-# #
-# #    Individuals
-# #
-# #################################################################
-#
-#
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje
-
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> a owl:NamedIndividual , skos:ConceptScheme ;
-	dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
-	dc:date "2019-11-22"^^xsd:date ;
-	dc:title "Tesauro que recoge los tipos de un anclaje de una estación de bicicleta pública"@es ;
-	skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> , <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado> ;
-	skos:prefLabel "Tipo de estado de un anclaje de una estación de bicicleta pública"@es .
-#
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo
-
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> a owl:NamedIndividual , skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> a skos:Concept ;
 	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
-	skos:notation "inactivo" ;
-	skos:prefLabel "El anclaje no está disponible"@es , "inactivo" .
-#
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre
+  skos:notation "libre" ;
+	skos:prefLabel "libre" ;
+  skos:prefLabel "El anclaje está activo y no está ocupado por ninguna bicicleta"@es , "libre" .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/libre> a owl:NamedIndividual , skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
-	skos:notation "libre" ;
-	skos:prefLabel "El anclaje está activo y no está ocupado por ninguna bicicleta"@es , "libre" .
-#
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
+  skos:notation "ocupado" ;
+  skos:prefLabel "ocupado" ;
+  skos:prefLabel "El anclaje está activo y ocupado por una bicicleta"@es , "ocupado" .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/ocupado> a owl:NamedIndividual , skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
-	skos:notation "ocupado" ;
-	skos:prefLabel "El anclaje está activo y ocupado por una bicicleta"@es , "ocupado" .
-#
-# http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
+  skos:notation "reservado" ;
+  skos:prefLabel "reservado" ;
+  skos:prefLabel "El anclaje está activo y está reservado por un usuario"@es , "reservado" .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/reservado> a owl:NamedIndividual , skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
-	skos:notation "reservado" ;
-	skos:prefLabel "El anclaje está activo y está reservado por un usuario"@es , "reservado" .
-#
-# Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje/inactivo> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-anclaje> ;
+  skos:notation "inactivo" ;
+  skos:prefLabel "inactivo" ;
+  skos:prefLabel "El anclaje no está disponible"@es , "inactivo" .
