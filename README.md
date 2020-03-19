@@ -37,6 +37,10 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 *	http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-instrumento
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/territorio/tipo-estado
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/participacion-ciudadana/estado-propuesta
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-entidad
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/variacion-convenio
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
 
 ## transporte
 *	http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
