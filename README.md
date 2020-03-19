@@ -41,6 +41,12 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/modalidad-convenio
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/variacion-convenio
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/convenio/tipo-convenio
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-evento
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/canal
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/rol-integrante
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-acceso
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-cargo
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion
 
 ## transporte
 *	http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
