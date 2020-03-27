@@ -1,0 +1,130 @@
+prefixes:
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  dct: http://purl.org/dc/terms/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  skos: http://www.w3.org/2004/02/skos/core#
+  owl: http://www.w3.org/2002/07/owl#
+  econ-ingreso: http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso/
+
+mappings:
+
+  conceptScheme:
+    sources:
+      - [clasificacion-economica-ingreso-descripcion.csv~csv]
+    s: http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso
+    po:
+      - [a,skos:conceptScheme]
+      - [dc:creator,$(creador)]       
+      - [dc:date,$(fecha)]
+      - [dc:title,$(titulo),es~lang]
+      - [skos:prefLabel,$(nombre),es~lang]
+  topConcept:
+    sources:
+      - [clasificacion-economica-ingreso-labels.csv~csv]  
+    s: http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso
+    po:
+        - [skos:hasTopConcept,econ-ingreso:$(capitulo)~iri]  
+  labelCapitulo:
+    sources:
+      - [clasificacion-economica-ingreso-labels.csv~csv]     
+    s: econ-ingreso:$(capitulo)
+    po:
+        - [a,skos:Concept]
+        - [skos:inScheme, http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso~iri]
+        - [skos:prefLabel,$(denominacion),es~lang] 
+  labelArticulo:
+    sources:
+      - [clasificacion-economica-ingreso-labels.csv~csv]     
+    s: econ-ingreso:$(articulo)
+    po:
+        - [a,skos:Concept]
+        - [skos:inScheme, http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso~iri]
+        - [skos:prefLabel,$(denominacion),es~lang]
+  labelConcepto:
+    sources:
+     - [clasificacion-economica-ingreso-labels.csv~csv]     
+    s: econ-ingreso:$(concepto)
+    po:
+        - [a,skos:Concept]
+        - [skos:inScheme, http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso~iri]
+        - [skos:prefLabel,$(denominacion),es~lang]
+  labelSubconcepto:
+    sources:
+     - [clasificacion-economica-ingreso-labels.csv~csv]     
+    s: econ-ingreso:$(subconcepto)
+    po:
+      - [a,skos:Concept]
+      - [skos:inScheme, http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso~iri]
+      - [skos:prefLabel,$(denominacion),es~lang] 
+  jerarquiaCapitulo:
+    sources:
+     - [clasificacion-economica-ingreso-jerarquia.csv~csv]     
+    s: econ-ingreso:$(capitulo)
+    po:
+      - p: skos:narrower
+        o:
+          - mapping: labelArticulo
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(articulo)]
+                - [str2, $(articulo)]
+  jerarquiaArticulo:
+    sources:
+     - [clasificacion-economica-ingreso-jerarquia.csv~csv]     
+    s: econ-ingreso:$(articulo)
+    po:
+      - p: skos:narrower
+        o:
+          - mapping: labelConcepto
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(concepto)]
+                - [str2, $(concepto)]
+      - p: skos:broader
+        o:
+          - mapping: labelCapitulo
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(capitulo)]
+                - [str2, $(capitulo)]
+  jerarquiaConcepto:
+    sources:
+     - [clasificacion-economica-ingreso-jerarquia.csv~csv]     
+    s: econ-ingreso:$(concepto)
+    po:
+      - p: skos:narrower
+        o:
+          - mapping: labelSubconcepto
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(subconcepto)]
+                - [str2, $(subconcepto)]
+      - p: skos:broader
+        o:
+          - mapping: labelArticulo
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(articulo)]
+                - [str2, $(articulo)]
+  jerarquiaSuboncepto:
+    sources:
+     - [clasificacion-economica-ingreso-jerarquia.csv~csv]     
+    s: econ-ingreso:$(subconcepto)
+    po:  
+      - p: skos:broader
+        o:
+          - mapping: labelConcepto
+            condition: 
+              function: equal
+              parameters:
+                - [str1, $(concepto)]
+                - [str2, $(concepto)]
+  
