@@ -12,9 +12,8 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1>
   a skos:Concept ;
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
-  skos:prefLabel "SERVICIOS PÚBLICOS BÁSICOS."@es, "Deuda Pública."@es ;
-  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/15>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/16>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/17>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11> ;
-  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0> .
+  skos:prefLabel "SERVICIOS PÚBLICOS BÁSICOS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/15>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/16>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/17> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/2>
   a skos:Concept ;
@@ -44,7 +43,7 @@
   a skos:Concept ;
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
   skos:prefLabel "DEUDA PÚBLICA."@es ;
-  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1> .
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
@@ -205,6 +204,13 @@
   a skos:Concept ;
   skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/9> ;
   skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/941>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/942>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/943>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
+  skos:prefLabel "Deuda Pública."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130>
   a skos:Concept ;
@@ -718,11 +724,11 @@
   skos:prefLabel "Transferencias a la Administración General del Estado."@es ;
   skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11>
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011>
   a skos:Concept ;
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
   skos:prefLabel "Deuda Pública."@es ;
-  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1> .
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1521>
   a skos:Concept ;
@@ -819,3 +825,4 @@
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto> ;
   skos:prefLabel "Gestión del Padrón Municipal de Habitantes."@es ;
   skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/923> .
+

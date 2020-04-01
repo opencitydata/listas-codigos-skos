@@ -98,7 +98,9 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transferencias a otras Administraciones Públicas."@es.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deuda Pública."@es.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deuda Pública."@es.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130> <http://www.w3.org/2004/02/skos/core#prefLabel> "Administración general de la seguridad y protección civil."@es.
@@ -351,9 +353,9 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transferencias a la Administración General del Estado."@es.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deuda Pública."@es.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deuda Pública."@es.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1521> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1521> <http://www.w3.org/2004/02/skos/core#prefLabel> "Promoción y gestión de vivienda de protección pública."@es.
@@ -424,7 +426,7 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/9> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/92>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/9> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/93>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/9> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/132>.
@@ -531,8 +533,8 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/942>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/943>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/0>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01> <http://www.w3.org/2004/02/skos/core#narrower> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/130> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/132> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/133> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/13>.
@@ -633,7 +635,7 @@
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/942> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/943> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/944> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/94>.
-<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/11> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1>.
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/011> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/01>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1521> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/152>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1522> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/152>.
 <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/1531> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto/153>.
