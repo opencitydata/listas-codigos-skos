@@ -1,0 +1,2253 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto>
+  a skos:conceptScheme ;
+  dc11:creator "Edna Ruckhaus (Universidad Politécnica de Madrid)" ;
+  dc11:date "2020-03-25" ;
+  dc11:title "Tesauro que recoge La clasificación económica del gasto. Los capítulos se desglosarán en artículos. Éstos a su vez en conceptos que se podrán subdividir en subconceptos. Los subconceptos podrán desarrollarse en partidas."@es ;
+  skos:prefLabel "Clasificación económica del gasto"@es ;
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/5>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "GASTOS DE PERSONAL."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/11>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/14>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "GASTOS CORRIENTES EN BIENES Y SERVICIOS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/23>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/24>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/25>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/26> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "GASTOS FINANCIEROS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/30>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/31>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/34>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "TRANSFERENCIAS CORRIENTES."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/40>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/41>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/43>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/48>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/49> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/5>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "FONDO DE CONTINGENCIA Y OTROS IMPREVISTOS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/50> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "INVERSIONES REALES."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/60>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/61>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/64>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/65>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/68>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/69> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "TRANSFERENCIAS DE CAPITAL."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/70>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/71>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/72>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/73>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/74>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/77>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/78>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/79> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "ACTIVOS FINANCIEROS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/80>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/81>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/82>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/83>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/84>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/85>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/86>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/87> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "PASIVOS FINANCIEROS."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/90>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/92>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/93>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/94> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/10>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Órganos de gobierno y personal directivo."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/11>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Personal eventual."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/117> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Personal Funcionario."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/122>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/124>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/127> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Personal Laboral."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/131>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/132>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/137> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/14>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otro personal."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/143>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/147> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Cuotas, prestaciones y gastos sociales a cargo del empleador."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/164> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos y cánones."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/200>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/202>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/203>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/204>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/205>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/206>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/208>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/209> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Reparaciones, mantenimiento y conservación."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/210>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/212>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/213>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/214>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/215>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/216>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/219> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Material, suministros y otros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/223>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/224>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/23>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Indemnizaciones por razón del servicio."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/233> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/24>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de publicaciones."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/240> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/25>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Trabajos realizados por administraciones públicas y otras entidades públicas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/26>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Trabajos realizados por Instituciones sin fines de lucro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/2> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/30>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De Deuda Pública en euros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/300>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/301>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/309> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/31>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De préstamos y otras operaciones financieras en euros."@es, "Intereses."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/310>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/311>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/319> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De deuda pública en moneda distinta del euro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/320>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/321>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/322>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/329> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De préstamos y otras operaciones financieras en moneda distinta del euro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/330>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/331>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/332>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/339> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/34>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De depósitos, fianzas y otros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/340>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/341> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses de demora y otros gastos financieros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/3> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/352>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/353>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/357>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/358>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/359> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/40>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General de la Entidad Local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/41>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos de la Entidad Local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración del Estado."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/420>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/422>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/43>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Seguridad Social."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A entes públicos y sociedades mercantiles de la Entidad Local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/440>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/441>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/442>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/449> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/450>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/451>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/452>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades Locales."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/461>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/462>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/463>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/464>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/465>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/466>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/467>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/468> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Empresas privadas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/470>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/471>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/472>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/479> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/48>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Familias e Instituciones sin fines de lucro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/49>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al exterior."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/4> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/50>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Dotación al Fondo de Contingencia de Ejecución Presupuestaria."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/5> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/500> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/60>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversión nueva en infraestructuras y bienes destinados al uso general."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/600>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/609> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/61>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversiones de reposición de infraestructuras y bienes destinados al uso general."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/610>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/619> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversión nueva asociada al funcionamiento operativo de los servicios."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/621>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/622>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/623>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/624>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/625>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/626>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/627>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/629> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversión de reposición asociada al funcionamiento operativo de los servicios."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/631>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/632>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/633>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/634>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/635>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/636>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/637>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/639> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/64>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos en inversiones de carácter inmaterial."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/640>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/641>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/648> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/65>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversiones gestionadas para otros entes públicos."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/650> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/68>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos en inversiones de bienes patrimoniales."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/681>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/682>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/689> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/69>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversiones en bienes comunales."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/6> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/690>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/692> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/70>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General de la Entidad Local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/71>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos de la Entidad Local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/72>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración del Estado."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/720>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/722>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/723> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/73>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Seguridad Social."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/74>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A entes públicos y sociedades mercantiles de la Entidad local."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/750>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/751>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/752>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/753> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades Locales."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/761>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/762>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/763>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/764>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/765>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/766>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/767>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/768> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/77>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A empresas privadas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/78>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A familias e instituciones sin fines de lucro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/79>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al exterior."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/7> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/80>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de deuda del sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/81>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de Obligaciones y Bonos fuera del sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/810>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/811> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/82>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Concesión préstamos al sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/83>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Concesión de préstamos fuera del sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/830>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/831> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/84>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Constitución de depósitos y fianzas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/85>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones del sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/86>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones fuera del sector público."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/87>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones patrimoniales."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/8> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/870>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/871>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/90>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en euros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/900>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/901> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos y de operaciones en euros."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/910>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/911>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/912>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/913> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/92>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en moneda distinta del euro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/920>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/921> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/93>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos en moneda distinta del euro."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/930>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/931> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/94>
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Devolución de depósitos y fianzas."@es ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/9> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/940>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/941> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas y otras remuneraciones de los miembros de los órganos de gobierno."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/10> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100.01> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas y otras remuneraciones del personal directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/10> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101.01> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Contribuciones a planes y fondos de pensiones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/10> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107.01> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas y otras remuneraciones de personal eventual."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/11> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.02> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/117>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Contribuciones a planes y fondos de pensiones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/11> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.03>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.05>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.06>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.09> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones complementarias."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.03> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/122>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones en especie."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/124>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones de funcionarios en prácticas (mismo desglose que 120)."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/127>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Contribuciones a planes y fondos de pensiones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/12> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Laboral Fijo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.02> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/131>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Laboral temporal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/132>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones en especie."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/137>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Contribuciones a planes y fondos de pensiones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/13> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/143>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otro personal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/14> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/147>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Contribuciones a planes y fondos de pensiones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/14> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/150>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Productividad."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/151>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gratificaciones."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/152>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros incentivos al rendimiento."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/153>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Complemento de dedicación especial."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Cuotas sociales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.08>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.09> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Prestaciones sociales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.03>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.05>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.07> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos sociales del personal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.05>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.09> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/164>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Complemento familiar."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/16> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/200>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de terrenos y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/202>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de edificios y otras construcciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/203>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de maquinaria, instalaciones y utillaje."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/204>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de material de transporte."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/205>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de mobiliario y enseres."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/206>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de equipos para procesos de información."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/208>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Arrendamientos de otro inmovilizado material."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/209>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Cánones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/210>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Infraestructuras y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/212>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Edificios y otras construcciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/213>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Maquinaria, instalaciones técnicas y utillaje."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/214>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Elementos de transporte."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/215>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Mobiliario."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/216>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Equipos para procesos de información."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/219>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otro inmovilizado material."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/21> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Material de oficina."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.02> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Suministros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.03>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.05>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.06>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.11>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.12>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.13>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.99> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Comunicaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.03>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.99> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/223>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Transportes."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/224>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Primas de seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Tributos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.02> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos diversos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.03>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.06>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.07>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.09>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.99> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Trabajos realizados por otras empresas y profesionales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/22> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.02>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.04>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.05>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.06>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.08>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.99> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Dietas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/23> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Locomoción."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/23> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.20> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/233>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras indemnizaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/23> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/240>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de edición y distribución."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/24> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/300>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/30> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/301>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de emisión, modificación y cancelación."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/30> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/309>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos financieros de Deuda Pública en euros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/30> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/310>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/31> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/311>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de formalización, modificación y cancelación."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/31> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/319>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos financieros de préstamos y otras operaciones financieras en euros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/31> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/320>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/321>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de emisión, modificación y cancelación."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/322>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Diferencias de cambio."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/329>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos financieros de Deuda Pública en moneda distinta del euro."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/32> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/330>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/331>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos de formalización, modificación y cancelación."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/332>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Diferencias de cambio."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/339>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos financieros de préstamos y otras operaciones financieras en moneda distinta del euro."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/33> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/340>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses de depósitos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/34> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/341>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses de fianzas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/34> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/352>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses de demora."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/353>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Operaciones de intercambio financiero."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/357>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Ejecución de avales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/358>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Intereses por operaciones de arrendamiento financiero («leasing»)."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/359>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos financieros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/35> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/420>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General del Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos yAgencias estatales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421.10> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/422>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Fundaciones estatales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/42> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/440>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para fomento del empleo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/441>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para bonificación de intereses y primas de seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/442>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para reducir el precio a pagar por los consumidores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/449>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras subvenciones a entes públicos y sociedades mercantiles de la Entidad Local."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/44> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/450>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/451>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos y agencias de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/452>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A fundaciones de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/45> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/461>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Diputaciones, Consejos o Cabildos insulares."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/462>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Ayuntamientos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/463>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Mancomunidades."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/464>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Áreas Metropolitanas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/465>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comarcas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/466>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otras Entidades que agrupen municipios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/467>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Consorcios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/468>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades Locales Menores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/46> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/470>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para fomento del empleo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/471>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para bonificación de intereses y primas de seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/472>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para reducir el precio a pagar por los consumidores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/479>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras subvenciones a Empresas privadas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/47> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/500>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Fondo de Contingencia de Ejecución Presupuestaria. Artículo 31 Ley Orgánica 2/2012, de Estabilidad Presupuestaria y Sostenibilidad Financiera."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/50> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/600>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversiones en terrenos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/60> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/609>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras inversiones nuevas en infraestructuras y bienes destinados al uso general."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/60> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/610>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversiones en terrenos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/61> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/619>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras inversiones de reposición en infraestructuras y bienes destinados al uso general."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/61> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/621>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Terrenos y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/622>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Edificios y otras construcciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/623>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Maquinaria, instalaciones técnicas y utillaje."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/624>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Elementos de transporte."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/625>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Mobiliario."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/626>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Equipos para procesos de información."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/627>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Proyectos complejos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/629>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras inversiones nuevas asociadas al funcionamiento operativo de los servicios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/62> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/631>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Terrenos y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/632>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Edificios y otras construcciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/633>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Maquinaria, instalaciones técnicas y utillaje."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/634>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Elementos de transporte."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/635>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Mobiliario."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/636>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Equipos para procesos de información."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/637>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Proyectos complejos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/639>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras inversiones de reposición asociadas al funcionamiento operativo de los servicios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/63> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/640>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos en inversiones de carácter inmaterial."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/64> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/641>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos en aplicaciones informáticas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/64> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/648>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Cuotas netas de intereses por operaciones de arrendamiento financiero («leasing»)."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/64> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/650>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gastos en inversiones gestionadas para otros entes públicos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/65> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/681>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Terrenos y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/68> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/682>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Edificios y otras construcciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/68> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/689>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos en inversiones de bienes patrimoniales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/68> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/690>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Terrenos y bienes naturales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/69> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/692>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Inversión en infraestructuras."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/69> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/720>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General del Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/72> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/721>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos y agencias."@es ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/721.09> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/722>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A fundaciones estatales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/72> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/723>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/72> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/750>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A la Administración General de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/751>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Organismos Autónomos y agencias de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/752>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A fundaciones de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/753>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/75> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/761>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Diputaciones, Consejos o Cabildos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/762>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Ayuntamientos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/763>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Mancomunidades."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/764>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Áreas Metropolitanas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/765>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comarcas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/766>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades que agrupen Municipios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/767>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Consorcios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/768>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades Locales Menores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/76> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de deuda del sector público a corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/80> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de deuda del sector público a largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/80> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/810>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de obligaciones y bonos fuera del sector público a corto plazo. Desarrollo por sectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/81> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/811>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de obligaciones y bonos fuera del sector público a largo plazo. Desarrollo por sectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/81> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Préstamos a corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/82> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Préstamos a largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/82> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/830>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Préstamos a corto plazo. Desarrollo por sectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/83> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/831>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Préstamos a largo plazo. Desarrollo por sectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/83> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Depósitos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/84> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840.10> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Fianzas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/84> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841.00>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841.10> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/85> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.01>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones fuera del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/86> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/870>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones a fundaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/87> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/871>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones a consorcios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/87> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones a otros entes."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/87> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.10>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.20>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/900>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en euros a corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/901>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en euros a largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/90> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/910>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos a corto plazo de entes del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/911>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos a largo plazo de entes del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/912>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos a corto plazo de entes de fuera del sector Público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/913>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos a largo plazo de entes de fuera del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/91> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/920>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en moneda distinta del euro a corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/92> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/921>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de Deuda Pública en moneda distinta del euro a largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/92> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/930>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos en moneda distinta del euro a corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/93> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/931>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Amortización de préstamos en moneda distinta del euro a largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/93> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/940>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Devolución de depósitos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/94> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/941>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Devolución de fianzas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/94> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras remuneraciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/100> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras remuneraciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/101> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De los miembros de los órganos de gobierno."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Del personal directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/107> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones complementarias."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras remuneraciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/110> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo A1."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo A2."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo B."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo C1."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo C2."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.05>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Sueldos del Grupo E."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.06>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Trienios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120.09>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/120> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Complemento de destino."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Complemento específico."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros complementos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/121> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Retribuciones básicas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Horas extraordinarias"@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras remuneraciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/130> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Seguridad Social."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.08>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Asistencia médico-farmacéutica."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160.09>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras cuotas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/160> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Pensiones excepcionales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Indemnizaciones al personal laboral por jubilaciones anticipadas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.05>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Pensiones a cargo de la Entidad local."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161.07>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Asistencia médico-farmacéutica a pensionistas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/161> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Formación y perfeccionamiento del personal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Economatos y comedores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Transporte de personal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Acción social."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.05>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162.09>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos sociales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/162> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Ordinario no inventariable."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Prensa, revistas, libros y otras publicaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Material informático no inventariable."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/220> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Energía eléctrica."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Agua."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Gas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Combustibles y carburantes."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Vestuario."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.05>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Productos alimenticios."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.06>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Productos farmacéuticos y material sanitario."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Productos de limpieza y aseo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.11>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Suministros de repuestos de maquinaria, utillaje y elementos de transporte."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.12>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Suministros de material electrónico, eléctrico y de telecomunicaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.13>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Manutención de animales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221.99>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros suministros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/221> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Servicios de Telecomunicaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Postales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Telegráficas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Informáticas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222.99>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos en comunicaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/222> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Tributos estatales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Tributos de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Tributos de las Entidades locales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/225> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Atenciones protocolarias y representativas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Publicidad y propaganda."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.03>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Publicación en Diarios Oficiales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Jurídicos, contenciosos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.06>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Reuniones, conferencias y cursos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.07>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Oposiciones y pruebas selectivas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.09>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Actividades culturales y deportivas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226.99>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros gastos diversos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/226> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Limpieza y aseo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Seguridad."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.02>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Valoraciones y peritajes."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.04>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Custodia, depósito y almacenaje."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.05>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Procesos electorales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.06>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Estudios y trabajos técnicos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.08>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Servicios de recaudación a favor de la entidad."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227.99>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otros trabajos realizados por otras empresas y profesionales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/227> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De los miembros de los órganos de gobierno."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Del personal directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Del personal no directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/230> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De los miembros de los órganos de gobierno."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Del personal directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Del personal no directivo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/231> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Servicio Público de Empleo Estatal."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros organismos autónomos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/421> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para fomento del empleo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para bonificación de intereses y primas de seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para reducir el precio a pagar por los consumidores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras subvenciones a sociedades mercantiles estatales, entidades públicas empresariales y otros organismos públicos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/423> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para fomento del empleo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para bonificación de intereses y primas de seguros."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Subvenciones para reducir el precio a pagar por los consumidores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Otras subvenciones a sociedades mercantiles, entidades públicas empresariales y otros organismos públicos dependientes de las Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/453> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/721.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Servicio Público de Empleo Estatal."@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/721.09>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros organismos autónomos."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/721> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades locales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros subsectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/800> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades locales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros subsectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/801> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades locales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros subsectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/820> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Al Estado."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Comunidades Autónomas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A Entidades locales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A otros subsectores."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/821> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/840> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841.00>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A corto plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "A largo plazo."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/841> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.01>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones para compensar pérdidas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Adquisición de acciones y participaciones para financiar inversiones no rentables."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Resto de adquisiciones de acciones dentro del sector público."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/850> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De empresas nacionales."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De empresas de la Unión Europea."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "De otras empresas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/860> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.10>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones para compensar pérdidas."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.20>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Aportaciones para financiar inversiones no rentables."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872.90>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto> ;
+  skos:prefLabel "Resto de aportaciones."@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/872> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/15>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/1> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/150>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/151>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/152>, <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto/153> .
+
