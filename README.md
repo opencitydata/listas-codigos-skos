@@ -49,10 +49,13 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion
 
 ## transporte
-*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
-*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion
-*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo
-*	http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/tipo-validacion
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/titulo
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-trafico
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-equipo-trafico
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia
+* http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-nivel-servicio
 * http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-bicicleta
 * http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-estado-estacion
 * http://vocab.linkeddata.es/datosabiertos/kos/transporte/bicicleta-publica/tipo-modelo-bicicleta
