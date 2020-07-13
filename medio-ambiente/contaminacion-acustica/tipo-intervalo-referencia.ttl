@@ -1,0 +1,37 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/T> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/D> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/E> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/N> ;
+    dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
+    dc:date "2020-07-02"^^xsd:date ;
+    skos:prefLabel "Tipo de periodos de medición de contaminación acústica"@es ;
+    dc:title "Tesauro que recoge los tipos de indicadores de ruido global recogidos durante un periodo del día"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/T> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia> ;
+  skos:notation "T" ;
+	skos:prefLabel "T" ;
+  skos:prefLabel "Indicador del nivel de ruido global durante el día, la tarde y la noche, utilizado para determinar la molestia vinculada a la exposición al ruido"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/D> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia> ;
+  skos:notation "D" ;
+  skos:prefLabel "D" ;
+  skos:prefLabel "Nivel sonoro medio a largo plazo ponderado A, determinado a lo largo de todos los períodos día (de 7 a 19 horas) del mes"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/E> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia> ;
+  skos:notation "E" ;
+	skos:prefLabel "E" ;
+  skos:prefLabel "Nivel sonoro medio a largo plazo ponderado A, determinado a lo largo de todos los períodos tarde (de 19 a 23 horas) del mes"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia/N> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia> ;
+  skos:notation "N" ;
+	skos:prefLabel "N" ;
+  skos:prefLabel "Nivel sonoro medio a largo plazo ponderado A, definido determinado a lo largo de todos los períodos noche (de 23 a 7 horas) del mes"@es .

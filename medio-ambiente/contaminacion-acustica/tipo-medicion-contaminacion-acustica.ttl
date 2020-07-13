@@ -1,0 +1,65 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> a skos:ConceptScheme;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAeq24> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAeq> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS01> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS10> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS50> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS90> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS99> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAw> ;
+    dc:creator "Francisco Yedro (Universidad Politécnica de Madrid)" ;
+    dc:date "2020-07-02"^^xsd:date ;
+    skos:prefLabel "Tipo de índice de ruido o vibración"@es ;
+    dc:title "Tesauro que recoge los tipos de índice de ruido o vibración"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAeq24> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAeq24" ;
+	skos:prefLabel "LAeq24" ;
+  skos:prefLabel "Nivel sonoro medio a largo plazo ponderado A, determinado a lo largo de todos los períodos diarios (24 horas) del mes"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAeq> a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAeq" ;
+  skos:prefLabel "LAeq" ;
+  skos:prefLabel "Nivel continuo equivalente con ponderación frecuencial A, que es el nivel de ruido supuesto constante y continuo a lo largo de un periodo de tiempo, que se corresponde con la misma cantidad de energía que aquel nivel real variable medido en el mismo periodo"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS01> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAS01" ;
+	skos:prefLabel "LAS01" ;
+  skos:prefLabel "Es el nivel de presión sonora con ponderación frecuencial A y ponderación temporal Slow, que se sobrepasa durante el 1% del tiempo de observación"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS10> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAS10" ;
+	skos:prefLabel "LAS10" ;
+  skos:prefLabel "Es el nivel de presión sonora con ponderación frecuencial A y ponderación temporal Slow, que se sobrepasa durante el 10% del tiempo de observación"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS50> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAS50" ;
+	skos:prefLabel "LAS50" ;
+  skos:prefLabel "Es el nivel presión sonora con ponderación frecuencial A y ponderación temporal Slow, que se sobrepasa durante el 50% del tiempo de observación"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS90> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAS90" ;
+	skos:prefLabel "LAS90" ;
+  skos:prefLabel "Es el nivel de presión sonora con ponderación frecuencial A y ponderación temporal Slow, que se sobrepasa durante el 90% del tiempo de observación"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAS99> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAS99" ;
+	skos:prefLabel "LAS99" ;
+  skos:prefLabel "Es nivel de presión sonora con ponderación frecuencial A y ponderación temporal Slow, que se sobrepasa durante el 99% del tiempo de observación"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica/LAw> a skos:Concept ;
+	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica> ;
+  skos:notation "LAw" ;
+	skos:prefLabel "LAw" ;
+  skos:prefLabel "Es el índice de vibración que se utiliza para evaluar la molestia, los efectos nocivos y los niveles de vibración máximos, que se producen durante el periodo temporal de evaluación (diurno, nocturno), en el espacio interior de edificios"@es .
