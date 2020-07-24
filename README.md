@@ -24,7 +24,7 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 
 ## medio-ambiente
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion
-*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion
+*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia
 
