@@ -22,11 +22,14 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-nivel-estudio
 * http://vocab.linkeddata.es/datosabiertos/kos/demografia/padron-municipal/tipo-variacion
 
+## hacienda
+* http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/programa-gasto
+* http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-gasto
+* http://vocab.linkeddata.es/datosabiertos/kos/hacienda/presupuesto/economica-ingreso
+
 ## medio-ambiente
 *	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/calidad-aire/tipo-estacion
-*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-medicion-contaminacion-acustica
-*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante
-*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-intervalo-referencia
+*	http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/emisor-acustico
 
 ## sector-publico
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/organizacion/clave-nif-forma-juridica
