@@ -1,0 +1,63 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> a skos:ConceptScheme;
+    skos:notation "grupo-profesional" ;
+    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
+    dc:date "2020-11-04"^^xsd:date ;
+    dcterms:description "Enumeration of Types of Profesional Groups in General State Administration"@en ;
+    dcterms:description "Grupos profesionales de la Administración General del Estado"@es ;
+    dcterms:title "Profesional Groups in the General State Administration"@en ;
+    dcterms:title "Grupos Profesionales de la Administración General del Estado"@es ;
+    skos:definition "Types of Profesional Groups in the General State Administration"@en ;
+    skos:definition "Tipos de grupos profesionales en la Administración General del Estado"@es ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A1> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A2> ;
+        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/B> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C1> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C2> ;
+
+    skos:prefLabel "Grupo Profesional de la Administración General del Estado"@es ;
+    skos:prefLabel "Profesional Group of the General State Administration"@en ;
+    dc:title "Theasurus that collects the profesional group of the General State Administration in Spain"@en ;
+    dc:title "Tesauro que recoge las grupos profesionales de la Administración General del Estado en España"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A1> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
+    skos:notation "Grupo A1"@es ;
+    skos:notation "A1 Group"@en ;
+    skos:prefLabel "A1"@en ;
+    skos:prefLabel "A1"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A2> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
+    skos:notation "Grupo A2"@es ;
+    skos:notation "A2 Group"@en ;
+    skos:prefLabel "A2"@en ;
+    skos:prefLabel "A2"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/B> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
+    skos:notation "Grupo B"@es ;
+    skos:notation "B Group"@en ;
+    skos:prefLabel "B"@en ;
+    skos:prefLabel "B"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C1> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
+    skos:notation "Grupo C1"@es ;
+    skos:notation "C1 Group"@en ;
+    skos:prefLabel "C1"@en ;
+    skos:prefLabel "C1"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C2> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
+    skos:notation "Grupo C2"@es ;
+    skos:notation "C2 Group"@en ;
+    skos:prefLabel "C2"@en ;
+    skos:prefLabel "C2"@es .

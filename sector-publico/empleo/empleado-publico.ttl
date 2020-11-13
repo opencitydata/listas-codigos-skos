@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico> a skos:ConceptScheme;
+    skos:notation "empleado-publico" ;
+    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
+    dc:date "2020-11-04"^^xsd:date ;
+    dcterms:description "Enumeration of Types of Civil Servants in Spain"@en ;
+    dcterms:description "Empleados públicos en la Administración General del Estado"@es ;
+    dcterms:title "Type of Civil Servants in the General State Administration"@en ;
+    dcterms:title "Tipos de empleados públicos en la Administración General del Estado"@es ;
+    skos:definition "Types of Civil Servants in the General State Administration"@en ;
+    skos:definition "Tipos de empleados públicos en la Administración General del Estado"@es ;
+    skos:prefLabel "Tipos de empleados públicos de la Administración General del Estado"@es ;
+    skos:prefLabel "Types of Civil Servants of the General State Administration"@en ;
+    dc:title "Theasurus that collects the types of civil servants in Spain"@en ;
+    dc:title "Tesauro que recoge los tipos de empleados públicos en España"@es .
+
+# Funcionario
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/> 
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> a skos:Concept ;
+    skos:notation "Funcionario"@es ;
+    skos:notation "Civil Servant"@en ;
+    skos:prefLabel "funcionario"@es ;
+    skos:prefLabel "civil-servant"@en ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico> .
+
+# Funcionario de Carrera
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-carrera> a skos:Concept ;
+    skos:notation "Funcionario de carrera"@es ;
+    skos:notation "Career Civil Servant"@en ;
+    skos:prefLabel "funcionario-carrera"@es ;
+    skos:prefLabel "career-civil-servant"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-carrera> .
+
+# Funcionario Interino
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> a skos:Concept ;
+    skos:notation "Funcionario interino"@es ;
+    skos:notation "Interim Civil Servant"@en ;
+    skos:prefLabel "funcionario interino"@es ;
+    skos:prefLabel "interim civil servant"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> .
+
+# Funcionario Interino Sustitución
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-sustitucion> a skos:Concept ;
+    skos:notation "FIB, Funcionario interino por sustitución"@es ;
+    skos:notation "Interim Civil Servant by replacement"@en ;
+    skos:prefLabel "Funcionario interino por sustitución"@es ;
+    skos:prefLabel "Interim Civil Servant by Replacement"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-sustitucion> .
+
+# Funcionario Interino en Plaza Vacante
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-vacante> a skos:Concept ;
+    skos:notation "Funcionario interino por plaza vacante"@es ;
+    skos:notation "Interim Civil Servant by Vacancy"@en ;
+    skos:prefLabel "Funcionario interino por plaza vacante"@es ;
+    skos:prefLabel "Interim Civil Servant by Vacancy"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-vacante> .
+
+# Funcionario Interino por Programa
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-programa> a skos:Concept ;
+    skos:notation "FIC, Funcionario interino por programa"@es ;
+    skos:notation "Interim Civil Servant by programme"@en ;
+    skos:prefLabel "Funcionario interino por programa"@es ;
+    skos:prefLabel "Interim Civil Servant by Programme"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-programa> .
+
+# Funcionario Interino por Acumulación de Tareas
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-acumulacion-tareas> a skos:Concept ;
+    skos:notation "FID, Funcionario interino por acumulación de tareas"@es ;
+    skos:notation "Interim Civil Servant by cumulation of tasks"@en ;
+    skos:prefLabel "Funcionario interino por acumulación de tareas"@es ;
+    skos:prefLabel "Interim Civil Servant by Cumulation of Tasks"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario-interino-acumulacion-tareas> .
+
+
+# Personal Laboral
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/> 
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> a skos:Concept ;
+    skos:notation "Personal Laboral"@es ;
+    skos:notation "Public Administration Staff"@en ;
+    skos:prefLabel "Personal Laboral"@es ;
+    skos:prefLabel "Public Administration Staff"@en ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico> .
+
+# Personal Laboral Fijo
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-fijo> a skos:Concept ;
+    skos:notation "Personal Laboral Fijo"@es ;
+    skos:notation "Public Administration Permanent Staff"@en ;
+    skos:prefLabel "Personal Laboral Fijo"@es ;
+    skos:prefLabel "Public Administration Permanent Staff"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-fijo> .
+
+# Personal laboral indefinido
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-indefinido> a skos:Concept ;
+    skos:notation "Personal Laboral Indefinido"@es ;
+    skos:notation "Temporary Public Administration Staff Indefinitely"@en ;
+    skos:prefLabel "Personal Laboral Indefinido"@es ;
+    skos:prefLabel "Temporary Public Administration Staff Indefinitely"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-indefinido> .
+
+# Personal Laboral Temporal
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal> a skos:Concept ;
+    skos:notation "Personal Laboral Temporal"@es ;
+    skos:notation "Temporary Public Administration Staff"@en ;
+    skos:prefLabel "Personal Laboral Temporal"@es ;
+    skos:prefLabel "Temporary Public Administration Staff"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal-en-convenio> a skos:Concept ;
+    skos:notation "Personal Laboral Temporal en Convenio"@es ;
+    skos:notation "Temporary Public Administration Staff in Agreement"@en ;
+    skos:prefLabel "Personal Laboral Temporal en Convenio"@es ;
+    skos:prefLabel "Temporary Public Administration Staff in Agreement"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal-en-convenio> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-interino-en-vacante> a skos:Concept ;
+    skos:notation "Personal Laboral Interino en Vacante"@es ;
+    skos:notation "Interim in Vacancy Public Administration Staff"@en ;
+    skos:prefLabel "Personal Laboral Interino en Vacante"@es ;
+    skos:prefLabel "Interim in Vacancy Public Administration Staff"@en ;
+    skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temporal> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-temoral> skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral-interino-en-vacante> .

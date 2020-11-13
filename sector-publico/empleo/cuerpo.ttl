@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> a skos:ConceptScheme;
+    skos:notation "cuerpo" ;
+    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
+    dc:date "2020-11-04"^^xsd:date ;
+    dcterms:description "Enumeration of Types of Bodies of the General State Administration's Civil Servants"@en ;
+    dcterms:description "Cuerpos del personal de la Administración General del Estado"@es ;
+    dcterms:title "Administrative Bodies"@en ;
+    dcterms:title "Cuerpos de la AGE"@es ;
+    skos:definition "Administrative Bodies of the General State Administration"@en ;
+    skos:definition "Cuerpos de la Administración General del Estado, AGE"@es ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-general> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-especial> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-general-o-especial> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/habilitado-caracter-nacional> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/habilitado-general-o-habilitado-caracter-nacional> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/gris> ;
+    skos:prefLabel "Cuerpos de la AGE"@es ;
+    skos:prefLabel "Administrative Bodies"@en ;
+    dc:title "Theasurus that collects administrative bodies of the General State Administration of Spain"@en ;
+    dc:title "Tesauro que recoge los curpos de la Administración General del Estado de España"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-general> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
+    skos:notation "Administración General"@es ;
+    skos:notation "General Administration"@en ;
+    skos:prefLabel "GA"@en ;
+    skos:prefLabel "AG"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-especial> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
+    skos:notation "Administración Especial"@es ;
+    skos:notation "Special Administration"@en ;
+    skos:prefLabel "SA"@en ;
+    skos:prefLabel "AE"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-general-o-especial> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
+    skos:notation "Administración General o Especial"@es ;
+    skos:notation "General or Special Administration"@en ;
+    skos:prefLabel "GSA"@en ;
+    skos:prefLabel "AGE"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/habilitado-caracter-nacional> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
+    skos:notation "Habilitado de Carácter Nacional"@es ;
+    skos:notation "Nationally Enabled Civil Servant"@en ;
+    skos:prefLabel "NECS"@en ;
+    skos:prefLabel "HCN"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/administracion-general-o-habilitado-caracter-nacional> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
+    skos:notation "Administración General o Habilitado de Carácter Nacional"@es ;
+    skos:notation "General Administration or Nationally Enabled Civil Servant"@en ;
+    skos:prefLabel "GANECS"@en ;
+    skos:prefLabel "AGHCN"@es .
+
+

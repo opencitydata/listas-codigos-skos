@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> a skos:ConceptScheme;
+    skos:notation "modalidad" ;
+    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
+    dc:date "2020-11-04"^^xsd:date ;
+    dcterms:description "Enumeration of Types of Modalities of the Call for Public Employment"@en ;
+    dcterms:description "Modalidad de Convocatoria de Empleo Público"@es ;
+    dcterms:title "Modality of the Call for Public Employment"@en ;
+    dcterms:title "Modalidad de la Convocatoria de Empleo Público"@es ;
+    skos:definition "Types of Modalities of the Call for Public Employment"@en ;
+    skos:definition "Tipos de modalidades de la convocatoria de empleo público"@es ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidadad/concurso> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/oposicion> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso-oposicion> ;
+    skos:prefLabel "Modalidad de la Convocatoria"@es ;
+    skos:prefLabel "Modality of the Call"@en ;
+    dc:title "Theasurus that collects the modalities of the call for public employmentadministrative bodies of the General State Administration in Spain"@en ;
+    dc:title "Tesauro que recoge las modalidades de las convocatorias de empleo público en España"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> ;
+    skos:notation "Concurso"@es ;
+    skos:notation "Contest"@en ;
+    skos:prefLabel "Contest"@en ;
+    skos:prefLabel "Concurso"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/oposicion> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/oposicion> ;
+    skos:notation "Oposición"@es ;
+    skos:notation "Competition"@en ;
+    skos:prefLabel "Competition"@en ;
+    skos:prefLabel "Oposición"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso-oposicion> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> ;
+    skos:notation "Concurso oposición"@es ;
+    skos:notation "Contest competition"@en ;
+    skos:prefLabel "Contest competition"@en ;
+    skos:prefLabel "Concurso oposición"@es .
