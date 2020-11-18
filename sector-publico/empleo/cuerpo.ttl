@@ -54,7 +54,7 @@
     skos:prefLabel "NECS"@en ;
     skos:prefLabel "HCN"@es .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/habilitado-general--o-habilitado-caracter-nacional> a skos:Concept ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo/habilitado-general-o-habilitado-caracter-nacional> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/cuerpo> ;
     skos:notation "Administración General o Habilitado de Carácter Nacional"@es ;
     skos:notation "General Administration or Nationally Enabled Civil Servant"@en ;
