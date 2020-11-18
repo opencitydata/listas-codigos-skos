@@ -16,7 +16,7 @@
     dcterms:title "Modalidad de la Convocatoria de Empleo Público"@es ;
     skos:definition "Types of Modalities of the Call for Public Employment"@en ;
     skos:definition "Tipos de modalidades de la convocatoria de empleo público"@es ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidadad/concurso> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/oposicion> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso-oposicion> ;
     skos:prefLabel "Modalidad de la Convocatoria"@es ;

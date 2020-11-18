@@ -23,7 +23,7 @@
 
 # Funcionario
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/> 
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico> 
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/funcionario> a skos:Concept ;
