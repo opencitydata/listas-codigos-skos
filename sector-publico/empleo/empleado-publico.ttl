@@ -100,7 +100,7 @@
 
 # Personal Laboral
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/> 
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico> 
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/empleado-publico/personal-laboral> a skos:Concept ;
