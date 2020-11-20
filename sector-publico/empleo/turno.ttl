@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> a skos:ConceptScheme;
+    skos:notation "turno" ;
+    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
+    dc:date "2020-11-04"^^xsd:date ;
+    dcterms:description "Enumeration of access shifts to the general state administration"@en ;
+    dcterms:description "Turnos de acceso a la Administración General del Estado"@es ;
+    dcterms:title "Access shifts"@en ;
+    dcterms:title "Turnos de acceso a la AGE"@es ;
+    skos:definition "Access shifts to the General State Administration"@en ;
+    skos:definition "Turnos de acceso la Administración General del Estado, AGE"@es ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/libre> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/interno> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/discapacitada> ;
+    skos:prefLabel "Turnos de la AGE"@es ;
+    skos:prefLabel "Access Shifts"@en ;
+    dc:title "Theasurus that collects the access shifts to the General State Administration of Spain"@en ;
+    dc:title "Tesauro que recoge los turnos de acceso de la Administración General del Estado de España"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/interno> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
+    skos:notation "Turno de acceso interno"@es ;
+    skos:notation "Internal Shift Access"@en ;
+    skos:prefLabel "Internal"@en ;
+    skos:prefLabel "Interno"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/libre> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
+    skos:notation "Turno de acceso libre"@es ;
+    skos:notation "Free shift access"@en ;
+    skos:prefLabel "Free"@en ;
+    skos:prefLabel "Libre"@es .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/reservado> a skos:Concept ;
+    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
+    skos:notation "Turno de acceso reservado"@es ;
+    skos:notation "Reserved Access Shift"@en ;
+    skos:prefLabel "Reserved"@en ;
+    skos:prefLabel "Reservado"@es .
