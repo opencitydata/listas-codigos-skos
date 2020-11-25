@@ -18,7 +18,7 @@
     skos:definition "Turnos de acceso la Administración General del Estado, AGE"@es ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/libre> ;
     skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/interno> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/discapacitada> ;
+    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/reservado> ;
     skos:prefLabel "Turnos de la AGE"@es ;
     skos:prefLabel "Access Shifts"@en ;
     dc:title "Theasurus that collects the access shifts to the General State Administration of Spain"@en ;
