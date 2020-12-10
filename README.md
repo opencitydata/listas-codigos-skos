@@ -53,6 +53,7 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-cargo
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/agenda-municipal/tipo-sesion
 * http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tipo-procedimiento
+* http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/subvencion/tematica-ayuntamiento
 
 ## transporte
 * http://vocab.linkeddata.es/datosabiertos/kos/transporte/perfil-usuario
