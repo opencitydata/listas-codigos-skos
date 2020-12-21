@@ -1,0 +1,9 @@
+tipo,subtipo,denominacionEsp,denominacionEng,definicionEsp,definicionEng
+prestamo-fondo,,Préstamo Fondo,,Préstamos con cargo a algún Fondo, 
+,prestamo-fondo-impulso-economico,Préstamo Fondo de Impulso Económico,,Préstamos con cargo a este compartimento. RD-Ley 17/2014 (artículos 50-53)., 
+,prestamo-fondo-ordenacion,Préstamo Fondo de Ordenación,,Préstamos con cargo a este compartimento. RD-Ley 17/2014 (artículo 39.1)., 
+,prestamo-fondo-liquidacion-financiación-pagos-proveedores-eell,Préstamo Fondo en Liquidación para la financiación de los pagos a los proveedores de EELL,,Préstamos con cargo a este compartimento. RD-Ley 17/2014 (artículo 39.2)., 
+prestamo-entidad-prestamista,,Préstamo entidad prestamista,,Préstamo concedido una o más entidades prestamistas, 
+,bilateral,Bilateral,,Préstamo concedido por una entidad prestamista, 
+,sindicado,Sindicado,,Préstamo concedido una pluralidad de entidades prestamistas. Se caracteriza por el hecho de que un grupo de Bancos o Cajas se reparten la financiación en determinada proporción, es decir, conceden dinero al prestatario en un determinado porcentaje cada uno de ellos., 
+anticipo-y-ayuda-reintegrable,,Anticipo y ayuda reintegrable,,Adelanto de una cantidad dineraria sin coste financiero por parte del que la recibe y con la condición de devolver dichos fondos pasado un tiempo determinado., 
