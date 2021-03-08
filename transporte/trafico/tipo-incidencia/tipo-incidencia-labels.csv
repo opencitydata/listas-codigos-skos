@@ -1,0 +1,13 @@
+tipo,subtipo,denominacionEsp,denominacionEng,definicionEsp,definicionEng
+incidencia-planificada,,Incidencia planificada,Planned incident,Incidencia o evento planificado en la ciudad que afecta a la circulación de vehículos.,Incident or planned event in the city that affects the circulation of vehicles.
+,corte-trafico,traffic-interruption,Incidencia de corta duración que requiere el corte particular de la vía.  Por ejemplo: montaje de grúa; circulación de transportes especiales.,Short-term incident that requires the particular cut of the road. For example: crane assembly; special transport circulation.
+,ocupacion-via,road-occupation,Ocupación vía,Road occupation,Ocupación de la vía pública,Public road occupation.
+,evento,event,Evento,Event,Suceso importante y programado de índole social; académico; artístico; deportivo. Ejemplo: procesiones; cabalgatas.,Important and programmed event of a social; academic; artistic; sporting nature. Example: processions; kings parade.
+,obras,road-works,Obras,Road works,Obras en la vía pública.,Works on public roads.
+incidencia-no-planificada,,Incidencia no planificada,Unplanned incident,Incidencia o evento no planificado en la ciudad que afecta a la circulación de vehículos.,Incident or unplanned event in the city that affects the circulation of vehicles.
+,accidente,accident,accidente,accident,Evento en el que uno o más vehículos pierden el control y no se recuperan. Incluye colisiones entre vehículos u otros usuarios de la carretera; entre vehículos y cualquier obstáculo o son el resultado de un vehículo que se sale de la carretera., Event in which one or more vehicles lose control and do not recover. It includes collisions between vehicles or other road users; between vehicles and any obstacles; or are the result of a vehicle going off the road. 
+,alerta,alert,alerta,alert,,
+,climatologica,climate-impact,Climatológica,Climate impact,Incidencia ocasionada por el clima y que conlleva al corte de la vía. Por ejemplo: inundación de paseo marítimo; lluvias excesivas; viento.,Incident caused by the weather and that leads to the cutting of the road. For example: flooding of the promenade; rain; wind.
+,congestion-trafico,traffic-jam,Congestión de tráfico,Traffic jam,Incidencia ocasionada cuando el nivel de servicio del tráfico es de tipo -Congestión-".,Incident caused when the level of traffic service is -Congestion-.
+,contaminacion,pollution,Contaminación,Pollution,Incidencia por episodio de contaminación.,Incident by pollution episode.
+,obras-urgencia,urgent-works,Obras de urgencia,Urgent works,Obras que requieren una acción de reparación urgente. Por ejemplo: rotura de tuberías; hundimiento de calzada.,Works that require urgent repair action. For example: broken pipes; sinking of the road.
