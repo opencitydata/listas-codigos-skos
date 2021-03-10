@@ -1,93 +1,93 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc11: <http://purl.org/dc/elements/1.1/> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/corte-trafico>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/corte-trafico>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
   skos:prefLabel "traffic-interruption"@en, "corte-trafico"@es ;
   skos:definition "Incidencia de corta duración que requiere el corte particular de la vía.  Por ejemplo: montaje de grúa; circulación de transportes especiales."@es, "Short-term incident that requires the particular cut of the road. For example: crane assembly; special transport circulation."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/ocupacion-via>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/ocupacion-via>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
   skos:prefLabel "Road occupation"@en, "Ocupación vía"@es ;
   skos:definition "Ocupación de la vía pública"@es, "Public road occupation."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/evento>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/evento>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
   skos:prefLabel "Event"@en, "Evento"@es ;
   skos:definition "Suceso importante y programado de índole social; académico; artístico; deportivo. Ejemplo: procesiones; cabalgatas."@es, "Important and programmed event of a social; academic; artistic; sporting nature. Example: processions; kings parade."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada> ;
   skos:prefLabel "Road works"@en, "Obras"@es ;
   skos:definition "Obras en la vía pública."@es, "Works on public roads."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/accidente>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/accidente>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "accident"@en, "accidente"@es ;
   skos:definition "Evento en el que uno o más vehículos pierden el control y no se recuperan. Incluye colisiones entre vehículos u otros usuarios de la carretera; entre vehículos y cualquier obstáculo o son el resultado de un vehículo que se sale de la carretera."@es, "Event in which one or more vehicles lose control and do not recover. It includes collisions between vehicles or other road users; between vehicles and any obstacles; or are the result of a vehicle going off the road."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/alerta>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/alerta>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "alert"@en, "alerta"@es ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/climatologica>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/climatologica>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "Climate impact"@en, "Climatológica"@es ;
   skos:definition "Incidencia ocasionada por el clima y que conlleva al corte de la vía. Por ejemplo: inundación de paseo marítimo; lluvias excesivas; viento."@es, "Incident caused by the weather and that leads to the cutting of the road. For example: flooding of the promenade; rain; wind."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/congestion-trafico>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/congestion-trafico>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "Traffic jam"@en, "Congestión de tráfico"@es ;
   skos:definition "Incidencia ocasionada cuando el nivel de servicio del tráfico es de tipo -Congestión-.'"@es, "Incident caused when the level of traffic service is -Congestion-."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/contaminacion>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/contaminacion>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "Pollution"@en, "Contaminación"@es ;
   skos:definition "Incidencia por episodio de contaminación."@es, "Incident by pollution episode."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras-urgencia>
-  skos:broader <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras-urgencia>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "Urgent works"@en, "Obras de urgencia"@es ;
   skos:definition "Obras que requieren una acción de reparación urgente. Por ejemplo: rotura de tuberías; hundimiento de calzada."@es, "Works that require urgent repair action. For example: broken pipes; sinking of the road."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia>
-  skos:hasTopConcept <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia>
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada> ;
   skos:prefLabel "Tipo de Incidencia"@es ;
   dc11:title "Tesauro que recoge los tipos de incidencia; es decir los hechos ocurridos en la ciudad tales como obras o accidentes y que afectan a la circulación de vehículos."@es ;
   dc11:date "2020-03-31" ;
   dc11:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)" ;
   a skos:conceptScheme .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada>
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-planificada>
   skos:prefLabel "Planned incident"@en, "Incidencia planificada"@es ;
   skos:definition "Incidencia o evento planificado en la ciudad que afecta a la circulación de vehículos."@es, "Incident or planned event in the city that affects the circulation of vehicles."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> ;
-  skos:narrower <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/corte-trafico>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/ocupacion-via>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/evento>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/corte-trafico>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/ocupacion-via>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/evento>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras> .
 
-<http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada>
+<http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/incidencia-no-planificada>
   skos:prefLabel "Unplanned incident"@en, "Incidencia no planificada"@es ;
   skos:definition "Incidencia o evento no planificado en la ciudad que afecta a la circulación de vehículos."@es, "Incident or unplanned event in the city that affects the circulation of vehicles."@en ;
   a skos:Concept ;
-  skos:inScheme <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia> ;
-  skos:narrower <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/accidente>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/alerta>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/climatologica>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/congestion-trafico>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/contaminacion>, <http://vocab.linkeddata.es/page/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras-urgencia> .
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia> ;
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/accidente>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/alerta>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/climatologica>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/congestion-trafico>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/contaminacion>, <http://vocab.linkeddata.es/datosabiertos/kos/transporte/trafico/tipo-incidencia/obras-urgencia> .
