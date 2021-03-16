@@ -21,61 +21,73 @@
     dc:title "Tesauro que recoge los tipos de emisores de ruido o vibración basada en el listado obtenido en el artículo 12.2 de la Ley 37/2003, de 17 de noviembre, del Ruido"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/vehiculos-automoviles> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "vehiculos-automoviles" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo vehículo automóvil"@es .
+  skos:prefLabel "vehículos automóviles"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo vehículo automóvil"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/ferrocarriles> a skos:Concept ;
   skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "ferrocarriles" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo ferrocarril"@es .
+  skos:prefLabel "ferrocarriles"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo ferrocarril"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/aeronaves> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "aeronaves" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo aeronave"@es .
+  skos:prefLabel "aeronaves"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo aeronave"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/industrias-viarias> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "industrias-viarias" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo industria viaria"@es .
+  skos:prefLabel "industrias viarias"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo industria viaria"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/industrias-ferroviarias> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "industrias-ferroviarias" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo industria ferroviaria"@es .
+  skos:prefLabel "industrias ferroviarias"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo industria ferroviaria"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/infraestructuras-aeroportuarias> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "infraestructuras-aeroportuarias" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo infraestructura aeroportuaria"@es .
+  skos:prefLabel "infraestructuras aeroportuarias"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo infraestructura aeroportuaria"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/maquinaria-equipos> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "maquinaria-equipos" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo maquinaria y equipos"@es .
+  skos:prefLabel "maquinaria y equipos"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo maquinaria y equipos"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/obras> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "obras" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo obras de construcción de edificios y de ingeniería civil"@es .
+  skos:prefLabel "obras"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo obras de construcción de edificios y de ingeniería civil"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/actividades-industriales> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "actividades-industriales" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo actividades industriales"@es .
+  skos:prefLabel "actividades industriales"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo actividades industriales"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/actividades-comerciales> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "actividades-comerciales" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo actividades comerciales"@es .
+  skos:prefLabel "actividades comerciales"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo actividades comerciales"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/actividades-deportivas-ocio> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "actividades-deportivas-ocio" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo actividades deportivo-recreativas y de ocio"@es .
+  skos:prefLabel "actividades deportivas y de ocio"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo actividades deportivo-recreativas y de ocio"@es .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante/infraestructuras-portuarias> a skos:Concept ;
-	skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/medio-ambiente/contaminacion-acustica/tipo-emisor-predominante> ;
   skos:notation "infraestructuras-portuarias" ;
-  skos:prefLabel "Contaminación acústica provocada por un emisor de tipo infraestructura portuaria"@es .
+  skos:prefLabel "infraestructuras portuarias"@es ;
+  skos:definition "Contaminación acústica provocada por un emisor de tipo infraestructura portuaria"@es .
