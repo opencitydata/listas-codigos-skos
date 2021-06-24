@@ -1,63 +1,55 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> a skos:ConceptScheme;
-    skos:notation "grupo-profesional" ;
-    dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
-    dc:date "2020-11-04"^^xsd:date ;
-    dcterms:description "Enumeration of Types of Profesional Groups in General State Administration"@en ;
-    dcterms:description "Grupos profesionales de la Administración General del Estado"@es ;
-    dcterms:title "Profesional Groups in the General State Administration"@en ;
-    dcterms:title "Grupos Profesionales de la Administración General del Estado"@es ;
-    skos:definition "Types of Profesional Groups in the General State Administration"@en ;
-    skos:definition "Tipos de grupos profesionales en la Administración General del Estado"@es ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A1> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A2> ;
-        skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/B> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C1> ;
-    skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C2> ;
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a1>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a> ;
+  skos:prefLabel "A1"@en, "A1"@es ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-    skos:prefLabel "Grupo Profesional de la Administración General del Estado"@es ;
-    skos:prefLabel "Profesional Group of the General State Administration"@en ;
-    dc:title "Theasurus that collects the profesional group of the General State Administration in Spain"@en ;
-    dc:title "Tesauro que recoge las grupos profesionales de la Administración General del Estado en España"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a2>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a> ;
+  skos:prefLabel "A2"@en, "A2"@es ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A1> a skos:Concept ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
-    skos:notation "Grupo A1"@es ;
-    skos:notation "A1 Group"@en ;
-    skos:prefLabel "A1"@en ;
-    skos:prefLabel "A1"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c1>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c> ;
+  skos:prefLabel "C1"@en, "C1"@es ;
+  skos:definition "Título de bachiller o técnico."@es, "Bachelor's or technical degree."@en ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/A2> a skos:Concept ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
-    skos:notation "Grupo A2"@es ;
-    skos:notation "A2 Group"@en ;
-    skos:prefLabel "A2"@en ;
-    skos:prefLabel "A2"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c2>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c> ;
+  skos:prefLabel "C2"@en, "C2"@es ;
+  skos:definition "Título de graduado en educación secundaria obligatoria."@es, "Compulsory secondary education graduate degree."@en ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/B> a skos:Concept ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
-    skos:notation "Grupo B"@es ;
-    skos:notation "B Group"@en ;
-    skos:prefLabel "B"@en ;
-    skos:prefLabel "B"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a1>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a2> ;
+  skos:prefLabel "A"@en, "A"@es ;
+  skos:definition "Para el acceso a los cuerpos o escalas de este Grupo se exigirá estar en posesión del título universitario de Grado. En aquellos supuestos en los que la Ley exija otro título universitario será éste el que se tenga en cuenta."@es, "For access to the bodies or scales of this Group it will be required to be in possession of a university degree. In those cases in which the Law requires another university degree. This will be the one taken into account."@en ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C1> a skos:Concept ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
-    skos:notation "Grupo C1"@es ;
-    skos:notation "C1 Group"@en ;
-    skos:prefLabel "C1"@en ;
-    skos:prefLabel "C1"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c1>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c2> ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/C2> a skos:Concept ;
-    skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional> ;
-    skos:notation "Grupo C2"@es ;
-    skos:notation "C2 Group"@en ;
-    skos:prefLabel "C2"@en ;
-    skos:prefLabel "C2"@es .
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional>
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/a>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/b>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/c> ;
+  dc11:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)" ;
+  skos:prefLabel "Grupo Profesional"@es ;
+  dc11:title "Tesauro que recoge las grupos profesionales de la Administración General del Estado en España."@es ;
+  a skos:conceptScheme ;
+  dc11:date "2020-04-11" .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/b>
+  skos:prefLabel "B"@en, "B"@es ;
+  skos:definition "Para el acceso a los cuerpos o escalas del Grupo B se exigirá estar en posesión del título de Técnico Superior"@es, "For access to the bodies or ladders of Group B it will be required to be in possession of the title of Superior Technician"@en ;
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional/> .
+

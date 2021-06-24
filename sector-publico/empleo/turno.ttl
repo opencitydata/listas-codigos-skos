@@ -7,7 +7,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> a skos:ConceptScheme;
-    skos:notation "turno" ;
     dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
     dc:date "2020-11-04"^^xsd:date ;
     dcterms:description "Enumeration of access shifts to the general state administration"@en ;
@@ -26,21 +25,23 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/interno> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
-    skos:notation "Turno de acceso interno"@es ;
-    skos:notation "Internal Shift Access"@en ;
-    skos:prefLabel "Internal"@en ;
-    skos:prefLabel "Interno"@es .
+    skos:definition "Está reservado para el personal funcionario y sirve para promocionarse en su carrera administrativa."@es ;
+    skos:definition "It is reserved for civil servants and serves to promote themselves in their administrative career."@en ;
+    skos:prefLabel "Turno de acceso interno"@es ;
+    skos:prefLabel "Internal Shift Access"@en .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/libre> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
-    skos:notation "Turno de acceso libre"@es ;
-    skos:notation "Free shift access"@en ;
-    skos:prefLabel "Free"@en ;
-    skos:prefLabel "Libre"@es .
+    skos:definition "Es el turno de acceso general que está destinado a cualquier persona que cumpla los requisitos que establecen las bases de la convocatoria. Es decir, son las plazas a las que puede acceder cualquier ciudadano."@es ;
+    skos:definition "It is the turn of general access that is intended for anyone who meets the requirements established by the bases of the call. In other words, they are the places that any citizen can access."@en ;
+    skos:prefLabel "Turno de acceso libre"@es ;
+    skos:prefLabel "Free shift access"@en .
+    
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno/reservado> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/turno> ;
-    skos:notation "Turno de acceso reservado"@es ;
-    skos:notation "Reserved Access Shift"@en ;
-    skos:prefLabel "Reserved"@en ;
-    skos:prefLabel "Reservado"@es .
+    skos:definition "Son plazas reservadas para personas con discapacidad, víctimas de violencia de género o de terrorismo, etc."@es ;
+    skos:definition "They are places reserved for people with disabilities, victims of gender violence or terrorism, etc."@en ;
+    skos:prefLabel "Turno de acceso reservado"@es ;
+    skos:prefLabel "Reserved Access Shift"@en .
+    

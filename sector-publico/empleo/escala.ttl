@@ -1,0 +1,122 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional>
+  skos:prefLabel "Escala"@es ;
+  dc11:title "Tesauro que recoge las escalas y subescalas de la Administración General y Administración Especial de la Corporación."@es ;
+  dc11:creator "Edna Ruckhaus Magnus (OEG - Universidad Politécnica de Madrid)" ;
+  dc11:date "2021-06-24" ;
+  a skos:conceptScheme ;
+  skos:hasTopConcept <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/habilitacion-estatal>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-tecnica>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general> ;
+  skos:prefLabel "Administración Genera Técnica"@es, "General Administration Technical Subscale"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que realicen tareas de gestión. estudio y propuesta de carácter administrativo de nivel superior."@es, "Officials who carry out management. study and proposal tasks of an administrative nature at a higher level."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-de-gestion>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general> ;
+  skos:prefLabel "Administración General De Gestión"@es, "General Administration Management Subscale"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que realicen tareas de apoyo a las funciones de nivel superior."@es, "Officials who carry out support tasks for higher-level functions."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-administrativa>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general> ;
+  skos:prefLabel "Administración General Administrativa"@es, "General Administration Administrative Subscale"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que realicen tareas administrativas. normalmente de trámite y colaboración."@es, "Officials who carry out administrative tasks. normally processing and collaboration."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-auxiliar>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general> ;
+  skos:prefLabel "Administración General Auxiliar"@es, "General Administration Auxiliar Subscale"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que realicen tareas de mecanografía. taquigrafía. despacho de correspondencia. cálculo sencillo. manejo de máquinas. archivo de documentos y otros similares."@es, "Officials who perform tasks of typing. shorthand. dispatch of correspondence. simple calculation. handling of machines. filing of documents and the like."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-subalterna>
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general> ;
+  skos:prefLabel "Administración General Subalterna"@es, "General Administration Subordinate Subscale"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que realicen tareas de vigilancia y custodia interior de oficinas. así como misiones de Conserje. Ujier. Portero u otras análogas en edificios y servicios de la Corporación."@es, "Officials who carry out tasks of surveillance and interior custody of offices. as well as Concierge. Usher. Doorman or other similar missions in buildings and services of the Corporation."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-tecnica>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-superiores>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-medios>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-auxiliares> ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial> ;
+  skos:prefLabel "Administración Especial Técnica"@es, "Special Administration Technical"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que desarrollen tareas que son objeto de una carrera para cuyo ejercicio exigen las leyes estar en posesión de determinados títulos académicos o profesionales."@es, "Officials who carry out tasks that are the subject of a career for the exercise of which the laws require that they be in possession of certain academic or professional titles."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/policia-local-y-sus-auxiliares>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/servicio-de-extincion-de-incendios>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/plazas-de-cometidos-especiales>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/personal-de-oficio> ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial> ;
+  skos:prefLabel "Administración Especial Servicios Especiales"@es, "Special Administration Special Services"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que desarrollen tareas que requieran una aptitud específica. y para cuyo ejercicio no se exija. con carácter general. la posesión de títulos académicos o profesionales determinados"@es, "Officials who carry out tasks that require a specific aptitude. and for the exercise of which the possession of specific academic or professional qualifications is not generally required."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-tecnica>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-de-gestion>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-administrativa>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-auxiliar>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-general-subalterna> ;
+  skos:prefLabel "Administración General"@es, "General Administration"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial>
+  skos:narrower <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-tecnica>, <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales> ;
+  skos:prefLabel "Administración Especial"@es ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  skos:definition "Funcionarios que tengan atribuido el desempeño de las funciones que constituyen el objeto peculiar de una carrera. profesión. arte u oficio."@es, "Officials who have been assigned the performance of the functions that constitute the peculiar object of a career. profession. art or trade."@en ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/habilitacion-estatal>
+  skos:prefLabel "Habilitación Estatal"@es, "State Qualification"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-superiores>
+  skos:prefLabel "Técnicos Superiores"@es, "Superior Technicians"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-tecnica> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-medios>
+  skos:prefLabel "Técnicos Medios"@es, "Middle Technicians"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-tecnica> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/tecnicos-auxiliares>
+  skos:prefLabel "Técnicos Auxiliares"@es, "Auxiliary Technicians"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-tecnica> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/policia-local-y-sus-auxiliares>
+  skos:prefLabel "Policía Local y sus auxiliares."@es, "Local Police and their assistants"@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/servicio-de-extincion-de-incendios>
+  skos:prefLabel "Servicio de Extinción de Incendios."@es, "Fire Fighting Service."@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/plazas-de-cometidos-especiales>
+  skos:prefLabel "Plazas de Cometidos Especiales."@es, "Special Assignment Squares."@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/personal-de-oficio>
+  skos:prefLabel "Personal de Oficios."@es, "Trades personnel."@en ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/> ;
+  a skos:Concept ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala/administracion-especial-servicios-especiales> .
+

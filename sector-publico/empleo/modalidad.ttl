@@ -7,7 +7,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> a skos:ConceptScheme;
-    skos:notation "modalidad" ;
     dcterms:creator "Adolfo Antón Bravo (OEG - Universidad Politécnica de Madrid)"@es ;
     dc:date "2020-11-04"^^xsd:date ;
     dcterms:description "Enumeration of Types of Modalities of the Call for Public Employment"@en ;
@@ -26,21 +25,22 @@
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> ;
-    skos:notation "Concurso"@es ;
-    skos:notation "Contest"@en ;
-    skos:prefLabel "Contest"@en ;
-    skos:prefLabel "Concurso"@es .
+    skos:definition "Valoración de los méritos de los aspirantes para fijar una orden de puntuación, ya que en función de los resultados se establece una orden de mayor a menor puntuación. Los méritos consisten en horas de formación en un o varios temas estipulados, en tiempo trabajado en las administraciones, etc.. La adjudicación de puntos se regula a través de un baremo que aparece publicado en las bases de la convocatoria. "@es ;
+    skos:definition "Assessment of the merits of the applicants to set a scoring order, since based on the results an order from highest to lowest score is established. The merits consist of hours of training in one or more stipulated subjects, time worked in the administrations, etc. The awarding of points is regulated through a scale that appears published in the bases of the call."@en ;
+    skos:prefLabel "Concurso"@es ;
+    skos:prefLabel "Contest"@en .
+    
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/oposicion> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/oposicion> ;
-    skos:notation "Oposición"@es ;
-    skos:notation "Competition"@en ;
-    skos:prefLabel "Competition"@en ;
-    skos:prefLabel "Oposición"@es .
+    skos:definition "Una oposición es un proceso selectivo que sirve para cubrir uno o más puestos de trabajo vacantes en las administraciones públicas. Este proceso se rige por los principios de igualdad, mérito y capacidad y está protegido legalmente en los artículos 14, 23.2 y 103 de la Constitución Española"@es ;
+    skos:definition "An opposition is a selection process that serves to fill one or more vacant jobs in public administrations. This process is governed by the principles of equality, merit and capacity and is legally protected in articles 14, 23.2 and 103 of the Spanish Constitution."@en ;
+    skos:prefLabel "Oposición"@es ;
+    skos:prefLabel "Competition"@en .
 
 <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad/concurso-oposicion> a skos:Concept ;
     skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/modalidad> ;
-    skos:notation "Concurso oposición"@es ;
-    skos:notation "Contest competition"@en ;
+    skos:prefLabel "Concurso oposición"@es ;
     skos:prefLabel "Contest competition"@en ;
-    skos:prefLabel "Concurso oposición"@es .
+    skos:definition "Mixed system in which the previous two are combined: exams and assessment of merits. "@en ;
+    skos:definition "Sistema mixto en el que se combinan o dos anteriores: exámenes y valoración de méritos. "@es .
