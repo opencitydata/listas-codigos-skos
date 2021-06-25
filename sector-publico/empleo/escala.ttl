@@ -1,7 +1,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc11: <http://purl.org/dc/elements/1.1/> .
 
-<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/grupo-profesional>
+<http://vocab.linkeddata.es/datosabiertos/kos/sector-publico/empleo/escala>
   skos:prefLabel "Escala"@es ;
   dc11:title "Tesauro que recoge las escalas y subescalas de la Administración General y Administración Especial de la Corporación."@es ;
   dc11:creator "Edna Ruckhaus Magnus (OEG - Universidad Politécnica de Madrid)" ;
