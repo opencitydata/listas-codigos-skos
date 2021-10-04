@@ -1,0 +1,80 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion>
+  a skos:ConceptScheme ; 
+  skos:hasTopConcept    <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/operacion-interior> ;
+  skos:hasTopConcept    <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/operacion-intracomunitaria> ;
+  skos:hasTopConcept    <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/importacion> ;
+  skos:hasTopConcept    <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/exportacion> .
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-interior>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-interior> ;
+  skos:prefLabel "Operación interior"@es ;
+  skos:altLabel "Operaciones interiores"@es ;
+  skos:narrrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/entrega-bienes> ,
+  			<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/prestacion-servicio>  ;
+  skos:definition "Están sujetas al impuesto las entregas de bienes (nº 9210 s. ) y las prestaciones de servicios (nº 9242 s. ) realizadas en el territorio de aplicación del impuesto (en España, Península e Islas Baleares), por empresarios o profesionales a título oneroso, con carácter habitual u ocasional, en el desarrollo de sus actividades empresariales o profesionales, incluso si se realizan con ocasión del cese en el ejercicio de sus actividades, o si se efectúan en favor de los propios socios, asociados, miembros o partícipes de las entidades que las lleven a cabo."@es .
+  skos:note "Dir 2006/112/CE art.2;  LIVA art.4; MIVA nº 40,55 s."@es ;
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/entrega-bienes>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-interior> ;
+  skos:prefLabel "Entrega de bienes"@es ;
+  skos:altLabel "Entregas de bienes"@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-interior> ;
+  skos:definition "Está sujeta al impuesto las entregas de bienes realizadas en el territorio de aplicación del impuesto (en España, Península e Islas Baleares), por empresarios o profesionales atítulo oneroso, con carácter habitual u ocasional, en el desarrollo de sus actividades empresariales o profesionales, incluso si se realizan con ocasión del cese en el ejercicio de sus actividades, o si se efectúan en favor de los propios socios, asociados, miembros o partícipes de las entidades que las lleven a cabo"@es .
+  skos:note "Dir 2006/112/CE art.2;  LIVA art.4"@es ;
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/prestacion-servicio>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/prestacion-servicio> ;
+  skos:prefLabel "Prestación de servicio"@es ;
+  skos:altLabel "Prestaciones de servicios"@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-interior> ;
+  skos:definition "Está sujeta al impuesto las prestaciones de servicios realizadas en el territorio de aplicación del impuesto (en España, Península e Islas Baleares), por empresarios o profesionales atítulo oneroso, con carácter habitual u ocasional, en el desarrollo de sus actividades empresariales o profesionales, incluso si se realizan con ocasión del cese en el ejercicio de sus actividades, o si se efectúan en favor de los propios socios, asociados, miembros o partícipes de las entidades que las lleven a cabo"@es .
+  skos:note "Dir 2006/112/CE art.2;  LIVA art.4"@es ;
+
+
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-intracomunitaria>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-intracomunitaria> ;
+  skos:prefLabel "Operación interior"@es ;
+  skos:altLabel "Operaciones interiores"@es ;
+  skos:narrrower <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/aib> ;
+  skos:definition "Son las operaciones entre sujetos que se realizan dentro del marco europeo. Las operaciones intracomunitarias se desdoblan en dos operaciones: una entrega de bienes (EIB, en lo sucesivo) en el E.m. de origen y una adquisición intracomunitaria de bienes (AIB, en lo sucesivo) en el E.m. de destino. En el régimen transitorio, la regla general es que la entrega en origen está exenta y la adquisición en destino gravada"@es .
+  skos:note "MIVA nº 5150 s."@es ;
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/aib>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/aib> ;
+  skos:prefLabel "Adquisiciones intracomunitarias de bienes"@es ;
+  skos:altLabel "Adquisiciones Intracomunitarias de Bienes"@es ;
+  skos:broader <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/operacion-intracomunitaria> ;
+  skos:definition "Obtención  del  poder  de  disposición  sobre  bienes muebles  corporales  expedidos  o  transportados  con  destino  al  adquirente,  desde  otro  Estado miembro,  por  el  transmitente,  el propio adquirente, o un tercero en nombre y por cuenta de cualquiera de los anteriores"@es .
+  skos:note "Dir 2006/112/CE art.2.1.b;  LIVA art.13"@es ;
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/importacion>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/importacion> ;
+  skos:prefLabel "Importacion de bienes"@es ;
+  skos:altLabel "Importaciones de bienes"@es ;
+  skos:definition "A los efectos del IVA, la importación de bienes es la introducción en la UE, realizada por España, de los siguientes bienes: a) Los procedentes de países terceros o de territorios terceros no comprendidos en la Unión Aduanera de la UE,que no estén en libre práctica; b) Los procedentes de territorios terceros comprendidos en la Unión Aduanera, aunque estén en libre práctica"@es .
+  skos:note "Dir 2006/112/CE art.30;  LIVA art.18"@es ;
+
+<http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/exportacion>
+  a skos:Concept ;
+  skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion> ;
+  owl:sameAs <http://vocab.linkeddata.es/datosabiertos/kos/hacienda/iva/tipo-operacion/exportacion> ;
+  skos:prefLabel "Exportación"@es ;
+  skos:altLabel "Exportaciones"@es ;
+  skos:definition "En el ámbito fiscal, la exportación es la salida de bienes del territorio IVA de la UE, territorio que no coincide con el territorio aduanero de la propia UE. En España, el territorio IVA no comprende Canarias, Ceuta y Melilla, mientras que el territorio aduanero no comprende Ceuta y Melilla, pero sí Canarias."@es .
+  skos:note "LIVA art.21"@es ;
