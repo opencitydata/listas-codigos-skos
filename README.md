@@ -89,6 +89,9 @@ De momento, están publicadas las siguientes listas de códigos (organizadas de 
 * http://vocab.linkeddata.es/datosabiertos/kos/economia/deuda-publica-financiera/tipo-entidad-prestamista
 * http://vocab.linkeddata.es/datosabiertos/kos/economia/deuda-publica-financiera/tipo-prestamo
 
+## cultura-ocio
+* http://vocab.linkeddata.es/datosabiertos/kos/cultura-ocio/agenda/tipo-evento
+
 ## general (reservado para listas que se pueden utilizar en diversos dominios)
 
 # Uso del punto de acceso SPARQL
